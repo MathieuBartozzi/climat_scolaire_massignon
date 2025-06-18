@@ -97,7 +97,8 @@ pg = st.navigation(
         {
             "Présentation": [accueil],
             "Navigation": [dashboard, ecarts, ouvertes]
-        }
+        },
+        expanded=True
     )
 
 pg.run()
