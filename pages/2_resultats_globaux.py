@@ -4,6 +4,10 @@ import json
 
 nom = authenticate()
 
+# ✅ Affichage unique du message de bienvenue
+if st.session_state.get("show_welcome", False):
+    st.success(f"Bienvenue {nom} 👋")
+    st.session_state["show_welcome"] = False  # Ne plus l'afficher ensuite
 
 df=load_data("data/df_processed.csv")
 df_scores=load_data("data/df_scores.csv")
@@ -22,19 +26,7 @@ tab1, tab2, tab3 = st.tabs([
 
 # Onglet 1 — Questions fermées (écarts par genre et par niveau)
 with tab1:
-    # st.markdown("**Rappels : les questions fermées sont les suivantes.**")
-    # st.markdown("""
-    # | Code | Question                                                                                   |
-    # |------|--------------------------------------------------------------------------------------------|
-    # | Q3   | Comment te sens-tu globalement dans ton établissement ?                                   |
-    # | Q4   | As-tu confiance dans les décisions prises par les adultes ?                               |
-    # | Q6   | Te sens-tu en sécurité dans l’établissement ?                                              |
-    # | Q7   | As-tu déjà participé à des projets ou activités dans l’établissement ?                    |
-    # | Q9   | Peux-tu t’exprimer librement dans l’établissement ?                                       |
-    # | Q10  | Te sens-tu écouté(e) et soutenu(e) ?                                                       |
-    # | Q12  | As-tu envie de venir chaque jour à l’établissement ?                                      |
-    # | Q13  | Comment qualifierais-tu la relation entre ta famille et l’établissement ?                 |
-    # """)
+
     st.subheader("Résultats des questions fermées")
 
     st.markdown("Pour chaque question fermée, quatre niveaux de réponses ont été proposés aux élèves: « Pas du tout d’accord », « Plutôt pas d’accord », « Plutôt d’accord » et « Tout à fait d’accord ». Ces réponses ont été codées de 0 à 3 qui permettent de calculer un score moyen par question. Un score élevé indique une perception positive, tandis qu’un score faible indique une perception négative.")
@@ -95,19 +87,7 @@ with tab1:
     plus_haut = labels[moyennes.idxmax()]
     ecart = round(moyennes.max() - moyennes.min(), 2)
 
-    # with st.popover("Liste des questions fermées"):
-    #         st.markdown("""
-    #         | Code | Question                                                                                   |
-    #         |------|--------------------------------------------------------------------------------------------|
-    #         | Q3   | Comment te sens-tu globalement dans ton établissement ?                                   |
-    #         | Q4   | As-tu confiance dans les décisions prises par les adultes ?                               |
-    #         | Q6   | Te sens-tu en sécurité dans l’établissement ?                                              |
-    #         | Q7   | As-tu déjà participé à des projets ou activités dans l’établissement ?                    |
-    #         | Q9   | Peux-tu t’exprimer librement dans l’établissement ?                                       |
-    #         | Q10  | Te sens-tu écouté(e) et soutenu(e) ?                                                       |
-    #         | Q12  | As-tu envie de venir chaque jour à l’établissement ?                                      |
-    #         | Q13  | Comment qualifierais-tu la relation entre ta famille et l’établissement ?                 |
-    #         """)
+   
     st.info(f""" **À retenir** :
     - 📉 Score moyen le plus faible : **{plus_bas}**
     - 📈 Score moyen le plus élevé : **{plus_haut}**

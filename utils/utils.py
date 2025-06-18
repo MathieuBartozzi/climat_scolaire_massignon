@@ -4,7 +4,6 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import streamlit as st
 from itertools import combinations
-import json
 
 
 
@@ -498,41 +497,12 @@ def plot_single_cluster_distribution(df_scores, cluster_id):
     return fig
 
 
+
 # ──────────────────────────────────────────────────────────────
-# 🔓 SECURITÉ
+# 🔒 SECURITÉ
 # ──────────────────────────────────────────────────────────────
-
-
-# def authenticate():
-#     st.info("Veuillez entrer votre e-mail et le mot de passe pour accéder à l'application.")
-
-#     login_info = st.login("Connexion")
-
-#     if not login_info:
-#         st.stop()
-
-#     email = login_info["username"]
-#     password = login_info["password"]
-
-#     # Chargement des credentials
-#     allowed_users = st.secrets["auth"]["users"]
-#     shared_password = st.secrets["auth"]["password"]
-
-#     if email not in allowed_users:
-#         st.error("Adresse e-mail non autorisée.")
-#         st.stop()
-
-#     if password != shared_password:
-#         st.error("Mot de passe incorrect.")
-#         st.stop()
-
-#     # Renvoie le prénom ou nom lié à l'email
-#     return allowed_users[email]
-
-import streamlit as st
 
 def authenticate():
-    # S'il est déjà connecté, on ne redemande rien
     if st.session_state.get("auth_ok"):
         return st.session_state["username_friendly"]
 
@@ -557,9 +527,10 @@ def authenticate():
         st.error("Mot de passe incorrect.")
         st.stop()
 
-    # ✅ Stocker dans la session : authentification réussie
+    # ✅ Authentification réussie
     st.session_state["auth_ok"] = True
     st.session_state["user_email"] = email
     st.session_state["username_friendly"] = allowed_users[email]
+    st.session_state["show_welcome"] = True  # 💡 drapeau pour un message unique
 
     return allowed_users[email]

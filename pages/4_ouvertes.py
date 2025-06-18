@@ -8,7 +8,13 @@ from utils.utils import (
     plot_question_ouverte_barplot
 )
 
-nom=authenticate()
+nom = authenticate()
+
+# ✅ Affichage unique du message de bienvenue
+if st.session_state.get("show_welcome", False):
+    st.success(f"Bienvenue {nom} 👋")
+    st.session_state["show_welcome"] = False  # Ne plus l'afficher ensuite
+
 # ----------------------
 # Paramètres de la page
 # ----------------------
@@ -66,18 +72,6 @@ regroupements = {
 df = harmoniser_colonnes_ouvertes(df, colonnes_ouvertes, regroupements)
 frequences_par_question = compter_mots_uniques_par_colonnes(df, colonnes_ouvertes)
 
-# ----------------------
-# Interface avec onglets
-# ----------------------
-# tabs = st.tabs([question_titles[q] for q in colonnes_ouvertes])
-
-# for tab, col in zip(tabs, colonnes_ouvertes):
-#     with tab:
-#         fig = plot_question_ouverte_barplot(col, frequences_par_question, min_freq=15, question_titles=question_titles)
-#         if fig:
-#             st.plotly_chart(fig, use_container_width=True)
-#         else:
-#             st.info("Pas assez de réponses pour cette question.")
 
 # --------------------------
 # Interface : Selectbox

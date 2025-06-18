@@ -4,9 +4,12 @@ from utils.utils import load_data,authenticate
 import ast
 import plotly.express as px
 
-
 nom = authenticate()
 
+# ✅ Affichage unique du message de bienvenue
+if st.session_state.get("show_welcome", False):
+    st.success(f"Bienvenue {nom} 👋")
+    st.session_state["show_welcome"] = False  # Ne plus l'afficher ensuite
 # Titre principal
 st.title("Climat scolaire – Portail d’analyse")
 

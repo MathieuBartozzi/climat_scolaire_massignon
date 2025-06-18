@@ -4,6 +4,10 @@ import streamlit as st
 
 nom = authenticate()
 
+# ✅ Affichage unique du message de bienvenue
+if st.session_state.get("show_welcome", False):
+    st.success(f"Bienvenue {nom} 👋")
+    st.session_state["show_welcome"] = False  # Ne plus l'afficher ensuite
 
 df_scores = load_data("data/df_scores.csv")
 
