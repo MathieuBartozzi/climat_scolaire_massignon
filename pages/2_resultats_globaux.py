@@ -3,8 +3,7 @@ import streamlit as st
 import pandas as pd
 import json
 
-# file_path = "data/df_processed.csv"
-# df = pd.read_csv(file_path)
+
 
 df=load_data("data/df_processed.csv")
 df_scores=load_data("data/df_scores.csv")
