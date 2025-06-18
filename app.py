@@ -47,7 +47,7 @@ import streamlit as st
 
 # 🌐 Configuration générale
 st.set_page_config(page_icon=":material/dashboard:",layout="wide")
-st.logo("assets/logo.png", size="large")
+st.logo("logo.png", size="large")
 
 
 
