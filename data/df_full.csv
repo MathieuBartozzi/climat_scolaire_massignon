@@ -1,0 +1,846 @@
+niveau,genre,sentiment_global,confiance_adultes,sentiment_securite,participation_projets,liberte_expression,ecoute_et_soutien,envie_venir,relation_famille_etab,confiance_dialogue_extrait,projets_participes,lieux_expression_libre,changements_souhaites,moments_agreables,moments_desagreables,lieux_agreables,lieux_desagreables,cluster_kmeans
+4e,Garçon,2,0,1,1,2,1,1,2,"['compréhension', 'dialogue']",[],['la cour'],"['compétition', 'foot', 'sports', 'respect']",[],[],"['classe', 'terrain']",[],3
+5e,Garçon,0,0,1,2,1,1,1,0,['discussion'],['sport'],[],[],['avec les potes'],[],['foyer'],[],1
+5e,Fille,2,1,2,0,0,0,1,1,[],[],[],[],['copines'],[],['recre'],[],1
+4e,Fille,3,2,3,2,2,2,2,3,"['confiance', 'respect']",[],"['salle de classe', 'extérieur']",['aucun'],['amis'],['salle de classe'],['salle de classe'],[],0
+5e,Garçon,3,0,3,0,3,3,0,3,[],[],[],[],[],[],[],[],3
+6e,Garçon,2,0,2,0,2,1,3,1,['tolérance'],[],[],"['jeux', 'tolérer']","['moments drôles', 'salle de détente']","[""cours d'arabe""]",[],[],3
+5e,Garçon,1,1,2,2,0,1,0,1,['aucun'],['projet pédagogiques'],[],"['horaires', 'cantine']",['pause'],[],[],[],1
+4e,Fille,3,2,3,0,2,2,3,2,['écoute'],[],['la cour'],[],['pause'],['punitions'],['la cour'],['salle de classe'],0
+4e,Garçon,1,2,3,0,2,1,0,2,[],[],[],['aucun'],['rester chez moi'],[],[],[],3
+5e,Garçon,0,0,0,0,0,0,0,3,[],[],[],[],[],[],[],[],1
+4e,Garçon,2,3,3,0,3,2,2,3,[],[],"['récréation', 'salle de classe']",['terrain'],[],[],"['récréation', 'terrain']",['permanence'],0
+4e,Garçon,3,0,1,1,2,1,3,3,['moins de punition'],['sport'],['salle de classe'],['heures'],['joue avec mes amis'],[],['terrain'],[],0
+5e,Fille,3,2,3,2,2,2,1,3,"['questions', 'temps', 'élèves']",['MUN'],['salle de classe'],['aucun'],['pause'],[],['la cour'],[],0
+5e,Fille,1,1,1,0,1,1,0,3,[],[],[],"['gestion', 'salle de classe', 'permanences']",['amis'],['aucun'],[],['classe'],1
+5e,Fille,2,2,1,0,2,2,0,2,['aucun'],[],['aucun'],['recre'],['la cour'],[],['recre'],[],3
+4e,Fille,2,2,2,2,3,2,2,2,[],[],[],[],[],[],[],[],0
+6e,Garçon,2,3,2,3,1,1,2,3,[],"['art et culture', 'sport']",['couloir'],[],[],[],[],[],0
+4e,Garçon,1,1,2,0,2,2,0,1,[],[],[],[],[],[],[],[],1
+6e,Garçon,1,2,2,2,1,1,1,2,[],['art et culture'],[],[],[],[],[],[],2
+4e,Garçon,2,2,1,0,2,2,0,2,[],[],[],[],[],[],[],[],3
+6e,Garçon,2,2,3,1,2,2,2,3,[],['projet pédagogiques'],[],[],['sport'],[],['terrain'],[],0
+4e,Garçon,2,1,2,0,3,2,0,1,[],[],[],[],[],[],[],[],3
+5e,Fille,2,2,2,0,2,2,0,3,[],[],['la cour'],[],['jour férié'],[],['m\x009ediath\x00e8que'],[],3
+5e,Fille,1,0,1,1,1,0,0,1,['aucun'],"[""vie de l'établissement""]",[],['horaires'],"[""en dehors de l'école""]","['7h', '17h']",['chez moi'],['salle de classe'],1
+6e,Garçon,2,2,3,0,3,2,3,3,['aucun'],[],['partout'],[],[],[],[],[],0
+4e,Garçon,2,2,2,1,2,2,1,3,"['calme', 'écoute', 'respect', 'communication']",['environnement et solidarité'],"['classe', 'pause']","['heures', 'chaises']",['pause'],['classe'],"['récréation', 'médiathèque', 'terrain']",['salle de classe'],3
+6e,Garçon,0,0,0,0,0,0,0,0,[],[],[],[],[],[],[],[],1
+5e,Fille,2,2,2,1,1,1,1,2,[],['MUN'],[],[],['la cour'],[],['recree'],[],2
+5e,Fille,2,2,3,0,2,2,2,2,['écoute'],[],"['salle de classe', 'pause']",[],['amis'],[],['la cour'],[],3
+4e,Garçon,3,3,3,0,1,2,3,3,[],[],['vie scolaire'],['liberté'],['interclasse'],['évaluation'],"['terrain', 'la cour', 'gymnase']",[],0
+4e,Fille,3,2,3,0,3,1,0,3,[],[],[],[],[],[],[],[],3
+6e,Fille,1,0,1,3,0,1,0,1,['écoute'],['sport'],['tableau'],['climatisation'],['rire'],"['profs', 'rabaissent']",['la cour'],['salle de classe'],1
+5e,Garçon,2,2,1,0,1,1,0,2,[],[],['aucun'],"['calme', 'éducation']",['foyer sociaux éducatifs'],[],[],"['cantine', 'permanence']",3
+6e,Garçon,2,2,2,1,3,2,1,3,[],['environnement et solidarité'],[],[],['la cour'],['classe'],[],[],3
+5e,Fille,2,1,1,0,1,2,0,2,[],[],['salle de classe'],['horaires'],['pause'],['classe'],['cantine'],['école'],1
+4e,Garçon,3,1,3,2,2,1,2,2,"['écoute', 'explication']","[""vie de l'établissement""]",[],[],[],[],[],[],0
+5e,Garçon,2,3,2,1,2,3,2,2,['aucun'],['sport'],[],['aucun'],['amis'],[],['auditorium'],[],0
+5e,Fille,2,2,2,0,2,2,0,3,['aucun'],[],['récréation'],['recre'],['la cour'],[],['recre'],[],3
+4e,Garçon,0,2,3,2,3,3,1,2,['honnêteté'],[],[],['escaliers'],[],[],[],[],3
+6e,Fille,2,3,2,2,2,2,2,2,['aucun'],['MUN'],"['salle de classe', 'la cour']",['climatisation'],[],[],['ccc'],['couloirs'],0
+4e,Garçon,2,1,3,0,1,1,0,1,[],[],['aucun'],[],[],['évaluation'],['amis'],[],1
+5e,Garçon,2,3,2,2,1,1,2,3,[],"['sport', 'projet pédagogiques']",[],[],[],[],['ccc'],[],0
+4e,Fille,2,2,2,1,1,2,1,2,[],['sport'],[],[],[],[],[],[],2
+6e,Fille,1,3,2,2,1,1,2,1,[],[],[],[],['soutenue'],['rappel que je suis grosse'],['dehors'],['école'],2
+5e,Fille,2,2,2,1,1,2,1,2,[],['sport'],['aucun'],['toilettes'],['la cour'],[],[],[],2
+4e,Garçon,2,2,2,0,2,1,2,3,['gentillesse'],[],[],[],"['la sortie', 'la cantine']",[],[],[],3
+4e,Fille,3,3,3,2,2,1,2,3,[],"[""vie de l'établissement"", 'MUN']",[],[],[],[],['ccc'],['permanence'],0
+6e,Fille,2,2,2,1,3,1,0,2,[],['sport'],[],[],[],[],['salle de classe'],[],3
+6e,Garçon,3,1,3,0,2,3,1,2,['compréhension'],[],[],"['liberté', 'heures']",['amis'],['mauvaise note'],"['la cour', 'minifoot']","['foyer', 'ccc', 'permanence']",3
+5e,Garçon,2,2,2,0,0,0,1,2,[],[],[],['horaires'],['profs absents'],['remplacement'],['terrain'],[],3
+5e,Fille,3,2,2,2,2,2,2,2,['compréhension'],[],['cellule'],"['code', 'vestimentaire', 'saison']","['sorties', 'pause']",['évaluation'],"['ccc', 'permanence', 'la cour', 'terrain sportif']",[],0
+4e,Garçon,2,1,3,0,2,1,2,2,['aucun'],[],['médiathèque'],"['permanence', 'continuité', 'changement', 'heure']",['récréation'],['classe'],['médiathèque'],['permanence'],3
+6e,Fille,1,2,3,0,1,2,1,2,['aucun'],[],[],[],['pause'],[],[],[],3
+4e,Fille,3,2,3,3,2,3,2,3,[],"[""vie de l'établissement"", ""vie de l'établissement"", 'MUN']",[],['aucun'],['tous les moments'],[],"['permanences', 'la cour', 'ccc']",[],0
+6e,Garçon,2,1,1,3,1,0,0,1,['aucun'],['sport'],[],['classe'],['interclass'],['classe'],"['interclasse', 'foyer']",[],2
+5e,Fille,1,0,0,2,0,0,1,0,[],"['MUN', 'MASSMUN', 'OSUIMUN', 'THIMUN', 'FERMUN', 'MEDMUN']",[],[],[],[],['ccc'],['la cour'],1
+6e,Fille,2,2,1,1,1,2,1,2,[],['environnement et solidarité'],[],[],[],[],[],[],2
+4e,Garçon,1,1,0,2,1,0,0,2,['écoute'],['MUN'],['aucun'],['emploi du temps'],['vacances'],[],[],['salle de classe'],1
+5e,Fille,2,1,3,0,1,2,1,3,[],[],[],[],[],[],[],[],3
+4e,Garçon,2,1,2,2,2,2,0,0,[],['sport'],['cpe'],"['réduire', 'classe', '8h', '13h']",[],[],[],[],2
+6e,Garçon,2,2,2,2,3,1,0,2,"['désaccord', 'annulation']",['sport'],[],"['terrain', 'sport', 'temps']","['heure creuse', 'vacances', 'bonne notes']",[],['foyer'],[],2
+6e,Garçon,2,2,3,2,2,3,2,2,[],['sport'],[],[],[],[],[],[],0
+4e,Garçon,2,2,3,0,2,0,1,2,['respect'],[],[],['heures'],['la cour'],['évaluation'],['allée'],['bureau'],3
+5e,Fille,2,2,1,0,1,1,2,2,['aucun'],[],[],"['téléphone', 'récréation', 'perm']",['compréhension'],['indifférence'],['banc'],['permanence'],3
+5e,Garçon,1,1,1,3,0,1,1,1,"['confiance', 'dialogue']",['sport'],['aucun'],['respect'],['sport'],['punitions'],['terrain'],['permanence'],2
+4e,Garçon,2,2,3,0,1,1,1,3,[],[],[],['horaire'],[],[],[],[],3
+4e,Garçon,1,0,1,2,1,1,0,2,[],['sport'],[],['classe'],[],['cantine'],['plateaux'],[],1
+4e,Fille,2,1,1,2,1,1,1,2,['respect'],['MUN'],[],['horaires'],['pause'],[],['classe'],[],2
+4e,Garçon,2,1,3,2,1,1,1,3,['décisions'],[],[],['sandales'],['récréation'],['cours ennuyeux'],['la cour'],['permanence'],2
+5e,Fille,2,2,2,3,1,1,1,0,[],['art et culture'],[],"['bienveillance', 'évaluation', 'devoirs']","['la cour', ""cours d'arabe""]",[],[],[],2
+4e,Fille,2,2,2,2,1,1,1,2,['écoute'],['MUN'],[],"['téléphone', 'règles', 'sortir']",['poses'],[],"['la cour', 'ccc']",['salle de classe'],2
+4e,Fille,2,2,2,2,2,1,1,1,[],['art et culture'],['médiathèque'],"['horaire', 'égalité']",['amis'],"['cours de maths', ""cours d'espagnol""]","['mediatheque', 'cantine', 'salle de classe', 'classe', 'tables']",[],2
+6e,Garçon,3,3,3,0,3,1,2,2,[],[],['aucun'],[],[],[],[],['permanence'],0
+6e,Fille,3,2,1,3,1,1,2,3,[],[],[],[],[],[],[],[],0
+6e,Fille,3,2,3,2,2,2,3,3,[],"[""vie de l'établissement""]",[],[],[],[],[],[],0
+4e,Fille,2,1,2,2,1,0,0,2,[],"['MUN', ""vie de l'établissement""]",[],['heures'],['heures creuses'],[],"['cantine', 'récrée']",['salle de classe'],2
+6e,Garçon,1,0,2,0,1,0,0,1,"['compréhension', 'écoute']",[],[],['téléphone'],['bonnes notes'],"[""trois heures d'affilé""]","['récréation', 'cantine']",['salle de cours'],1
+6e,Garçon,3,2,3,2,2,2,2,3,['respect'],['art et culture'],[],"['emploi', 'fatigué']","['vacances', ""fin d'année""]",['rentrée'],['tous'],[],0
+4e,Fille,2,2,3,3,1,2,3,3,['égalité'],"['MUN', 'projet pédagogiques']",['aucun'],"['médiathèque', 'cantine', 'zones']","['mes amies', 'médiathèque']",['adultes à la médiathèque'],"['la cour', 'cantine']",[],0
+6e,Fille,2,2,2,2,2,2,1,2,[],"['sport', ""vie de l'établissement""]",[],['fontaine'],[],[],['ccc'],[],2
+5e,Fille,3,2,3,0,2,2,2,3,[],[],[],[],"['récréation', 'heures de pause']",[],"['extérieur', 'médiathèque']",[],3
+4e,Fille,2,2,2,0,2,2,1,2,[],[],[],[],[],[],[],[],3
+6e,Fille,2,2,1,0,2,2,1,3,[],[],[],[],['dormir'],[],"['permanence', 'salle de classe']",[],3
+4e,Fille,3,0,2,2,2,2,1,3,[],"['MUN', ""vie de l'établissement""]",[],[],[],[],['ccc'],['permanence'],2
+4e,Fille,2,2,3,2,2,2,2,1,['communication'],['MUN'],['conseil de classe'],['aucun'],"['récréation', 'cours de langues']","['sortie', 'queue entre midi et deux']","['salle de classe', 'médiathèque']","['salle de classe', 'salle de classe']",0
+6e,Garçon,2,2,2,1,2,2,2,2,[],['environnement et solidarité'],[],['fontaine'],['la cour'],['classe'],"['classe', 'fontaine']",['salle de classe'],0
+5e,Fille,2,3,2,1,2,1,2,2,[],['art et culture'],[],[],['amis'],['critiques'],"['ccc', 'la cour']",[],0
+6e,Garçon,3,3,3,1,3,3,2,3,['aucun'],"[""vie de l'établissement""]","['la cour', 'salle de permanence']",[],[],[],['salle de classe'],[],0
+6e,Fille,0,0,0,0,0,0,0,1,[],[],[],[],[],[],[],[],1
+6e,Fille,2,2,3,3,2,2,3,2,"['confiance', 'dialogue', 'échange', 'bienveillance']","['MUN', 'MASSMUN', 'OSUIMUN', 'THIMUN', 'FERMUN', 'MEDMUN']","['salle de classe', 'conseils', 'réunions', 'boîtes', 'forums', 'clubs', 'journaux', 'professeur', 'surveillant', 'cpe', 'infirmière']","['espace', 'créativité', 'calme', 'lecture', 'jeux', 'bien-être', 'expression', 'détente']","[""m'amuse"", 'apprends', 'grandis']",[],['ccc'],['permanance'],0
+5e,Garçon,1,1,2,2,0,1,1,1,"['confiance', 'écoute']",['projet pédagogiques'],['cour de récréation'],['horaire'],['la cour'],"[""cours d'espagnol""]",['plateaux'],[],1
+5e,Fille,2,1,2,2,2,1,1,2,[],['MUN'],[],[],['avec mes amies'],[],[],[],2
+4e,Fille,2,2,2,2,2,2,1,2,"['compréhension', 'écoute']",['MUN'],['salle de classe'],"['écoute', 'devoir', 'stress', 'pression']",['la cour'],"['évaluation', 'examen']",['recréation'],['salle de classe'],2
+6e,Fille,3,3,3,3,2,2,3,3,[],"['MUN', 'art et culture']",['pp'],[],['osuimun'],[],['bulle'],['salle de classe'],0
+6e,Fille,2,2,2,3,1,1,2,2,['écoute'],"['sport', 'projet pédagogiques']",[],['personnes'],['école'],['prisonnier'],['terrain'],['permanence'],2
+4e,Fille,3,3,3,2,3,3,3,3,['respect'],"['sport', 'MUN', 'art et culture']",[],['aucun'],['ami-e-s'],[],['classe'],[],0
+4e,Garçon,2,0,3,0,1,2,1,2,"['expression', 'écoute', 'respect', 'droits']",[],[],"['liberté', 'temps', 'fluidité', 'calme']",['amis'],['surveillance'],"['salle de classe', 'médiathèque']",['salle de classe'],1
+5e,Garçon,2,1,2,0,1,2,1,2,"['écoute', 'respect', 'communication', 'soutien', 'transparence']",[],[],['liberté'],['amis'],"['histoires', 'oppresse']",['recreation'],[],3
+6e,Fille,3,2,3,0,2,1,1,3,['aucun'],[],[],[],['avec les amis'],['les cours'],['cantine'],"['bureau', 'vie scolaire']",3
+4e,Garçon,3,2,3,0,1,1,2,2,[],[],"['cpe', 'surveillant']","['écouter', 'crier', 'cpe']","['cantine', 'récréation']",[],['classe'],[],3
+6e,Garçon,2,2,2,0,1,1,1,2,['aucun'],[],['vie de classe'],[],['activité'],[],[],[],3
+4e,Garçon,3,2,3,1,3,1,2,2,"['écoute', 'attention', 'respect']",['art et culture'],['vie scolaire'],"['balle', 'pause']",['amis'],['classe'],['la cour'],['salle de classe'],0
+6e,Garçon,3,2,3,0,3,2,0,2,[],[],['aucun'],"['nourriture', 'cantine']","['cantine', 'la cour']",[],['classe'],[],3
+4e,Garçon,2,2,2,0,1,0,2,2,"['gentillesse', 'bienveillance']",[],[],"['éducation', 'comportement']",[],[],[],[],3
+5e,Fille,3,2,3,0,1,2,2,2,[],[],['aucun'],['climatisation'],['la cour'],['cours vers 14h'],['médiathèque'],['salle de classe'],3
+5e,Fille,2,1,2,1,2,1,1,2,['compréhension'],"[""vie de l'établissement""]",['la cour'],['espaces'],"['récréation', 'cours classe entière']","['certains cours', 'cours en demi-groupes']",['salle de classe'],['toilettes'],3
+6e,Fille,2,1,2,3,2,0,1,2,['égalité'],"['sport', 'art et culture', 'projets pédagogiques']",[],"['horaires', 'récréation', 'bousculades', 'problèmes']","[""cours d'anglais"", 'moments de partage', 'cours de français']","['cantine', 'récrées', 'passages dans les couloirs']","['permanence', 'ccc']","['cantine', 'couloirs']",2
+5e,Garçon,2,2,2,2,3,2,1,2,[],['sport'],['la cour'],"['kiosk', 'chocolat']","[""s'amuse""]",['évaluation surprise'],[],[],0
+5e,Fille,3,2,2,0,1,0,3,1,[],[],[],['sorties'],[],[],['salle de classe'],[],3
+6e,Fille,2,2,1,3,2,1,2,1,['problèmes'],['projet pédagogiques'],[],"['caméras', 'sécurité']",['amies'],"['triste', 'rejeter']",['ccc'],['salle de classe'],0
+4e,Garçon,2,1,3,1,2,0,1,2,['communication'],['sport'],[],[],['vacances'],[],[],[],3
+6e,Fille,2,1,1,0,1,0,1,0,['jeunes'],[],[],['téléphone'],['avec mes amis'],"['svt', 'physique chimie']",['ccc'],"['permanance', 'salle de classe']",3
+4e,Fille,2,1,3,0,0,0,0,2,['liberté'],[],['aucun'],['liberté'],['pause'],['classe'],"['récréation', 'allée', 'cantine', 'bancs']",[],1
+4e,Garçon,2,2,2,0,2,2,1,1,['respect'],[],['bureaux'],['food truck'],[],[],"['sales de détente', 'médiathèque']",[],3
+4e,Fille,2,2,2,3,2,1,2,3,[],['MUN'],['aucun'],"['adultes', 'médiathèque', 'cantine', 'horaires']",['copines'],['médiathèque'],[],['médiathèque'],0
+4e,Garçon,2,2,3,0,2,2,3,3,['aucun'],[],"['salle de classe', 'la cour']","['horaires', 'pause']","['amis', 'pause']","['classe', 'relation classe']","['classe', 'cantine', 'couloirs']",['escaliers'],3
+6e,Garçon,3,2,3,0,2,3,0,3,['aucun'],[],['cour de récréation'],['aucun'],['rigole'],['punir'],['la cour'],[],3
+6e,Garçon,1,1,2,1,1,1,0,2,['calme'],['art et culture'],['la cour'],['cantine'],[],[],['salle de classe'],[],1
+6e,Fille,2,2,3,2,2,2,2,3,['oui'],['sport'],[],[],[],[],[],[],0
+6e,Fille,1,1,3,2,1,1,0,2,['respect'],['environnement et solidarité'],['salle de classe'],"['santé', 'tensions', 'stress']",['avec mes amies'],['en classe'],['toilette'],['salle de classe'],1
+4e,Fille,3,2,3,1,2,2,3,2,[],['art et culture'],['aucun'],['aucun'],['pauses méridiennes'],[],['couloirs'],[],0
+6e,Fille,2,2,3,1,1,2,2,2,['écoute'],['art et culture'],[],"['queue', 'vie scolaire', 'organisation']",['heures creuses'],['vie scolaire'],['ccc'],['classe'],3
+5e,Garçon,2,1,3,1,0,1,0,2,[],['sport'],[],[],"['balle en mousse', 'midi et deux', 'eps']",[],['la cour'],['classe'],1
+6e,Garçon,3,2,3,2,3,2,2,3,"['prévisibilité', 'transparence']",['sport'],[],"['classe', 'horaires']","['amis', 'parents', 'foot']",['amis absents'],"['la cour', 'maison']",['salle de classe'],0
+6e,Garçon,1,2,2,1,1,2,0,2,['respect'],['projet pédagogiques'],[],"['ds', 'évaluation']","['finir les cours', 'vendredi', 'weekend', 'vacances']",[],['garage'],['étage'],1
+6e,Fille,2,1,2,0,1,2,2,2,['compréhension'],[],['classe'],"['règles', 'compréhension', 'accompagnement']",['compris'],"['accusé à tort', 'colère des professeurs']","['salle de classe', 'permanence', 'ccc']",[],3
+4e,Fille,3,2,3,2,2,2,2,3,['écoute'],['MUN'],['salle de classe'],"['clims', 'écoute', 'devoirs']","['pauses du midi', 'compagnie des amis']","[""fin de l'après-midi"", 'jours où on finit tard']",['extérieur'],['salle de classe'],0
+5e,Garçon,2,2,2,2,1,2,0,0,"['savoir', 'captivant']","['art et culture', ""vie de l'établissement""]",['la cour'],"['city', 'salle de classe', 'chaises', 'couleurs', 'badge', 'carte', 'bancs', 'sacs', 'activités']","['jouer avec amis', ""cours d'arabe""]","['se sentir mal', 'fatigue', 'classe']",['classe'],[],2
+5e,Garçon,3,2,3,1,1,1,3,2,"['explication', 'confiance']","[""vie de l'établissement""]",[],"['remboursement', 'communication']","['pauses déjeuner', 'jouer au foot']",['cours de svt'],"['la cour', 'cantine']",['salle de classe'],0
+4e,Garçon,2,1,3,0,3,2,1,3,[],[],"['conseils', 'vie de classe']",['horaires'],"['cours détendus', 'récréation', 'vie de classes']","['cours longs', 'heures de permanence']","['classe', 'salle de classe']",[],3
+4e,Fille,2,1,2,1,1,2,0,2,['aucun'],['sport'],[],['aucun'],[],['infirmerie'],[],['infirmerie'],1
+6e,Fille,2,2,1,0,1,2,1,3,[],[],[],"['queue', 'cantine', 'fontaine', 'la cour', 'états']","['ccc', 'salle détente', 'avec mes amies']","['queue de la cantine', ""beaucoup d'élèves"", 'couloirs']",['ccc'],['salle de classe'],3
+4e,Fille,2,2,2,1,1,1,1,2,[],[],[],[],[],[],[],[],3
+4e,Garçon,2,2,2,1,1,1,1,1,[],['art et culture'],[],[],['la cour'],['classe'],['exterieur'],['salle de classe'],2
+6e,Garçon,2,1,3,1,1,1,0,2,['souplesse'],['sport'],[],['permanence'],[],"[""cours d'histoire-géo""]",[],[],1
+6e,Garçon,2,1,2,2,1,1,1,1,[],['projet pédagogiques'],[],"['foot', 'balles']",['bonnes notes'],['mauvaises notes'],"['terrain', 'la cour']",['toilettes'],2
+4e,Fille,2,2,2,3,1,0,1,1,[],"['sport', 'art et culture', 'MUN']",[],[],[],[],"['médiathèque', 'tables']",['couloirs'],2
+5e,Fille,1,2,3,2,2,1,1,2,[],"['MUN', 'art et culture', 'sport']",['la cour'],[],['récréation'],['classe'],"['médiathèque', 'salle de classe', 'extérieur']",['salle de classe'],2
+5e,Fille,2,2,2,1,1,1,1,3,[],['projet pédagogiques'],[],"['climatisation', 'horaires']",[],[],[],[],2
+4e,Garçon,3,2,2,1,2,2,2,3,"['calme', 'dialogue']",['MUN'],['aucun'],['horaire'],[],[],"['terrain', 'gymnase']",[],0
+6e,Fille,2,1,3,1,1,1,2,2,[],['art et culture'],[],['film'],['manger'],['classe'],['portaille'],[],3
+5e,Fille,3,1,3,2,2,2,3,2,[],[],[],[],[],[],[],[],0
+5e,Garçon,2,1,1,1,1,1,2,1,"['justice', 'compréhension', 'respect']",['sport'],['bureau'],"['balles', 'foot']","['récréation', 'pause', ""cours d'histoire-géo""]",[],['fontaine'],[],3
+6e,Fille,3,3,3,0,2,2,3,3,[],[],['salle de classe'],[],[],[],['classe'],[],0
+5e,Garçon,2,1,0,1,1,0,0,2,"['liberté', 'souplesse']",['sport'],['aucun'],"['classe', 'pause', 'prof', 'salle de classe']",['sport'],['classe'],['recrée'],"['permanence', 'salle de cours']",1
+6e,Garçon,2,1,2,2,2,1,0,2,['compréhension'],['projet pédagogiques'],[],['heure'],"['échecs', 'calme']",[],['ccc'],[],2
+4e,Fille,3,2,3,2,2,3,2,2,[],"[""vie de l'établissement""]",[],[],['la cour'],['classe'],['la cour'],"['cantine', 'permanence']",0
+6e,Fille,2,2,1,2,3,2,2,3,['calme'],['MUN'],[],"['organisation', 'évaluation', 'stress', 'horaires', 'sommeil']","['avec mes amies', 'pas de stress']","['évaluation', 'stress']",['la cour'],['permanences'],0
+5e,Garçon,2,1,2,1,0,0,0,1,['aucun'],['sport'],['aucun'],['nourriture'],"['sport', 'foot']",['cantine'],[],[],1
+6e,Garçon,2,1,1,1,2,2,1,2,['aucun'],[],['salle de classe'],['la cour'],['amies'],['classe'],['la cour'],['classe'],3
+5e,Fille,1,3,3,1,2,3,2,3,[],['projet pédagogiques'],[],['aucun'],['pause'],[],[],[],0
+5e,Fille,2,2,3,2,2,2,2,2,[],['sport'],['cpe'],[],[],[],[],[],0
+4e,Fille,2,3,3,1,2,2,2,3,['communication'],"['MUN', 'projet pédagogiques']",['salle de classe'],['horaire'],"['récréation', 'amies']","['évaluation', 'stressantes']","['salle de classe', 'espace']",[],0
+4e,Fille,3,1,3,2,2,1,2,2,"['écoute', 'confiance', 'respect']",['sport'],"['cpe', 'prof']",['aucun'],"['as', 'profs de sports', 'amis']",['journées à 17h'],['terrains'],[],0
+4e,Garçon,0,1,2,0,0,0,0,0,[],[],[],['horaires'],"['chez moi', 'famille']",['école'],[],[],1
+4e,Garçon,2,1,2,2,0,1,2,1,['aucun'],"['sport', 'projet pédagogiques']",[],['sanctions'],[],[],[],[],2
+4e,Garçon,1,0,0,2,1,2,0,2,"['freedom', 'respect']",['projet pédagogiques'],['recess'],['système'],['summer vacation'],['school time'],['house'],['school'],1
+5e,Fille,2,2,1,1,0,1,0,2,[],['art et culture'],[],"['classe', 'évaluation']",['rentrer chez moi'],['travailler'],['la cour'],[],1
+5e,Fille,2,1,1,2,1,1,1,3,[],[],[],[],[],[],[],[],2
+5e,Fille,2,1,0,2,2,1,1,2,[],['art et culture'],[],"['eau', 'autorisation']",['cantine'],[],['cantine'],[],2
+5e,Garçon,2,0,2,3,0,1,0,2,[],[],['aucun'],['liberté'],[],['mauvaise notes'],[],[],1
+3e,Fille,3,1,3,2,3,2,2,2,[],"['MUN', 'environnement et solidarité', 'art et culture']",['la cour'],"['pc', 'pause']",['pause'],['certains cours'],"['classe', 'salle de classe']",['salle de classe'],0
+5e,Garçon,0,0,3,0,2,2,1,2,[],[],[],"['emplois', 'temps', 'santé', 'mentale']",[],[],[],[],1
+4e,Garçon,2,2,3,2,1,2,2,3,"['communication', 'patience']","['MUN', 'MUN']","['salle de classe', 'recré']","['communication', 'respect']","['voyage scolaire', 'sorties', 'projet pédagogique']",[],"['salle de classe', 'récréation']",[],2
+6e,Fille,1,2,3,3,1,1,1,1,"['calme', 'dialogue', 'compréhension']","['art et culture', 'environnement et solidarité', ""vie de l'établissement""]",['aucun'],"['emploi', 'évaluation', 'professeurs']",['début de la 6ème'],"['cm1', 'cm2']","['résidence', 'cantine']","['classe', 'récréation']",2
+5e,Garçon,2,2,2,0,1,1,1,2,['aucun'],[],[],"['cantine', 'couleur']","['amis', 'famille']","['examens', 'stress']",['la cour'],['devoirs'],3
+5e,Garçon,2,2,2,0,2,2,0,2,[],[],[],[],[],['évaluation'],[],['salle de classe'],3
+6e,Garçon,2,1,2,0,1,2,1,2,[],['environnement et solidarité'],[],['horaires'],['la cour'],['salle de détente'],[],[],3
+6e,Fille,3,3,3,2,2,2,2,2,[],"['sport', 'sport', ""vie de l'établissement"", 'sport', 'sport']","['la cour', 'classe']","['cantine', 'bruit', 'propreté', 'organisation']",['la cour'],['interroger'],['ccc'],['cantine'],0
+4e,Garçon,2,1,2,2,1,1,1,2,[],['projet pédagogiques'],[],['emploi du temps'],[],[],[],[],2
+4e,Garçon,3,1,2,2,1,1,2,2,"['écoute', 'compréhension', 'non-jugement']",['sport'],['aucun'],['horaires'],['activités ludiques'],[],['terrains'],['salle de classe'],2
+6e,Garçon,2,1,3,0,3,2,0,3,[],[],"['salle de classe', 'la cour', 'cantine']","['téléphone', 'climatisation', 'chauffage']","['amis', 'rigolons']",[],['la cour'],['salle de classe'],3
+5e,Fille,2,2,3,2,1,1,0,3,[],[],['conseil de classe'],"['surveillant', 'langues', 'sociabilisation']",[],[],['ccc'],['permanence'],2
+6e,Garçon,3,2,2,1,2,2,2,3,"['calme', 'patience', 'écoute']",['environnement et solidarité'],"['salle de classe', 'amis', 'vie scolaire']","['activités', 'liberté']","['félicité', 'amis']",[],"['récréation', 'permanence']",[],0
+6e,Fille,3,2,2,0,2,2,2,2,['aucun'],[],['la cour'],['casiers'],[],[],[],[],3
+6e,Fille,2,1,2,0,2,2,1,3,[],[],['salle de classe'],"['voyages', 'activités']",['pause'],['évaluation'],['permanence'],[],3
+6e,Garçon,2,2,2,0,2,3,0,2,[],[],['la cour'],"['terrains', 'climatisation']",[],[],['terrain de foot'],['salle de classe'],3
+6e,Garçon,2,0,1,0,1,1,2,0,"['parole', 'conflit']",[],[],['aucun'],['jouer avec un ballon'],['tout le reste du temps'],"['recreation', 'salle de classe', 'cantine']",['endroit'],3
+5e,Garçon,3,2,2,3,3,2,2,3,[],"['MUN', 'sport']",[],['notes'],['parler avec mes amis'],[],[],[],0
+5e,Fille,3,3,0,2,3,3,1,3,['aucun'],['projet pédagogiques'],['la cour'],['téléphone'],"['cour de récré', 'compétitions nationales']","['canicule', 'salles non climatisées']",['ccc'],['bureau'],0
+5e,Fille,2,1,2,1,2,0,2,2,['aucun'],[],[],['cantine'],"['la cour', 'cours de mme faten']",[],['classe'],['salle de classe'],3
+5e,Fille,3,2,3,2,2,2,2,3,"['compréhension', 'écoute', 'discussion']",['art et culture'],"['copine', 'm. achraf', 'vie scolaire']","['cantine', 'nourriture']",['cantine'],"['vie scolaire', 'pas appeler']","['cantine', 'cc']",['permanence'],0
+6e,Fille,2,2,2,2,1,2,0,2,"['calme', 'respect', 'écoute']","['environnement et solidarité', 'art et culture', 'MUN']","['la cour', 'dehors']",['horaire'],['activités'],['punitions'],['la cour'],[],2
+6e,Garçon,2,1,2,3,1,2,2,2,"['dialogue', 'vie de classe']","['environnement et solidarité', ""vie de l'établissement""]","['la cour', 'vie de classe']","['déplacement', 'confort', 'mental']","['heure or cour', 'cc']","['profs en retard', 'classe']","['ccc', 'salle de classe']",[],2
+6e,Fille,2,2,3,1,2,2,1,2,['honnêteté'],['MUN'],['la cour'],[],[],[],[],[],3
+5e,Fille,3,1,3,0,2,2,1,3,['compréhension'],[],"['salle de classe', 'auditorium']","['choix', 'goûter', 'chaussures', 'téléphone']","['prof absent', 'jeux en classe', 'goûter', 'vacances']","['évaluation surprise', 'prof tord', 'mauvaise classe']","['ccc', 'permanance', 'classe']",[],3
+4e,Fille,3,3,3,1,3,3,3,3,"['communication', 'dialogue']",['MUN'],['salle de classe'],['horaires'],['la cour'],['évaluation'],['recreation'],['toilettes'],0
+6e,Fille,2,2,3,0,2,1,2,2,['aucun'],[],['spe'],"['sérieux', 'arabe', 'acceptation', 'religieux', 'hijab']",[],[],['ccc'],[],3
+4e,Garçon,2,2,3,3,1,2,0,3,['équité'],['MUN'],[],['décharge'],['sorties à lyautey'],['pauses méridiennes'],['salle de classe'],['médiathèque'],2
+6e,Garçon,2,2,3,0,2,3,2,2,['prévisibilité'],[],['profs'],"['devoirs', 'classe']",['profs de bonne humeur'],"['évaluation', 'évaluations surprises']",['foyer'],[],3
+5e,Fille,2,1,1,2,1,1,1,2,[],['MUN'],[],['téléphones'],"['amis', 'copies']","['évaluation', 'ds commun']",['classe'],['permanence'],2
+4e,Garçon,0,0,0,1,0,0,0,0,['respect'],['art et culture'],['aucun'],[],[],[],[],[],1
+6e,Fille,2,2,3,0,1,1,2,2,"['humour', 'jeu']",[],[],"['fontaines', 'sorties', 'climatisation', 'foot']",['activités'],"['arrogances', 'bêtises']",['terrain'],['classe'],3
+4e,Fille,2,1,2,0,1,1,0,2,[],[],[],[],['la cour'],['classe'],['la cour'],"['vie scolaire', 'salle de classe']",1
+4e,Garçon,2,2,2,2,1,1,0,0,['écoute'],[],['aucun'],"['clim', 'horaires', 'téléphone']",[],[],[],[],2
+5e,Garçon,2,2,2,1,2,1,1,2,"['discussion', 'confiance']",[],['aucun'],"['vitesse', 'sortie', 'service', 'retard']",['projets'],['évaluation'],"['espace', 'ccc']",['salle de classe'],3
+6e,Garçon,2,3,3,2,2,1,2,3,"['calme', 'douceur']",['sport'],[],['horaire'],['jouer au foot'],['rend les évals'],['salle de classe'],[],0
+5e,Garçon,0,0,0,0,0,0,0,0,['communication'],[],['aucun'],['profs'],['amis'],['évaluation'],['médiathèque'],['la cour'],1
+4e,Fille,2,2,2,1,1,1,1,2,['aucun'],"[""vie de l'établissement""]",['aucun'],['aucun'],['cours agréables'],"['pression', 'manque de respect']",['ccc'],[],2
+4e,Fille,2,1,3,2,1,1,2,3,"['écoute', 'compréhension']","[""vie de l'établissement"", 'environnement et solidarité']",['classe'],['extérieur'],"['amis', 'certains cours']","['certains cours', 'fin de la journée']","['classe', 'médiathèque', 'permanence']",[],2
+5e,Fille,3,2,3,1,1,1,2,3,[],"['environnement et solidarité', 'projet pédagogiques']",['salle de classe'],"['activités', 'ateliers']","['compréhension', ""travail d'équipe""]","['malentendus', 'silence']","['la cour', 'cdi']",[],0
+5e,Fille,2,2,2,3,2,1,1,1,"['écoute', 'empathie', 'sensibilité', 'dialogue', 'soutien']","['MUN', 'MASSMUN', 'OSUIMUN', 'THIMUN', 'FERMUN', 'MEDMUN']",[],['queue'],[],"['charge de travail', 'ne pas voir les parents']",['permanence'],[],2
+6e,Fille,2,2,2,0,1,2,1,2,['ton doux'],[],"['salle de classe', 'groupe']",['robinets'],"['activités', 'chose amusantes', 'éducatifs']",[],[],['détente'],3
+4e,Garçon,2,0,1,0,0,0,0,2,[],[],[],['permanence'],['vacances'],['classe'],['ccc'],['permance'],1
+4e,Garçon,0,0,1,1,1,1,0,1,['aucun'],['environnement et solidarité'],"['salle de classe', 'la cour']",['aucun'],['vacances'],"[""note d'évaluation""]",['terrain'],['bureau'],1
+5e,Fille,3,3,3,3,2,3,1,1,[],['projet pédagogiques'],['aucun'],['téléphone'],['la cour'],[],['ccc'],[],0
+6e,Garçon,2,2,2,3,1,2,2,2,[],['sport'],['salle de classe'],['terrain'],[],[],['salle de classe'],[],2
+6e,Fille,2,1,2,2,0,0,1,3,['écoute'],['MUN'],[],['climatisation'],"[""cours d'eps""]",['cantine sous le soleil'],['terrain'],['permanences'],2
+5e,Fille,2,1,2,3,1,2,2,2,"['souplesse', 'réduction des restrictions']",['MUN'],[],['interdiction'],"['pauses midi', 'la cour']",[],[],[],2
+5e,Fille,2,2,3,2,2,1,1,2,[],['MUN'],['la cour'],[],['discuter avec amies'],[],['la cour'],['salle de classe'],2
+6e,Fille,2,1,2,2,1,1,0,2,[],['sport'],[],"['règles', 'vestimentaire']",['la cour'],[],[],[],2
+4e,Fille,2,1,2,1,1,1,2,2,"['compréhension', 'dialogue']",['projet pédagogiques'],[],"['écouter', 'techniques', 'apprentissage']",['amis'],['classe'],['médiathèque'],['permanence'],3
+4e,Garçon,3,2,2,2,1,1,2,1,"['dialogue', 'écoute']",['sport'],"['établissement', 'surveillant', 'cpe']","['activité', 'tournoi', 'foot', 'espaces', 'casiers']","['famille', 'pause', 'amis', 'manger']",[],['médiathèque'],"['toilette', 'ccc']",0
+4e,Garçon,3,3,3,0,3,2,0,1,[],[],['récrée'],"['horaires', 'temps', 'activités']",['parler à ses potes'],['évaluation'],['la cour'],['salle de classe'],3
+6e,Fille,2,2,3,2,3,2,1,2,['aucun'],"['art et culture', ""vie de l'établissement""]",[],"['pose', 'la cour', 'cantine', 'temps']",['pas cours'],[],['classe'],['salle de classe'],0
+5e,Garçon,2,0,2,0,1,0,0,0,['compréhension'],[],['aucun'],"['punitions', 'surveillants', 'profs']","['vacances', 'bonnes notes']",[],['terrain'],[],1
+5e,Fille,2,3,2,1,3,2,2,3,[],['sport'],['la cour'],['heures'],"['heure de libre', 'amies']",[],"['salle de classe', 'la cour', 'ccc']",[],0
+6e,Fille,2,2,2,1,1,2,2,2,[],['art et culture'],['la cour'],['étage'],['la cour'],['couloirs'],"['la cour', 'cantine']",[],3
+4e,Fille,2,3,2,2,2,3,2,2,['aucun'],"['MUN', 'projet pédagogiques']","['la cour', 'salle de classe']","['horaires', 'ramadan']","['amis', 'professeurs']",['aucun'],"['médiathèque', 'la cour']",['cantine'],0
+6e,Garçon,3,3,3,1,3,3,3,3,[],['MUN'],['établissement'],['aucun'],['tournois'],['salle de classe'],['foyer'],['permanance'],0
+6e,Fille,3,2,3,3,2,3,2,3,['ateliers'],"[""vie de l'établissement""]",['auditorium'],"['climatisation', 'concentration']",['moments entre amis'],"['moqueries', 'jugements']",['recrée'],['cantine'],0
+6e,Fille,2,1,2,0,2,2,2,2,[],[],['récréation'],[],[],[],[],[],3
+4e,Garçon,2,2,3,0,1,1,1,3,[],[],[],"['chaises', 'confort', 'profs', 'strict']",['sonnerie de 16h'],[],['la cour'],['salle de classe'],3
+4e,Garçon,1,1,2,2,1,1,1,2,['respect'],['sport'],"['la cour', 'salle de classe']","['nourriture', 'menu', 'cuisiniers', 'ingrédients', 'portions']","['heure de manger', 'heure creuse']","['cours du matin', 'avant de manger', 'dernier cours']",['la cour'],[],2
+5e,Fille,2,2,3,2,0,1,0,1,[],['sport'],[],"['activités', 'permanence', 'foot', 'basket']",['réfectoire'],[],['la cour'],[],2
+5e,Fille,2,1,1,0,1,1,0,2,[],[],[],['classe'],['quand je rentre chez moi'],['classe'],[],[],1
+5e,Fille,3,3,3,2,2,2,2,3,[],"['environnement et solidarité', 'MUN']","['salle de classe', 'amies', 'pause']",[],[],[],[],[],0
+5e,Fille,2,1,1,0,1,0,0,0,['aucun'],[],[],['aucun'],['sortie'],['entrée en classe'],['extérieur'],['salle de classe'],1
+6e,Garçon,2,2,2,1,2,1,1,2,"['réunion', 'mise au point', 'comportement', 'harcèlement']",['art et culture'],[],['horaires'],['chez moi'],['monté au troisième étage'],['cantine'],['cpe'],3
+5e,Fille,2,3,2,1,2,2,2,2,['gentillesse'],[],[],[],[],"['heures de ccc', 'permanence']",[],[],0
+5e,Garçon,2,1,2,0,1,1,3,3,[],[],[],[],[],[],[],[],3
+6e,Garçon,2,1,1,1,1,1,1,1,"['confiance', 'écoute']",['art et culture'],[],"['clims', 'fontaines']","[""cours d'eps"", ""cours d'arabe""]","['education musicale', 'art plastique']",['terrain'],['permanence'],2
+4e,Garçon,2,1,2,3,1,1,2,1,['aucun'],['sport'],[],[],"['pause', 'récréation']","['classe', 'professeurs fatigués', 'punition']","['récréation', 'tarrain']",['permanence'],2
+5e,Garçon,2,1,1,2,2,1,0,3,"['écoute', 'confiance']",['sport'],['partout'],"['banc', 'ombre']",['fin du dernier cours'],[],[],['escalier'],2
+6e,Fille,1,1,1,2,1,0,0,1,[],"['MUN', 'art et culture']",[],[],['chez moi'],[],[],['école'],1
+6e,Garçon,2,2,2,1,2,2,1,1,['aucun'],['sport'],[],"['préau', 'la cour']",['manger'],['la cour'],['préau'],[],3
+5e,Garçon,2,1,2,2,2,1,2,2,"['comportement', 'respect']",['sport'],[],['cantine'],"['foot', 'amis']","['rien', 'participe']",[],[],0
+4e,Fille,3,2,3,2,0,0,2,3,"['compréhensifs', 'écoute']","['sport', 'art et culture']",['aucun'],"['classe', 'horaire']","['amis', 'cours avec professeurs gentils']",['cours avec professeurs agressifs'],"['la cour', 'terrain']",['salle de classe'],2
+4e,Fille,2,2,2,2,1,2,2,2,['compréhension'],"[""vie de l'établissement""]",['aucun'],"['charge', 'heures']",['activités'],['ds commun'],['la cour'],[],2
+5e,Fille,2,0,1,2,1,2,0,2,[],"[""vie de l'établissement"", 'projet pédagogiques']",[],['téléphones'],"['bonne note', ""sortie de l'école""]","['mauvaises notes', '2 profs']",[],[],1
+4e,Garçon,2,1,2,3,1,1,2,2,"['calme', 'respect']","['MUN', 'sport']",[],"['gentillesse', 'horaires']",['pauses méridiennes'],['cours de 2 heures'],['ccc'],['cantine'],2
+6e,Fille,2,1,2,3,2,0,1,1,"['écoute', 'temps']","['MUN', 'art et culture', ""vie de l'établissement""]",[],"['bus', 'psychologue']","['fin de journée', 'pauses méridienne']",['attendre le bus'],"['foyer', 'salle de classe']",['salle de classe'],2
+5e,Fille,2,1,2,2,1,0,1,2,['punition'],['projet pédagogiques'],[],['prof'],['rigole avec mes amis'],"['punitions', 'notes']",['dehors'],['salle de classe'],2
+5e,Fille,2,2,3,0,2,2,2,2,['aucun'],[],[],['téléphone'],['la cour'],['permanence'],['la cour'],[],3
+5e,Garçon,2,1,2,2,2,1,1,2,[],"['sport', ""vie de l'établissement""]",[],"['surveillants', 'accès', 'tms']",[],[],"['foyer', 'salle de classe', 'ccc']",['permanences'],2
+4e,Fille,2,2,2,2,3,3,1,1,['communication'],['projet pédagogiques'],[],[],[],[],[],[],0
+5e,Garçon,2,0,1,2,0,0,0,0,['aucun'],['sport'],[],"['bancs', 'ombre']","['wahil', 'pas de cours']",[],['sortie'],['la cour'],1
+5e,Garçon,2,2,3,0,2,1,1,3,['indulgence'],[],[],"['bancs', 'ombre']",['la cour'],['2 heures de cours'],['la cour'],['salle de classe'],3
+6e,Fille,3,2,0,0,2,3,2,3,['gentillesse'],[],[],"['fontaine', 'propreté', 'climatisation']",[],[],['ccc'],['permanence'],3
+4e,Fille,2,2,2,2,2,1,1,2,['aucun'],"['sport', 'MUN']",['aucun'],"['justice', 'harcèlement', 'respect']",['récréation'],['classe'],['classe'],['classe'],2
+6e,Garçon,2,2,3,0,1,1,1,3,"['confiance', 'écoute']",[],[],['climatisateur'],['heure creuse'],"['la cour', 'chaleur', 'fontaines pas remplies']",['terrain'],['permanence'],3
+5e,Garçon,2,1,2,0,1,1,0,3,[],[],[],"['vendredi', '15h']","['rentrer chez moi', 'pause déjeuner', 'heure creuse']",['blagues'],['maison'],['école'],1
+6e,Garçon,2,2,3,0,2,2,1,3,[],[],"['classe', 'la cour']",['aucun'],[],[],['gymnase'],['class'],3
+6e,Fille,3,2,3,2,2,3,1,3,['écoute'],['projet pédagogiques'],"['salle de classe', 'débat']","['devoirs', 'horaires']",['amis'],['beaucoup de devoirs'],"['la cour', 'salle de classe', 'détente']",['salle de classe'],0
+4e,Fille,3,2,3,1,2,2,3,2,['aucun'],['art et culture'],[],['aucun'],['pause'],[],"['couloirs', 'permanences']",['la cour'],0
+6e,Fille,2,2,2,3,1,0,3,2,"['confiance', 'écoute', 'dialogue']","['art et culture', 'sport']",[],"['expression', 'écoute']",['amis'],"['révisions', 'évaluation']",['permanences'],['salle de classe'],0
+4e,Fille,2,2,2,3,0,0,1,1,"['respect', 'écoute', 'discussion']","['art et culture', 'MUN', 'projet pédagogiques']",[],['climatisation'],['travail de groupe'],['évaluation'],"['salle de classe', 'classe']",['salle de classe'],2
+4e,Garçon,2,1,1,1,1,2,1,2,"['neutralité', 'discussion']",['sport'],[],"['poids', 'cantine']",['pause'],['évaluation'],"['recréation', 'cantine', 'permanence']",['salle de classe'],2
+4e,Fille,2,2,2,3,1,0,2,2,[],"['environnement et solidarité', 'sport', 'projet pédagogiques', 'art et culture', 'sport', 'art et culture', 'sport', 'projet pédagogiques']",[],"['fontaines', 'événements']","['activités collectives', 'loisirs', 'projets', 'évènements']","['cantine', ""fontaines d'eau lentes""]",[],[],2
+4e,Garçon,2,1,2,1,2,2,2,2,['respect'],['environnement et solidarité'],['aucun'],"['pause', 'classe', 'proportion']","['la cour', 'camarades']","['cours trop lent', 'longues heures de travail']","['la cour', 'terrain', 'salle de classe']",[],3
+4e,Garçon,2,0,1,2,2,2,2,2,"['écoute', 'respect', 'dialogue', 'confiance']",['projet pédagogiques'],[],"['voyage', 'intégration']",['voyage scolaire'],[],['la cour'],[],2
+5e,Garçon,2,2,3,2,2,2,0,2,"['respect', 'préparation', 'espaces', 'parole', 'sécurisés', 'cercles', 'discussion', 'médiateurs']",['sport'],['cpe'],"['relations', 'respect', 'activités', 'cohésion', 'motivation', 'surveillants', 'communication']","['sport', 'bonne ambiance', 'cours intéressants', 'coopération']","['élèves dissipés', 'bruyants', 'malpolis', 'climat de tension']",['terrain'],"['classe', 'vie scolaire']",2
+4e,Garçon,2,2,3,1,3,1,2,2,[],[],['la cour'],[],"[""fin de l'année"", 'rentrée']",[],['classe'],[],0
+5e,Fille,2,2,2,2,1,1,1,2,[],['sport'],['la cour'],"['téléphone', 'emploi du temps', 'liberté', 'possibilités']","['pause', 'amies']","['classe', 'permanence']","['tables', 'allée']",[],2
+4e,Fille,3,0,3,2,1,1,1,1,"['écoute', 'respect', 'bienveillance', 'clarté', 'échanges']","['sport', 'art et culture']",[],['horaires'],"['la cour', 'cantine', 'fin de la journée']",['certains profs'],['terrain'],"['salle de classe', 'permanence']",2
+5e,Garçon,3,2,3,0,3,3,2,3,['échange'],[],"['salle de classe', 'la cour']",['horaires'],"['amis', 'la cour', 'salle de classe']","['évaluation', 'contrôles surprise']",['ccc'],['permanence'],0
+4e,Fille,2,0,2,3,1,0,1,2,"['empathie', 'écoute']",['sport'],[],"['horaires', 'devoirs', 'évaluation']","['récréation', 'fin des cours']",['cours avec certains profs'],"['terrain', 'la cour']",['salle de classe'],2
+4e,Garçon,2,2,1,0,1,1,1,0,['respect'],[],['cours de récréation'],"['emplois', 'sociabilité']","['fêtes', 'réfectoire']","['ds commun', 'professeur en retard']","['réfectoire', 'piscine']","['piscine', 'salle de classe']",3
+5e,Fille,2,2,2,3,0,1,0,2,"['écoute', 'temps']",['sport'],['aucun'],"['3langue', 'surveillants', 'intercourts']",['pause'],"['heures consécutives', 'même matière']",['ccc'],['permanence'],2
+4e,Garçon,1,3,0,1,0,1,1,3,[],['projet pédagogiques'],[],"['respect', 'téléphones']",['jouer avec des amis'],['racisme'],['extérieur'],[],2
+5e,Garçon,1,2,2,0,1,0,1,1,"['écoute', 'respect', 'discussion', 'confiance', 'médiation', 'salle de classe', 'la cour']",[],[],"['couleur', 'nourriture', 'cantine']",[],[],[],[],3
+4e,Garçon,2,2,1,2,1,2,0,2,['respect'],['projet pédagogiques'],"['salle de classe', 'la cour']","['horaires', 'enseignants']","['amis', 'activités', 'la cour', 'pause']","['salle de classe', 'matières', 'profs']",['classe'],['salle de classe'],2
+4e,Fille,2,2,2,3,1,1,1,2,"['communication', 'compréhension']","['environnement et solidarité', 'sport', 'art et culture', 'projet pédagogiques', ""vie de l'établissement""]",['aucun'],"['fontaine', 'attente', 'activités']","['discuter', 'rigoler', 'sport', 'finir tôt']","['plats pas bons', 'longues files à la cantine', 'pas le temps pour manger', 'longue journée', 'évaluations surprises', 'fontaine qui ne marche pas', 'escaliers bondés']","['salle de classe', 'cantine']",[],2
+5e,Fille,3,2,3,3,3,2,2,3,"['respect', 'écoute', 'soutien']",['sport'],[],"['liberté', 'lieu']","['récréation', 'cantine']",[],[],[],0
+5e,Fille,2,1,2,3,0,1,0,0,[],"['MUN', 'sport']",[],"['compréhension', 'bien-être', 'infirmière', 'confort', 'circulation', 'liberté', 'expression', 'cantine']","['permanence', 'pause', 'activités', 'cours ludiques']",[],[],['salle de classe'],2
+5e,Garçon,3,2,2,2,1,1,1,2,[],['MUN'],[],['sorties'],['sortir plus tôt'],[],['foyer'],[],2
+6e,Garçon,2,2,1,1,1,2,1,2,['aucun'],"[""vie de l'établissement""]",['classe'],"['devoirs', 'évaluation']","['sorties scolaires', 'bonne note', 'classe']","['cantine', 'évaluation']","['salle de classe', 'terrain']",[],2
+4e,Fille,1,0,3,0,1,0,0,0,"['calme', 'bienveillance']",[],['enquete'],['fermer'],['weekend'],['jours de la semaine'],['maison'],['école'],1
+5e,Fille,2,2,3,2,2,2,2,3,[],[],[],[],['pose méridienne'],['matin à la première heure'],[],[],0
+4e,Garçon,2,2,2,2,1,2,1,2,['respect'],['projet pédagogiques'],"['salle de classe', 'la cour']","['horaires', 'concentration']","['amis', 'la cour']",['surveillants'],['la cour'],['salle de classe'],2
+5e,Garçon,1,0,0,2,1,1,1,2,['respect'],[],['classe'],['pause'],['fin des cours'],['début des cours'],['foyer'],[],1
+5e,Garçon,2,1,2,2,2,1,2,1,"['enseignement', 'preuve', 'équité']",[],[],"['emplois', 'perme', 'ccc', 'aide']","['cantine', ""cours que j'aime"", 'apprentissage']","['cours trop tôt', 'cours ennuyant', 'stress', 'cours trop long']","['cantine', 'as', 'art', 'musique', 'technologie']","['classe', 'langues', 'sciences', 'perm']",0
+4e,Fille,1,1,1,2,2,1,0,2,"['écoute', 'respect', 'santé']","['MUN', 'art et culture', 'sport']",['aucun'],"['stress', 'évaluation', 'devoirs']",['avec les personnes qui comptent'],"['stress', 'notes', 'pas bien mentalement', 'pas bien avec mes amies']",[],['cantine'],2
+5e,Fille,2,1,3,2,1,1,0,1,"['gentillesse', 'écoute']",[],[],"['pc', 'ccc', 'déjeuner', 'cantine']",['cantine'],['classe'],"['ccc', 'allée']",[],2
+5e,Fille,2,3,3,2,2,2,1,2,[],['sport'],[],['climatisation'],['heures creuses'],['journées chargées'],['extérieur'],['salle de classe'],0
+6e,Garçon,2,3,2,0,0,2,1,2,['aucun'],[],['cantine'],"['devoirs', 'autorisation', 'ccc', 'salle de classe']",['cantine'],['classe'],['la cour'],['classe'],3
+6e,Garçon,2,3,3,1,2,2,1,3,[],['art et culture'],['salle de classe'],"['évaluation', 'punition']","['foot', 'la cour', 'cours de français', ""cours d'histoire-géographie""]",['quand les profs crient'],['coure'],['cpe'],3
+6e,Garçon,2,3,2,2,2,2,2,2,[],[],[],['climatisation'],['cours intéressants'],['très chaud'],[],[],0
+4e,Fille,2,2,2,3,0,0,1,1,"['respect', 'acceptation', 'confiance']","['MUN', 'art et culture']",[],"['climatisation', 'profs']","['heures de pause', 'récrés']","[""cours d'anglais"", 'évaluation']",['ccc'],['salle de classe'],2
+5e,Fille,2,1,1,1,1,1,0,2,['écoute'],['sport'],['la cour'],"['vie', 'salle de classe', 'écouté']","['la cour', 'amis']","['fin de journée', 'fatigué']",['la cour'],['salle de classe'],1
+6e,Garçon,2,1,2,0,1,2,1,2,[],[],['cpe'],['adultes'],"['foot', 'interclasse']",['punition'],[],"['la cour', 'salle de classe', 'bureau', 'cpe']",3
+6e,Fille,2,2,3,1,1,2,0,0,['aucun'],[],['la cour'],['horaires'],[],[],['salle de classe'],['classe'],3
+6e,Garçon,2,1,1,2,2,1,1,1,['aucun'],['sport'],[],"['emploi', 'horaires', 'pause']",['la cour'],[],[],[],2
+5e,Fille,1,1,1,0,1,1,0,2,[],[],[],"['horaire', 'pause']",['sonnerie de fin des cours'],['sonnerie du début des cours'],['télévision'],['class'],1
+5e,Garçon,0,1,1,0,1,0,0,0,"['compréhension', 'droits']",[],[],"['redoublement', 'punition', 'accusation']",['sortie de la classe'],"['surveillant', 'appel au bureau', 'père fâché']",['permanence'],[],1
+5e,Garçon,1,1,1,0,1,2,0,2,"['décision', 'écoute']",[],[],['aucun'],['fin des examens'],"[""trop d'examens"", 'révision intensive']","['salle de classe', 'récrée']",['vie scolaire'],1
+5e,Fille,2,2,3,1,1,1,1,3,['écoute'],[],[],[],[],[],[],[],3
+6e,Fille,2,2,3,1,1,1,2,2,['aucun'],['sport'],[],['horaires'],['prof absent'],['cours des profs absents'],['classe'],['salle de classe'],3
+6e,Garçon,1,2,1,0,1,0,1,1,['évaluation'],[],['aucun'],['recre'],['la cour'],['résultats des évaluations'],['recree'],['salle de classe'],3
+4e,Garçon,1,0,3,2,0,0,0,1,"['aide', 'compréhension']",['sport'],[],[],"[""sortie de l'école""]","[""rentrée à l'école""]",[],[],1
+5e,Fille,2,2,3,3,2,3,0,2,"['questions', 'compréhension', 'dialogue']",['art et culture'],"['la cour', 'ombre', 'porte', 'cantine']","['préau', 'escaliers', 'fraîcheur']","['rigole', 'joue', 'loisirs', 'se confie']","['problème', 'gens qui pleurent']",['préau'],['la cour'],2
+6e,Garçon,3,3,3,3,3,3,3,3,['aucun'],"['art et culture', 'MUN']","['salle de classe', 'surveillants', 'cpe', 'la cour']","['tournois', 'foot']",['événements'],"[""sortir de l'école""]","['ccc', 'la cour', 'foyer']",['permanence'],0
+5e,Fille,3,2,2,3,2,2,2,2,[],['sport'],"['salle de classe', 'professeur', 'surveillant', 'la cour', ""cellule d'écoute""]",['cantine'],[],[],['ccc'],['cantine'],0
+5e,Fille,2,2,3,1,1,1,1,2,"['compréhension', 'confiance']",['MUN'],[],"['clims', 'chauffage']",[],[],['gymnase'],['classe'],2
+6e,Garçon,1,1,1,2,1,2,1,1,['présence'],"['sport', ""vie de l'établissement""]","['salle de classe', 'cpe']",['la cour'],"['récrée', 'heure creuse']",['bureau du cpe'],"['récrée', 'heure creuse']",['cpe'],2
+6e,Garçon,1,2,2,2,1,1,2,2,"['surveillance', 'écoute']","['art et culture', 'sport', ""vie de l'établissement""]",[],['respect'],['heure creuse'],['moqueries'],['foyer'],['recrer'],2
+5e,Garçon,1,2,1,0,0,1,0,2,['écoute'],[],[],"['classe', 'horaire']",['finir plus tôt'],"[""cours l'après-midi""]",['la cour'],['permanence'],1
+5e,Garçon,2,1,1,2,1,2,1,2,[],"['MUN', 'sport']",[],"['horaires', 'choix']","['pas de devoirs', 'prof absent', 'vacances']",[],['ccc'],['grille'],2
+6e,Garçon,2,2,2,2,2,1,0,2,[],['sport'],"['recréation', 'salle de classe']",['climatisation'],['cours de sport'],['cours de physique-chimie'],['térains'],['sale'],2
+6e,Garçon,3,3,3,0,0,3,3,3,['aucun'],[],[],['aucun'],"['amis', 'prof']",['aucun'],[],[],3
+4e,Garçon,2,1,1,0,1,1,1,2,"['activités', 'jeux']",[],['aucun'],['gestion'],['rire'],['gênants'],['grand-mère'],[],3
+6e,Fille,2,2,2,2,2,1,2,2,"['lettres', 'écriture']","['MUN', 'art et culture']",[],"['caméras', 'boîte']","[""cour d'anglais""]","[""cour d'eps""]",[],[],0
+6e,Fille,3,2,2,0,2,3,2,3,[],[],[],"['devoirs', 'horaires']","['amis', 'rigole']",['stresse'],['ccc'],[],3
+6e,Fille,2,0,3,2,1,0,0,1,[],"['sport', 'art et culture']",[],"['profs', 'provoquer', 'menacer', 'rabaisser']",['la cour'],['classe'],"['ccc', 'classe']",[],1
+5e,Garçon,2,2,2,3,2,1,1,2,['écoute'],['sport'],['la cour'],"['la cour', 'classe']","['compétition', 'retrouver amis', 'rencontrer nouvelles personnes']","['évaluation', 'incompréhension']","['plateaux', 'classe']",['salle de classe'],2
+5e,Garçon,2,2,2,2,0,0,0,2,"['vie de classe', 'discussion']","['sport', 'environnement et solidarité']",[],['la cour'],['la cour'],['classe'],"['la cour', 'cantine']",[],2
+5e,Fille,2,2,3,3,2,2,2,3,[],['projet pédagogiques'],[],"['programme', 'horaire']",['récréation'],['7h45'],"['la cour', 'ccc']",[],0
+6e,Fille,2,1,2,3,1,1,1,2,['compréhension'],['sport'],['cours de math'],['aucun'],[],"['retenue', 'devoirs']","['salle de classe', 'foyer']",[],2
+5e,Garçon,2,2,0,2,1,1,1,2,['aucun'],['sport'],[],"['classe', 'temps', 'cantine']",[],['classe'],['classe'],[],2
+5e,Garçon,3,3,3,2,2,3,2,2,"['respect', 'discussion', 'écoute', 'honnêteté', 'gentillesse', 'dialogue']","['sport', 'MUN']",[],"['finir', 'temps', 'activités']","['amis', 'pause', 'cours intéressants']","['tensions', 'disputes', 'incompris']",[],[],0
+4e,Fille,2,2,2,3,3,2,1,2,"['honnêteté', 'respect']",['sport'],"['la cour', 'classe']",['respect'],[],[],[],['permanance'],0
+4e,Garçon,2,1,2,1,1,1,2,2,['respect'],"[""vie de l'établissement""]","['prof', 'cpe']","['snack', 'argent', 'accès']",['projet'],['évaluation'],"['auditorium', 'terrain']",[],3
+4e,Fille,2,2,3,2,3,2,1,1,['respect'],"['environnement et solidarité', 'art et culture']","['délégués', 'cvc', 'phare']","['écoute', 'autonomie']","['projets', 'got talent', 'concert', 'pauses méridiennes', 'cours de maths', ""fin d'année""]",[],"['la cour', 'auditorium']",['salle de classe'],0
+5e,Garçon,2,1,3,2,0,3,2,2,"['écoute', 'dialogue']",['sport'],['la cour'],"['dialogue', 'confiance', 'écoute', 'respect']","['cour de récréation', 'cantine']",['salle de classe'],['classe'],[],2
+5e,Fille,2,1,3,2,1,1,2,2,"['respect', 'écoute']",['MUN'],['aucun'],"['écoute', 'tolérance', 'pression', 'respect', 'sommeil']",['rire avec amis'],['cours ennuyants'],['la cour'],['salle de classe'],2
+5e,Fille,2,3,3,0,1,2,3,3,"['acceptation', 'jugement']",[],[],"['queue', 'sortie']","['pauses déjeuner', 'travaux de groupes', 'médiathèque']","[""queue à l'avis scolaire"", 'cours longs sans pauses']","['la cour', 'allée', 'médiathèque']","['toilettes', 'cantine']",3
+6e,Garçon,2,2,3,1,1,2,2,3,['aucun'],['sport'],['salle de classe'],"['français', 'récrées', 'compréhension', 'surveillants']","['récréation', 'pauses méridiennes', 'cours de sport']",['évaluation'],"['cantine', 'terrain', 'foyer', 'permanence']","['permanence', 'salle de classe']",3
+5e,Fille,2,2,1,2,1,1,0,1,"['écoute', 'compréhension']","['sport', ""vie de l'établissement""]","['la cour', 'cantine']","['horaires', 'cantine', 'évaluation', 'téléphones']",['cantine'],['évaluation'],['classe'],['sals'],2
+6e,Fille,2,1,0,2,2,1,1,2,"['calme', 'respect', 'écoute']","['sport', 'projet pédagogiques']",[],"['horaire', 'sommeil', 'concentration']",['professeurs absents'],"['commence à 7:45', 'fatiguant']",['salle de classe'],['salle de classe'],2
+5e,Garçon,3,1,2,3,0,0,0,1,['énervement'],[],['aucun'],"['écoutes', 'responsables', 'désagréables']",[],['tabourets'],['ccc'],[],2
+6e,Fille,3,3,3,0,2,2,3,3,['aucun'],[],"['la cour', 'cantine', 'permanence']",['fontaine'],['rencontres avec ami(e)s'],['malade'],[],[],0
+5e,Garçon,2,2,3,0,0,0,1,1,[],[],[],[],[],[],[],[],3
+5e,Garçon,2,2,3,3,1,2,2,1,[],['sport'],[],"['toilettes', 'basket', 'manger']",['bon emploi du temps'],[],['terrain'],['toilettes'],2
+6e,Fille,1,2,2,0,0,2,0,2,[],[],[],"['voyage', 'équitable']",['discuter avec mes amis'],['cours ennuyeux'],[],"['ccc', 'permanence']",1
+5e,Fille,1,2,1,1,1,1,1,1,"['confiance', 'dialogue', 'raisonnable']",['sport'],"['infirmerie', 'cpe', 'salle de classe']",['stricte'],['pause déjeuner'],"['évaluation', 'stress', 'angoisse']",['plantes'],['salle de classe'],2
+5e,Fille,2,1,0,1,2,1,0,1,['aucun'],['art et culture'],['aucun'],['téléphone'],['absence des professeurs'],[],['classe'],[],3
+6e,Garçon,3,0,1,1,0,0,3,3,"['écoute', 'arguments']",['art et culture'],['aucun'],"['aed', 'comportement', 'élèves']","['politesse', 'camarades']",[],[],[],2
+6e,Fille,2,2,3,2,1,2,1,2,[],"[""vie de l'établissement""]",[],"['heures', 'colle', 'exclusion']",['heures creuses'],[],['la cour'],[],2
+6e,Fille,3,2,2,2,0,1,1,3,"['espace', 'la cour']",['art et culture'],['classe'],['récréation'],"['bonnes notes', 'activités']",['mauvaises notes'],['ccc'],['classe'],2
+6e,Fille,1,2,2,2,1,2,2,1,[],"['art et culture', 'sport']",[],"['empathie', 'harcèlement', 'gentillesse']","['sortie', 'avec ma meilleure amie']",['rappel de poids'],"['recréation', 'cantine', 'dehors']",['école'],2
+5e,Fille,3,2,3,3,2,3,2,2,[],['sport'],[],"['casiers', 'confort', 'organisation']",[],[],"['la cour', 'ccc']",[],0
+6e,Garçon,2,2,3,2,3,1,1,2,"['discussion', 'salle de classe']",['MUN'],['la cour'],['surveillant'],[],[],['la cour'],['cantine'],0
+4e,Garçon,3,2,3,2,2,1,1,3,[],['MUN'],['la cour'],"['8h', '13h', 'activités', 'sportives', 'antistatiques', 'ludiques', 'après-midi']","['heures creuses', 'pause']",[],"['ccc', 'la cour']",[],0
+4e,Fille,2,2,3,2,1,2,2,3,[],"['MUN', ""vie de l'établissement"", 'art et culture']",[],"['horaires', 'eau', 'qualité', 'desserts', 'entrées']",['amis'],"['classe', 'professeurs']","['la cour', 'médiatèque']",[],2
+5e,Fille,2,1,3,2,2,2,2,2,"['écoute', 'confiance']","['art et culture', 'sport', 'projet pédagogiques']","['salle de classe', 'la cour', 'cellule phare']","['groupes', 'écoute', 'partage']",['amis'],['moquerie'],[],[],0
+6e,Fille,3,2,3,2,0,0,1,2,"['écoute', 'compréhension']",['art et culture'],['aucun'],"['aed', 'sévères', 'crie']","['amies', 'profs absent']",[],['recrée'],[],2
+5e,Fille,2,2,2,2,2,2,1,2,[],"['MUN', 'MUN']",[],['téléphone'],[],[],"['préau', 'bulle']",[],2
+6e,Garçon,2,2,1,3,0,2,1,3,['gentillesse'],['MUN'],[],"['ligne', 'compréhension', 'cantine', 'récréation', 'horaires']",['pause'],['évaluation surprise'],"['foyer', 'permanence']","['toilettes', 'salle de classe']",2
+5e,Fille,2,1,2,0,1,0,2,3,[],[],[],"['emplois', 'permanence', 'organisation', 'vestimentaire']","['adultes compréhensifs', ""beaucoup d'heures pour manger""]","['travail en permanence', 'pas de surveillance', 'ordinateur rangé', 'attente demi-pensionnaires']",['médiatheque'],"['cantine', 'toilettes']",3
+6e,Fille,3,3,2,0,1,3,2,2,['aucun'],[],[],[],[],[],[],[],3
+6e,Fille,2,3,2,1,2,2,2,2,[],['art et culture'],['classe'],"['barrière', 'surveillant', 'calme', 'toilettes']","['partir chez moi entre midi et deux', 'rentrer chez moi à 16 h']",['rester avec des personnes dans la classe'],"['couloir', 'permanence']",['rangs'],0
+5e,Garçon,2,1,1,1,1,1,1,1,['respect'],['MUN'],[],['surveillant'],[],['tous'],['ccc'],['endroits'],2
+6e,Fille,3,1,2,3,1,0,1,2,"['écoute', 'pédagogie']","['MUN', 'MUN', 'art et culture', ""vie de l'établissement""]","['massmun', 'osuimun']","['cpe', 'horaires', 'cartable', 'cahiers', 'pc']","['amis', 'foyer']","['réveil à 6h', 'sortir à 17h', 'covoiturage']",[],"['permanence', 'ccc']",2
+5e,Fille,1,2,2,1,1,0,1,2,['aucun'],[],['aucun'],"['clims', 'horaires', 'parasols', 'bancs']",[],"['queue à la cantine', 'soleil']","['toilets', 'ccc']",['permanence'],3
+6e,Fille,2,1,3,0,1,3,2,2,['aucun'],[],['aucun'],['permanence'],[],['cpe'],[],"['ccc', 'permanance']",3
+6e,Garçon,1,2,0,2,0,1,0,2,['organisation'],['sport'],[],"['temps', 'interclasses']",['pause'],['salle de classe'],['ccc'],['salle de classe'],1
+5e,Garçon,1,1,2,1,1,0,1,0,"['tolérance', 'compréhension']","[""vie de l'établissement""]",[],['horaires'],"['musculation', 'mma']",['école'],['foyer'],['permanence'],1
+5e,Fille,2,2,1,2,2,2,0,3,[],['sport'],[],['horaires'],['fin des cours'],['rentre en cours'],['cantine'],['classe'],2
+5e,Garçon,2,3,2,2,2,2,2,3,"['écoute', 'dialogue']",['projet pédagogiques'],['vie de classe'],"['circulation', 'compétition']","['amis', ""rubik's cube""]","['classe', 'français']","['ccc', 'permanence']","['la cour', 'permanence']",0
+6e,Fille,2,2,2,1,3,2,2,2,[],['projet pédagogiques'],"['salle de classe', 'classe']","['horaires', 'pause', 'synchronisation']",[],[],['la cour'],[],0
+5e,Garçon,2,2,2,1,2,2,1,2,['respect'],['sport'],[],['aucun'],['pause'],['cours de 2h'],"['ccc', 'permanence']",['classe'],3
+6e,Fille,1,3,1,2,1,2,1,2,"['compréhension', 'écoute', 'discussion', 'médiation']","['art et culture', 'projet pédagogiques']",['classe'],"['respect', 'autorité', 'justice', 'égalité']","['ccc', 'livre', 'silence', 'discipline']","['évaluation', 'stress']",['ccc'],['escalier'],2
+5e,Fille,2,2,2,1,2,2,0,1,['respect'],['sport'],[],['horaires'],['la cour'],[],[],[],3
+6e,Fille,2,2,2,2,0,1,1,3,"['intégration', 'conseils de classe']","['art et culture', ""vie de l'établissement""]",['la cour'],"['surveillants', 'ccc', '3èmes']",['bonnes notes'],"['mauvaises notes', 'cantine']",['ccc'],"['couloirs', 'salle de classe']",2
+6e,Fille,2,1,1,0,0,0,0,1,[],['art et culture'],[],"['heures', 'bienveillance', 'respect']",['heures creuses'],['bureau du cpe'],"['permanences', 'la cour']","['salle de classe', 'ccc']",1
+6e,Fille,2,1,2,3,1,1,0,2,[],['sport'],[],"['chaises', 'confort']",['cantine'],['ds commun'],['lycée'],['salle de classe'],2
+5e,Garçon,3,2,3,2,3,3,2,3,['aucun'],"['sport', 'projet pédagogiques']",[],['aucun'],['récréation'],['évaluation régulière'],"['classe', 'class']",[],0
+5e,Garçon,3,2,3,0,3,2,2,3,"['échange', 'respect']",[],[],['horaires'],"[""fin de l'année""]",['commence les cours'],['ccc'],['permanence'],0
+5e,Fille,2,1,3,2,2,1,0,2,[],['sport'],['aucun'],"['foot', 'horaires', 'téléphones']","['finir les cours', 'week-end']","[""partir à l'école""]",['cantine'],['classe'],2
+6e,Fille,2,2,2,0,3,2,3,3,['aucun'],[],"['professeur', 'aed']",[],['cours que tu adores'],[],[],[],0
+5e,Fille,1,1,2,3,0,0,0,2,"['écoute', 'amabilité']","['art et culture', 'sport', ""vie de l'établissement"", 'sport']",['aucun'],"['téléphone', 'pause', 'classe']","['récréation', 'pose déjeune']",[],['table'],[],2
+4e,Fille,3,2,3,3,1,1,3,1,['aucun'],['art et culture'],[],"['pcs', 'dehors']","['ccc', 'scène slam']",[],"['ccc', 'la cour', 'couloirs', 'auditorium']",[],0
+6e,Fille,2,1,3,0,2,1,1,1,"['écoute', 'discussion']",[],"['salle de classe', 'cpe']",['voyages'],"['amis', 'cours intéressants', 'projets']","['trop de devoirs', 'disputes', 'punitions']",['ccc'],['la cour'],3
+5e,Garçon,2,1,3,0,1,0,1,0,['délégués'],[],[],"['règles', 'escalier', 'temps']",['avant cours facile'],[],['salle de classe'],"['classe', 'cantine']",3
+6e,Fille,2,3,3,1,1,1,1,3,['respect'],['projet pédagogiques'],[],"['gentillesse', 'accès', 'terrain', 'activités']",['rigole avec mes amies'],"['camarades désagréable', 'mauvaises notes']","['la cour', 'salle de classe', 'ccc']","['salle de classe', 'salle de classe']",3
+6e,Fille,2,0,2,3,0,1,0,3,['parler'],"['art et culture', ""vie de l'établissement""]",['classe'],['propreté'],['récréation'],['ds commun'],['allée'],['salle de classe'],1
+5e,Fille,2,3,3,2,1,2,3,2,[],"[""vie de l'établissement""]",['salle de classe'],['queues'],['2h de pause pour manger'],['1h pour manger'],"['la cour', 'allée']",[],0
+4e,Fille,0,1,1,0,2,1,1,2,"['respect', 'échange', 'confiance', 'transparence']",[],[],"['climatiseurs', 'espaces', 'détente']",['sorties scolaires'],['tensions en classe'],"['la cour', 'cdi']",['salle de classe'],1
+5e,Garçon,1,2,2,1,1,0,1,2,[],['MUN'],[],"['liberté', 'amusement']",['tournoi de badminton'],"['ignoré', 'moqué']","['foyer', 'ccc']",[],2
+6e,Fille,0,1,1,2,1,1,0,1,['aucun'],['sport'],['aucun'],"['système', 'soutien', 'trilangue']","[""sortie de l'école""]",[],['ccc'],['permanence'],1
+5e,Garçon,3,2,3,2,0,0,1,2,['aucun'],[],[],"['tables', 'ombre', 'chaises', 'dossier', 'activités', 'la cour']",['permanence extérieure'],['surveillants'],['ccc'],[],2
+4e,Garçon,2,2,2,1,1,1,1,3,"['gentillesse', 'respect']","[""vie de l'établissement""]","['la cour', 'vie scolaire', 'salle de classe']","['activités', 'tms', 'réservation', 'manger', 'écouter', 'problèmes']","['professeur absent', 'heure de libre', 'pause', 'finir plus tôt']","['cours rajoutés', 'déplacement de cours', 'heure creuse', 'punition', 'finir à 17h', 'beaucoup de devoirs']",['la cour'],['la cour'],2
+5e,Fille,2,2,2,2,1,1,2,2,"['écoute', 'respect']","['MUN', 'sport']",['aucun'],"['horaire', 'égalité']","['récrés', 'pause déjeuner']","['premier cours à 7h45', 'certains cours', 'profs qui favorisent', 'profs qui ignorent']","['bancs', 'cantine']",['salle de classe'],2
+5e,Fille,2,2,2,0,0,1,0,2,[],[],[],['chaises'],['moments avec mes copines'],[],[],[],1
+6e,Fille,2,2,3,0,2,1,1,2,['écoute'],[],['aucun'],"['fontaine', 'eau']",[],['mauvaises notes'],['ccc'],[],3
+5e,Garçon,2,2,1,3,1,0,1,1,[],"['sport', ""vie de l'établissement""]",[],['liberté'],"['récréation', 'cantine']",['éval'],['salle de classe'],['toilette'],2
+6e,Garçon,3,3,3,3,2,2,3,3,['aucun'],"['projet pédagogiques', 'art et culture', 'sport']",['la cour'],"['jeux', 'foyer', 'horaires']","['foyer', 'amis']","['rien à faire', 'foyer fermé']","['foyer', 'ccc', 'permanence']",['permanence'],0
+6e,Fille,2,0,1,3,0,0,0,2,"['écoute', 'gentillesse', 'sécurité', 'respect']","['sport', ""vie de l'établissement""]",['aucun'],['aucun'],"['salle de détente', 'ccc', 'amies', 'jouer', 'rigoler']","['classe', 'bousculades', 'cpe', 'élèves en 3ème', 'profs', 'heures de colles', 'observations', 'pronote', 'badges']","['ccc', 'salle de classe']",[],1
+5e,Fille,3,2,3,3,3,3,3,3,[],"['MUN', 'sport', 'art et culture']","['la cour', 'cantine', 'salle de classe']","['notation', 'liberté', 'expression']",['fin des cours'],['évaluation'],"['la cour', 'ccc']","['salle de classe', 'bulle']",0
+6e,Garçon,2,2,2,1,1,2,3,3,[],['sport'],['cpe'],['harcèlement'],['fin des cours'],"[""file d'attente au réfectoire""]",['ccc'],['refectoir'],0
+5e,Fille,3,2,2,2,1,1,1,2,['aucun'],"[""vie de l'établissement"", 'sport']","['recréation', 'cantine']","['heures', 'classe', 'pause']",['pause'],"['queue', 'permanence', 'toilettes']","['cantine', 'la cour']",['toilette'],2
+5e,Fille,1,2,2,2,2,0,0,3,"['communication', 'écoute', 'boîte']","['art et culture', 'sport', ""vie de l'établissement""]",[],"['séries', 'films', 'jeux', 'chaises', 'lignes', 'kiosque', 'librement', 'médiathèque', 'horaires']",['rire avec mes amies'],['élèves mauvais'],['fauteuils'],"['escaliers', 'sol', 'chaises']",2
+5e,Garçon,3,2,3,3,0,0,2,2,[],['sport'],[],"['tabourets', 'activités', 'samedi', 'piscine', 'gymnase', 'plateaux']","['amis', 'vendredi après-midi']","['observation', 'heure de colle']","['bulle', 'ccc']",[],2
+5e,Fille,2,1,2,2,1,1,1,2,[],['projet pédagogiques'],[],['punitions'],['rigole avec mes amis'],"['punitions', 'mauvaise notes']",['classe'],[],2
+5e,Garçon,2,2,2,0,3,3,1,2,"['jeux', 'bonne humeur']",[],['récrée'],['travail'],['la cour'],[],['récrée'],[],3
+6e,Garçon,3,2,2,2,1,1,0,3,[],['sport'],[],"['sport', 'foot', 'punition']","['amis', 'prof absent']","['insultes', 'observation', 'heure de colle']",['terrain'],['permanence'],2
+6e,Fille,2,2,3,2,2,2,1,2,"['dialogue', 'liberté', 'sincérité', 'expression']",['sport'],[],"['ventilateur', 'fontaine']","['pause', 'amies']","['classe', 'bousculades']",['cantine'],[],2
+6e,Fille,2,2,3,0,2,2,2,3,[],[],[],[],[],[],[],[],3
+5e,Fille,2,2,2,2,1,1,2,1,"['compréhension', 'écoute', 'respect']",['sport'],[],"['chaises', 'climatisation', 'toilettes', 'activités', 'respect', 'tenue', 'horaires']","['heure creuses', 'bonnes notes', 'pas cours', 'fini tôt']",[],"['permanences', 'salle de classe']","['permanences', 'toilettes']",2
+6e,Fille,2,2,2,0,2,2,2,2,[],[],[],"['ventilateur', 'fontaine']",['pause'],[],['poses'],[],3
+6e,Garçon,2,1,1,2,1,0,1,2,"['écoute', 'explication']",['projet pédagogiques'],[],['climatisation'],['aucun'],['prof qui gronde'],[],['salle de classe'],2
+5e,Garçon,2,2,2,2,2,2,1,2,[],"['art et culture', 'environnement et solidarité', ""vie de l'établissement"", 'sport']",[],[],[],[],[],[],2
+4e,Fille,2,2,2,0,1,1,1,2,[],[],[],[],['la cour'],['classe non solidaire'],['médiathèque'],['cantine'],3
+5e,Fille,2,3,3,2,2,2,2,3,[],"['MUN', 'sport']",['la cour'],['jeu'],['avec mes amis'],[],[],[],0
+5e,Garçon,2,2,2,0,3,3,2,3,['aucun'],[],['la cour'],"['pc', 'installer']","['parler entre amis', 'manger ensemble']","['évaluation', 'stresse pour note']","['la cour', 'grillage', 'préau']",[],3
+6e,Fille,2,2,2,3,1,1,2,3,"['écoute', 'arguments']","['MUN', ""vie de l'établissement""]",[],"['casiers', 'classe', 'langue']","['récréation', 'réfectoire', 'fin des cours']",['certains cours'],"['ccc', 'foyer', 'permanences', 'dehors']",['salle de classe'],2
+6e,Fille,2,2,2,2,1,1,2,3,"['écoute', 'arguments']","['projet pédagogiques', ""vie de l'établissement""]",[],"['casiers', 'emploi']","['récréation', 'réfectoire', 'fin des cours']",['certains cours'],"['la cour', 'foyer']",[],2
+6e,Fille,2,2,3,3,3,3,1,3,[],['sport'],"['vie scolaire', 'cpe', 'prof', 'ca', 'responsables phares']",['extérieur'],"['classe', 'pause']",[],['terrain'],['récréation'],0
+4e,Fille,1,1,1,2,2,1,0,2,"['santé', 'écoute', 'compréhension']","['MUN', 'art et culture']",['aucun'],"['système', 'professeur']","['amies', 'seul']","['stress', 'notes', 'moyenne', 'non voulu']",[],[],2
+5e,Fille,2,2,3,0,2,2,1,2,['empathie'],[],['aucun'],['toilettes'],['poses'],[],['la cour'],[],3
+5e,Fille,0,0,0,2,0,0,0,0,['aucun'],"['sport', ""vie de l'établissement""]",[],[],[],[],[],[],1
+5e,Fille,2,2,2,2,1,1,1,2,[],['sport'],['la cour'],['charge'],['la cour'],['très longues journées'],['la cour'],[],2
+5e,Garçon,2,2,2,2,1,1,1,2,"['écoute', 'suggestions', 'commentaires']",['art et culture'],"['professeur', 'aed']","['téléphones', 'surveillants']",['heures creuses'],['3 dernières heures des après-midi'],"['ccc', 'permanence']","['toilettes', 'la cour']",2
+6e,Fille,2,2,2,0,2,3,2,2,['aucun'],[],[],"['gaming', 'nourriture', 'cinéma']","['dort devant la télé', 'mangeant']",['travaille'],['lit'],['toilette'],3
+6e,Fille,2,2,3,1,2,2,1,3,[],['sport'],['recréation'],"['horaires', 'fatigue']",['la cour'],['heures de colle'],"['terrain', 'la cour']",['piscine'],3
+5e,Fille,2,2,2,2,1,1,1,2,['aucun'],[],['aucun'],"['charge', 'finir', 'commencer']","[""sortie de l'école""]",['évaluation'],['la cour'],[],2
+5e,Fille,2,1,1,1,1,1,1,2,[],['MUN'],[],"['clims', 'téléphone']",['la cour'],['classe'],"['médiathèque', 'salle de classe']",[],2
+5e,Garçon,2,3,3,1,1,2,2,3,['encouragements'],[],['la cour'],['horaires'],['amis'],['cries dessus'],['la cour'],['salle de classe'],3
+5e,Fille,2,1,3,0,1,2,0,2,"['respect', 'sanctions']",[],[],"['stress', 'charge', 'respect', 'compréhension', 'sanctions', 'écoute']","['apprendre', 'intéressant']","['évaluation', 'cours ennuyeux']",[],[],1
+4e,Fille,3,3,3,2,2,2,2,3,['aucun'],"['art et culture', 'MUN']",[],"['salle de classe', 'repos', 'fauteuils', 'confortables', 'discuter', 'utilité']","['pause', 'certains cours']",['évaluation'],"['classe', 'médiathèque']",['permanences'],0
+5e,Garçon,2,1,0,2,3,0,0,1,"['écoute', 'patience', 'dialogue', 'présence', 'disponibilité']","['art et culture', 'projet pédagogiques']",[],"['autorité', 'organisation', 'respect', 'cantine']","['pause', 'heures creuses', 'fin de la journée']","['classe', 'queue pour la cantine', 'examens']","['perm', 'ccc']",['permanence'],2
+4e,Fille,3,2,2,2,2,1,1,2,['écoute'],"['art et culture', ""vie de l'établissement""]","['cpe', 'délégué', 'cvc']","['sanctions', 'sévérité']","['amis', 'travailler', 'apprendre']",['réveiller tôt'],"['classe', 'salle de classe']",[],0
+5e,Garçon,2,1,2,1,1,1,2,2,"['honnêteté', 'confiance']","[""vie de l'établissement""]",[],['expression'],['la cour'],"[""cours d'espagnol""]",[],[],3
+4e,Garçon,2,0,1,0,1,0,1,2,"['communication', 'bienveillance', 'écoute']",[],['salle de classe'],[],[],[],[],[],1
+5e,Fille,2,2,3,3,1,0,1,2,"['confiance', 'dialogue', 'écoute']","['sport', 'MUN', 'MUN']",[],"['climatisation', 'récréation', 'emploi', 'horaires', 'devoirs', 'cartables']",['la cour'],"['professeurs', 'évaluation', 'journées interminables', 'dress code', 'salles non climatisées', 'récréations trop courtes', 'vie scolaire', 'surcharge de devoirs', 'cartables trop lourds']","['médiathèque', 'la cour', 'cantine']","['salle de classe', 'permanences', 'queue']",2
+6e,Fille,3,2,3,2,2,2,2,2,"['communication', 'bienveillance', 'non-violence', 'climat', 'salle de classe', 'respect']",['MUN'],"['salle de classe', 'classe']","['clim', 'espaces', 'classe']","['sport', 'salle de classe']",['évaluation'],"['classe', 'médiathèque', 'foyer']",['salle de classe'],0
+4e,Garçon,2,1,2,2,2,2,1,2,"['compréhension', 'expression', 'écoute']",['sport'],"['amis', 'professeur']","['jeux', 'évaluation']","['vacances', 'jeux']","['évaluation', 'ds', 'commun']","['permanence', 'recré']",['salle de classe'],2
+6e,Fille,2,2,2,3,3,3,3,3,"['communication', 'compréhension', 'empathie']","['art et culture', 'sport', 'projet pédagogiques']","['foyer', 'permanence', 'endroit']",['aucun'],"['apprendre', 'voir mes amies']","['leçon incomplète', 'projet non terminé', 'objectifs non atteints']","['la cour', 'ccc', 'auditorium', 'cave']",['salle de classe'],0
+6e,Garçon,0,0,0,2,0,0,2,2,"['respect', 'écoute']","['projet pédagogiques', 'sport']",[],"['écoutés', 'horaires', 'devoirs', 'organisation']","['foot', 'foyer', 'cours de français']",[],[],[],1
+4e,Fille,1,1,2,0,3,1,2,3,"['vocabulaire', 'modération', 'écoute', 'respect']",[],[],"['cantine', 'temps']","['amis', 'rigole']",['cantine'],"['classe', 'cantine']",[],3
+5e,Garçon,3,2,3,1,3,1,0,3,[],['MUN'],['tout'],['clims'],['récréation'],['classe'],['extérieurs'],['salle de classe'],3
+5e,Garçon,1,2,0,1,1,0,1,3,[],['sport'],['aucun'],"['la cour', 'horaires']",[],[],['permanence'],['salle de classe'],2
+4e,Fille,2,1,2,2,1,1,1,3,"['réalisation', 'résolution', 'action', 'engagement']","['MUN', 'sport', 'projet pédagogiques']",[],"['salle de classe', 'repos', 'cantine', 'manger']","['amuse', 'amies']","['cantine', 'mange tôt', 'attente', 'plus rien à manger']",['la cour'],['permes'],2
+5e,Garçon,2,2,1,2,2,1,2,2,"['écoute', 'modération', 'animation']","['MUN', 'art et culture']","['la cour', 'travail en groupe', 'classe']","['animation', 'salle de classe', 'motivation']","['travail en groupe', 'permanences']",['classe'],"['ccc', 'permanence']",['salle de classe'],0
+3e,Garçon,3,2,3,2,2,2,3,3,"['votes', 'avis', 'décision']",['environnement et solidarité'],[],[],[],[],[],[],0
+3e,Fille,2,0,0,2,1,1,0,2,['respect'],"['sport', ""vie de l'établissement""]",[],"['permanence', 'choix']",['pause'],['heure creuse'],['terrain'],['permanence'],1
+3e,Fille,2,1,1,2,1,1,2,2,[],[],[],[],[],[],[],[],2
+3e,Fille,0,0,0,1,0,0,0,0,"['écoute', 'respect']",[],[],"['respect', 'stigmate']",['pause'],['classe'],[],[],1
+3e,Garçon,2,2,2,1,1,1,1,1,['écoute'],[],['profs'],"['vie scolaire', 'communication']",['sans stress'],['comprendre rien en cours'],['terrain'],[],3
+3e,Garçon,2,2,3,0,2,1,3,2,"['gentillesse', 'compréhension']",[],[],['aucun'],['récréation'],['heures de colles'],['classe'],['permanence'],3
+3e,Fille,2,1,1,2,1,1,1,1,[],[],[],[],[],['interrogation'],[],[],2
+4e,Garçon,3,2,3,0,2,1,2,2,['sérieux'],[],[],[],['pauses méridienne'],[],[],[],3
+3e,Garçon,3,2,3,3,1,2,3,3,['respect'],"['art et culture', ""vie de l'établissement""]",['salle de classe'],"['harcèlement', 'comportements']",['cours intéressants'],['cours pas intéressants'],"['allée', 'cantine']",['salle de classe'],0
+3e,Fille,2,1,3,1,2,2,2,2,"['compréhension', 'écoute']",['sport'],[],"['cantine', 'nourriture', 'clim', 'odeur']",['avec mes amis'],"['profs', 'règlement', 'cantine', 'nourriture']","['médiathèque', 'la cour', 'cantine']",[],3
+3e,Fille,2,0,1,3,2,1,0,0,[],"['MUN', 'sport', 'sport', 'art et culture', 'art et culture']",[],[],[],[],[],[],2
+3e,Fille,1,0,0,3,0,0,2,1,[],[],[],"['strict', 'écoute', 'sincérité']","['amis', 'activités']",[],['couloir'],[],1
+3e,Garçon,2,2,3,0,2,2,1,2,['aucun'],[],[],['clims'],['amis'],['evals'],[],[],3
+3e,Fille,1,2,1,2,1,1,0,1,[],"['sport', 'art et culture']",[],[],[],[],[],[],2
+3e,Garçon,3,2,3,0,2,0,3,2,"['écoute', 'salle de classe']",[],[],['aucun'],['pause'],['test'],['permanence'],['cantine'],0
+3e,Fille,2,2,3,1,1,2,1,1,"['écoute', 'consultation']",['art et culture'],['aucun'],['aucun'],['bonne note'],['mauvaise note'],['plage'],['classe'],2
+3e,Garçon,2,2,3,2,0,0,1,2,"['blog', 'dialogue', 'écoute', 'interaction']","['sport', 'MUN']",['aucun'],"['balle', 'soutien']","['classe', 'as', 'interaction sociale']",['évaluation'],['structures'],['salle de classe'],2
+3e,Fille,3,2,2,3,2,2,3,3,[],['MUN'],['salle de classe'],[],"['évènements', 'voyage']",[],[],[],0
+3e,Garçon,2,1,2,3,2,1,1,2,[],"[""vie de l'établissement""]",[],['aucun'],['avec mes amis'],[],['foyer'],['salle de classe'],2
+3e,Fille,2,2,1,3,1,2,1,1,"['humour', 'tolérance']",['art et culture'],[],[],[],[],[],[],2
+3e,Fille,3,3,3,0,3,3,2,3,['respect'],[],['cellule'],['clime'],['la cour'],['cours à 7h45'],['récrée'],['classe'],0
+3e,Fille,2,1,2,2,1,1,1,2,[],"['MUN', 'environnement et solidarité', 'sport', 'art et culture']",[],"['accès', 'terrain', 'sportif']",['récrés'],"[""cours d'histoire géo""]","['la cour', 'terrain', 'salle de classe']",['permanences'],2
+3e,Garçon,2,0,2,3,0,0,0,2,"['respect', 'prise de parole', 'décision']",['MUN'],[],"['communication', 'staff', 'organisation', 'sortie', 'garde', 'relation']",['aucun'],['aucun'],[],[],1
+3e,Fille,3,1,2,3,2,1,1,3,['écoute'],"['MUN', ""vie de l'établissement""]",['cours de récréation'],"['perm', 'repos']",['pause'],['classe'],['classe'],['salle de classe'],2
+3e,Fille,2,1,2,1,1,1,1,2,[],['MUN'],[],[],[],[],['ccc'],[],2
+3e,Garçon,2,1,2,0,3,2,1,0,['tolérance'],[],[],[],[],[],[],[],3
+3e,Fille,3,2,3,2,3,2,1,2,[],"['environnement et solidarité', 'sport', ""vie de l'établissement""]",['aucun'],"['cantine', 'perm']",['heures de permanences'],"['surveillants', 'cantine']",['dehors'],[],0
+3e,Fille,2,3,3,3,2,1,2,2,['compréhension'],['art et culture'],[],[],"['la cour', 'cantine']",[],"['ccc', 'la cour']",[],0
+3e,Garçon,2,2,1,0,1,1,3,1,['respect'],[],['salle de classe'],['aucun'],"['récréation', 'travail en groupe', 'voyages']",[],['la cour'],[],3
+3e,Garçon,3,2,3,2,2,3,2,1,[],['art et culture'],[],[],[],[],[],[],0
+3e,Fille,1,0,1,3,0,0,0,1,"['écoute', 'justification']","['MUN', ""vie de l'établissement""]",[],"['pédagogue', 'écouter', 'horaires', 'emploi']",['chez moi'],"['classe', 'heures de repos']","['la cour', 'cantine']",[],1
+3e,Fille,3,3,3,0,3,3,3,3,['respect'],[],['cellule'],"['clims', 'chauffages']",['cantine'],['cours de 16 à 17'],['la cour'],[],0
+3e,Fille,2,1,3,0,1,0,2,2,[],[],[],['horaires'],['amis'],['matinées'],['classe'],['terrain'],3
+3e,Fille,2,1,3,3,2,1,1,2,"['écoute', 'avis', 'expression']",['MUN'],"['cours de récréations', 'professeurs']","['snack', 'produits', 'gâteaux', 'biscuits']","['interaction', ""s'amuser"", 'travailler de manière ludique']","['cours stricts', 'pas de rigolade', 'pas de discussion']",['la cour'],['salle de classe'],2
+3e,Garçon,2,2,2,0,0,1,2,2,['aucun'],[],[],['aucun'],['fin des cours'],[],[],[],3
+3e,Fille,2,3,3,3,2,2,3,2,"['échange', 'confiance']","['MUN', ""vie de l'établissement"", 'sport']","[""heures d'échange"", 'la cour']",['climatisation'],"['classe', 'cour de récré']",['cantine'],"['classe', 'ccc', 'permanance', 'foyer']",['toilettes'],0
+3e,Garçon,3,1,2,3,2,2,1,2,['cohésion'],"['environnement et solidarité', 'environnement et solidarité', 'environnement et solidarité']",['aucun'],['aucun'],[],[],[],[],2
+6e,Fille,2,2,2,2,2,2,3,2,[],[],[],[],[],[],[],[],0
+3e,Garçon,2,2,3,3,2,2,2,2,['écoute'],"[""vie de l'établissement"", 'art et culture']","['aed', 'cpe', 'enseignants']","['emplois', 'salle de classe', 'sport', 'ccc']","['récréation', 'pause']","['évaluation', 'stresse', 'journées longues']","['classe', 'salle de classe', 'permanence']",['salle de classe'],0
+3e,Fille,2,2,3,2,1,2,2,2,['respect'],"['art et culture', 'MUN']",['scène'],"['pression', 'devoirs']",['pauses déjeuner'],['cours avec difficultés'],['classe'],"['cantine', 'classe']",2
+3e,Garçon,2,1,3,0,2,1,0,2,['aucun'],[],[],"['objectivité', 'sport', 'droits']","['foot', 'voyages', 'discussion']","['heures de colle', 'mauvaises notes']",['plateaux'],['bureau'],3
+3e,Garçon,2,2,2,2,2,2,2,2,"['réflexion', 'durabilité']",['MUN'],[],"['compétences', 'respect']","['cours avec bons profs', 'bonne ambiance', 'discussions avec élèves']",['dernière heure'],"['ccc', 'salle de classe']",[],0
+3e,Fille,2,1,1,3,1,1,2,1,['respect'],['art et culture'],[],"['pression', 'respect', 'adultes']","['amis', 'pause']",['classe'],"['classe', 'salle de classe', 'ccc']",[],2
+3e,Fille,2,1,3,2,2,1,0,2,"['communication', 'écoute', 'respect']",['sport'],['salle de classe'],['aucun'],"['pause', 'pas trop cours']",[],[],['couloir'],2
+3e,Garçon,3,3,3,3,2,2,1,2,[],"[""vie de l'établissement"", 'sport', 'projet pédagogiques']",[],[],[],[],[],[],0
+6e,Fille,2,1,1,0,2,0,1,2,['aucun'],[],[],[],['pauses déjeuner'],"[""cours d'svt""]",['la cour'],[],3
+3e,Garçon,3,2,3,3,3,3,2,3,"['communication', 'espace']",['sport'],['la cour'],"['terrain', 'eau']",['entre amis'],['disputes entre amis'],"['la cour', 'terrain']",['permanence'],0
+3e,Garçon,2,1,2,3,1,2,1,1,"['écoute', 'égalité']","['art et culture', 'sport', ""vie de l'établissement"", 'projet pédagogiques', 'art et culture']",[],"['permanence', 'détente', 'jouer', 'stress']",['amis'],['seul'],['passage'],['classe'],2
+3e,Garçon,2,1,2,1,1,2,1,2,[],['MUN'],['salle de classe'],"['cpe', 'objectivité', 'activités', 'sportives', 'libres', 'as', 'pause']","['évènements', 'spectacles']","[""veilles d'examens""]",['médiathèque'],['la cour'],2
+3e,Garçon,2,1,2,3,1,2,1,2,"['écoute', 'respect']","['art et culture', 'projet pédagogiques']",['aucun'],"['liberté', 'jeux', 'vidéos']",['avec mes amis'],['sans eux'],"['collège', 'primaire']",['classe'],2
+3e,Fille,2,0,1,3,1,1,1,2,['écoute'],"['environnement et solidarité', 'sport']",[],['aucun'],"['pause', 'cours dynamique', 'mercredi après-midi']",['classe'],['terrain'],['permanence'],2
+3e,Fille,3,2,3,2,2,3,2,3,['compréhension'],"['art et culture', 'environnement et solidarité']",[],['aucun'],"['pause', 'fin de cours']","['ranger', 'permanence', 'médiathèque', 'ligne jaune']","['médiathèque', 'terrain', 'la cour']","['permanence', 'espace']",0
+3e,Fille,2,2,2,2,1,1,1,2,"['sensibilité', 'compréhension']",['projet pédagogiques'],[],['prof'],['amis'],['stressants'],"['la cour', 'terrains']",[],2
+3e,Fille,2,2,2,1,2,1,2,2,['dialogue'],['art et culture'],[],['horaires'],"['rentrer chez moi', 'vacances']","['classe', 'svt']",[],['classe'],0
+3e,Garçon,2,2,2,0,2,1,2,3,['écoute'],[],"['classe', 'salle de classe']","['exigence', 'écoute', 'liberté', 'emplois du temps', 'temps libre']","['camarades', 'la cour', 'salle de classe', 'rigoler']","['stress', 'évaluation', 'tests']","['la cour', 'gymnase']","['couloirs', 'escaliers']",3
+3e,Garçon,2,1,2,2,1,0,0,1,[],"['art et culture', 'projet pédagogiques']",[],"['horaires', 'emplois', 'cantine', 'repas', 'activités', 'effectifs', 'salle de classe', 'ccc', 'accès']","['as', 'pauses de midi', 'fin des cours']",['classe'],['couloirs'],"['salle de classe', 'cantine']",2
+3e,Fille,2,2,2,3,2,2,2,2,[],"['MUN', 'art et culture']",[],[],[],[],[],[],0
+3e,Garçon,2,2,3,2,3,1,1,2,"['dialogue', 'écoute', 'respect']","['art et culture', 'sport']",['partout'],['lignes'],['avec mes amis'],['classe'],['escalier'],['escalier'],0
+3e,Garçon,2,1,3,1,3,1,1,2,['dialogue'],['sport'],['aucun'],['lignes'],['la cour'],['classe'],['escalier'],['couloirs'],3
+3e,Garçon,2,1,2,2,1,3,1,2,['communication'],"[""vie de l'établissement""]",['aucun'],"['détente', 'fauteuils', 'plantes', 'calme', 'repos']","['pause', 'sorties scolaires', 'cours vivants', 'projets pratiques']","['évaluation', 'trop de devoirs', 'stress']","['cdi', 'la cour']","['couloirs', 'salle de classe']",2
+3e,Fille,2,2,0,1,0,0,1,3,['indulgence'],['art et culture'],['aucun'],"['accès', 'la cour', 'terrains', 'horaire', 'fontaines', 'disponibilités', 'retard']",['avec mes amies'],"['problèmes', 'pas écouter']",['médiathèque'],['toilettes'],2
+3e,Fille,0,2,3,3,2,3,1,2,[],"['sport', ""vie de l'établissement""]",[],"['nombre', 'classe', 'permanences']",['permanence'],['ne pas circuler'],['classe'],['salle de classe'],2
+3e,Garçon,3,1,2,1,1,1,2,3,"['écoute', 'respect']","['MUN', 'sport']",['salle de classe'],"['football', 'horaires']","['camarades', 'moments libres']","['examens', 'révisions']","['permanence', 'la cour']",['salle de classe'],2
+3e,Fille,2,2,3,1,2,2,1,2,[],"['sport', ""vie de l'établissement""]",[],[],['pause'],['cours en fin de journée'],['plateau sportif'],[],3
+3e,Fille,3,3,3,3,3,3,2,3,"['dialogue', 'instance', 'délégué', 'boîte', 'problèmes', 'propositions']","[""vie de l'établissement"", 'MUN']","['vie scolaire', 'bureau', 'cpe', 'professeurs']",['aucun'],"[""compétitions d'as"", 'muns']","[""période d'examen""]","['cantine', 'salle de classe']",[],0
+3e,Fille,2,2,2,0,0,2,1,3,['respect'],[],[],['horaires'],['récréation'],"['fin des journées', 'matin']",['la cour'],[],3
+3e,Fille,2,1,2,3,1,1,2,2,['écoute'],['sport'],[],"['lignes', 'ordinateurs', 'tenue']","['récréation', ""fins d'années""]",['contrôles'],"['classe', 'terrain']","['salle de classe', 'perms']",2
+3e,Fille,2,1,1,0,1,0,1,2,['respect'],[],[],[],[],[],[],[],3
+3e,Fille,2,2,3,2,2,2,1,3,"['compréhension', 'confiance']","[""vie de l'établissement""]",[],"['téléphone', 'sanctions']","['pause', 'temps avec amies']","['fin à 17h', 'surchargé de travail']","['terrain', 'la cour']",[],2
+3e,Garçon,2,1,3,0,2,0,1,2,['compréhension'],[],[],['horaires'],['cantine'],[],['la cour'],['salle de classe'],3
+3e,Garçon,1,1,2,2,1,2,1,2,"['confiance', 'écoute', 'respect']",[],[],"['liberté', 'permanences', 'pc']","['escalade', 'amis']","['classe', 'français', 'svt']","['gym', 'chorale', 'route']",[],1
+3e,Fille,3,2,3,2,2,2,2,3,"['temps', 'parler', 'ouverture', 'écoute']","['MUN', 'art et culture', ""vie de l'établissement""]",['aucun'],"['formation', 'compréhension', 'méthode']","['cours intéressants', 'récréation', 'pauses déjeuner', 'cours de sport', 'activités du cvc']","['cours ennuyeux', 'chaleur', 'couloirs bondés']","['cantine', 'terrain']","['salle de classe', 'couloirs']",0
+3e,Garçon,2,2,3,2,2,2,1,2,['respect'],['MUN'],[],['aucun'],['récré du matin'],"[""cours de 2h en fin de journée d'arabe""]","['la cour', 'médiathèque']","['permanence', 'salle de classe']",2
+3e,Fille,2,1,3,1,3,2,2,2,"['respect', 'confiance']",['projet pédagogiques'],['professeurs'],"['liberté', 'choix', 'permanence']","['sport', 'escalade']",['pause'],"['cdi', 'classe']",['permanence'],0
+3e,Fille,2,2,3,3,2,2,2,0,"['transparence', 'empathie']","['MUN', 'environnement et solidarité', ""vie de l'établissement""]",[],"['liberté', 'emploi', 'aménager', 'soutenir', 'sociale', 'portail']",['déjeuner'],"['heures successives', 'fatigue']","['tables', 'permanences']",['ccc'],0
+3e,Fille,2,0,2,1,0,0,0,2,['respect'],['MUN'],['aucun'],['climatisation'],"['récrés', 'sortie des cours']",['classe'],['allée'],['cantine'],1
+3e,Fille,2,2,2,2,1,1,1,1,"['communication', 'respect']",['sport'],[],"['travail', 'cantine', 'règles']","['liberté', 'expression', 'confiance']","['contrôle', 'interrogation', 'surveillance']",['classe'],"['cantine', 'salle de classe']",2
+3e,Garçon,2,1,2,3,1,1,1,2,[],"['art et culture', 'sport']",[],"['horaire', 'distance', 'sommeil']",['cours de sport'],['tout le reste'],['espace'],['la cour'],2
+3e,Fille,2,2,2,0,0,0,2,3,['écoute'],[],[],"['téléphone', 'liberté', 'déplacement']","['cours de sports', 'cours de tecno', 'as']",['cours en général'],"['la cour', 'terrain', 'médiathèque']",['permanence'],3
+3e,Garçon,3,2,3,3,2,3,2,2,"['respect', 'impartialité']",['sport'],['salle de classe'],['horaires'],['la cour'],['aucun'],"['classe', 'terrain']",['salle de classe'],0
+3e,Garçon,1,0,2,2,1,1,2,3,"['droit', 'parole', 'respect', 'compréhension']",['sport'],[],['professeurs'],"['classe', 'la cour', 'pause']",['tout le reste'],"['balcons', 'escalier', 'parking']","['la cour', 'cantine']",1
+3e,Fille,2,1,2,2,2,1,2,2,"['honnêteté', 'transparence']","['sport', 'environnement et solidarité']",[],"['fontaine', 'horaires', 'cantine']",[],[],[],[],0
+3e,Fille,1,1,3,2,2,2,0,2,['communication'],"['art et culture', 'MUN']","['couloirs', 'la cour']","['horaires', 'sommeil', 'travail', 'stress']",['moments avec amis'],['classe'],"['classe', 'gymnase', 'terrain']",['salle de classe'],2
+3e,Garçon,2,1,2,0,1,2,1,2,"['écoute', 'compréhension', 'ouverture']",[],[],"['terrain', 'fontaine', 'cercle', 'balle']",['pause'],['cours de 16h à 17h'],"['escaliers', 'cantine']","['vie scolaire', 'permanences']",3
+3e,Garçon,2,1,2,2,1,1,1,1,[],['sport'],[],"['musique', 'art', 'activités']",[],[],[],[],2
+3e,Fille,2,0,2,2,1,1,2,1,['aucun'],['MUN'],['la cour'],['aucun'],"['pause', 'cours intéressants', 'défi 24', 'summer camp']","['cours ennuyeux', 'profs sévères']","['allée', 'toilettes']",['salle de classe'],2
+3e,Fille,2,1,2,1,2,2,2,2,"['compréhension', 'écoute']",['sport'],['aucun'],"['écoute', 'compréhension']",['pause déjeuner'],"['cours de 13h50 à 14h50', 'cours de 16h à 17h']",[],['permanence'],3
+5e,Fille,2,1,2,0,2,1,1,0,[],[],['salle de classe'],['aucun'],['pause'],[],"['ccc', 'salle de classe']",['classe'],3
+3e,Garçon,2,2,2,2,2,0,2,2,[],['sport'],[],[],"['temps libre', 'camarades']",[],['la cour'],[],0
+3e,Garçon,3,3,2,3,0,1,2,2,['aucun'],"['sport', 'sport', 'MUN', 'projet pédagogiques']",[],"['horaires', 'emplois', 'cantine', 'repas', 'activités', 'salle de classe', 'ccc', 'accès']","[""l'as à lyautey"", ""l'as loisir"", ""l'as mercredi"", 'manger']",['lignes jaunes'],['terrain'],[],2
+3e,Fille,3,1,3,3,2,0,2,2,[],"['sport', ""vie de l'établissement"", 'environnement et solidarité']",[],"['médiathèque', 'terrain']","['pause', ""compétitions d'as""]",['interdictions'],"['terrain', 'couloirs']",['permanence'],0
+3e,Garçon,2,0,2,2,1,1,1,2,"['équité', 'justice', 'impartialité']","['environnement et solidarité', 'sport', 'art et culture']",[],"['climatisation', 'téléphone']",['midi'],[],"['classe', 'cantine']",[],2
+3e,Fille,2,2,2,1,2,2,1,2,"['agréable', 'compréhension', 'confiance']","['sport', 'environnement et solidarité']",[],"['écoute', 'patience']","['poses', 'cours début']",['cours fin'],"['la cour', 'médiathèque']",[],3
+3e,Garçon,2,1,3,2,1,2,2,3,"['compréhension', 'bienveillance', 'ouverture', 'écoute', 'dialogue', 'respect']","['art et culture', 'projet pédagogiques', 'MUN']",[],['profs'],['pauses méridiennes'],"[""cours de la même matière 2h d'affilé""]",['classe'],['toilettes'],2
+3e,Garçon,2,2,1,2,2,1,1,3,[],['MUN'],[],['fontaines'],"['petites pauses', 'cantine', 'amis']",[],[],[],2
+3e,Fille,1,1,3,3,2,1,1,1,"['retour', 'problèmes', 'améliorer']","['MUN', 'environnement et solidarité', ""vie de l'établissement""]","['classe', 'vie de classe', 'vie scolaire']","['emploi', 'travail', 'pression', 'révision', 'devoirs', 'dialogue', 'échange']","[""cours d'eps""]",['examens'],"['plateaux', 'gymnase']","['permanence', 'ccc']",2
+5e,Fille,3,2,2,0,2,2,2,2,[],[],[],[],['la cour'],['évaluation'],['la cour'],['salle de classe'],3
+3e,Garçon,2,1,2,3,0,1,2,3,"['respect', 'patience']","[""vie de l'établissement"", 'MUN']",[],"['écoute', 'cpe', 'accusation', 'isolement']","['projets', 'cours avec professeurs bienveillant']","['abus', 'écoute peu présente']","['la cour', 'foyer', 'salle de classe', 'ccc']","['salle de classe', 'classe']",2
+3e,Garçon,2,2,2,3,3,2,1,2,[],['environnement et solidarité'],['classe'],[],[],[],[],[],0
+5e,Fille,2,2,2,0,1,2,2,2,[],[],[],"['évaluation', 'écoute']",['fin des cours'],"[""beaucoup d'évaluations""]",[],[],3
+3e,Fille,2,2,3,2,2,3,2,3,"['moments', 'écoute']","['MUN', 'MUN', ""vie de l'établissement"", 'art et culture']","['salle de classe', 'profs', 'couloirs']","['méthode', 'dynamisme', 'écoute', 'échanges', 'bienveillance']","['amis', 'projets', 'massgot talent']","['résultats', 'évaluation']","['cantine', 'la cour', 'terrain']","['salle de classe', 'couloirs']",0
+3e,Garçon,1,0,0,2,0,1,1,0,['aucun'],['sport'],[],['aucun'],"['la cour', 'cantine']",[],[],['école'],1
+3e,Garçon,2,2,2,0,2,3,2,3,[],[],['partout'],"['cantine', 'professeurs']",[],[],['partout'],[],3
+3e,Garçon,2,2,3,2,2,3,2,3,"['compréhension', 'écoute']",['sport'],"['questionnaires', 'professeurs', 'surveillant']","['délimitations', 'kiosque', 'terrain']","['pause', 'classe']",[],"['classe', 'cantine']",[],0
+3e,Fille,2,1,3,0,2,1,2,1,[],[],[],[],['pause midi'],[],['classe'],['perm'],3
+3e,Garçon,2,1,3,0,2,0,1,2,"['compréhension', 'ouverture', 'dialogue']",[],[],"['compréhension', 'aed']","['pause', 'cours de sport']",[],"['la cour', 'terrain']",[],3
+3e,Garçon,1,0,0,2,1,0,0,0,['confiance'],"['sport', ""vie de l'établissement""]",[],"['vérification', 'capacité', 'comportement']",['famille à la maison'],"['école', 'tension']",['maison'],['école'],1
+3e,Garçon,2,2,3,2,1,1,1,2,[],"['art et culture', 'sport', ""vie de l'établissement""]",[],[],[],[],[],[],2
+3e,Garçon,2,1,3,2,0,1,1,0,[],['sport'],[],"['bienveillance', 'liberté', 'expression']","['classe', 'pause', 'la cour', 'fin des cours']",['classe'],[],['salle de classe'],2
+3e,Garçon,2,2,2,2,2,1,2,2,['aucun'],['sport'],[],[],[],"[""cours d'anglais""]",['terrain'],[],0
+3e,Garçon,3,3,3,1,3,3,3,3,['confiance'],['art et culture'],"['la cour', 'salle de classe']",[],['travailler'],['seul'],['salle de classe'],[],0
+3e,Fille,3,2,3,2,2,2,0,3,['échanges'],"[""vie de l'établissement""]","['cpe', ""cellule d'écoute""]","['horaires', 'dialogue']","['semaines sans beaucoup de cours', 'emploi du temps variable']","['classe', 'examens', 'pression']",['classe'],['salle de classe'],2
+3e,Garçon,2,2,1,0,1,1,0,1,['communication'],[],[],"['étiquettes', 'empathie', 'compréhension']",[],"['classe', 'maths']",[],[],3
+3e,Fille,1,2,3,2,1,1,1,2,"['questionnement', 'adaptation', 'expression', 'discussion']",[],['aucun'],"['tolérance', 'douceur']","['apprentissages', 'activités', 'professeurs']","['horaires', 'pression', 'dépression', 'phobie scolaire']",[],"['permanence', 'ccc']",2
+5e,Fille,1,2,0,3,3,3,2,3,['aucun'],[],['aucun'],['aucun'],[],[],[],[],0
+3e,Garçon,2,1,2,1,2,2,1,0,[],['sport'],['amis'],['règles'],[],"[""cours d'anglais""]",['terrains'],[],3
+3e,Fille,2,1,3,3,2,2,0,2,"['respect', 'importance']","[""vie de l'établissement""]","[""cellule d'écoute"", 'bureau de la cpe']","['considération', 'respect', 'pression', 'travail']","['semaines peu chargées', 'sans évaluation']",[],['classe'],[],2
+3e,Garçon,2,1,3,2,1,1,1,2,[],"['sport', ""vie de l'établissement""]",[],"['règles', 'liberté', 'flexibilité']",['premières récré'],['cours entre 12h et 13h'],['ccc'],[],2
+3e,Garçon,1,0,0,2,1,0,1,2,['sincérité'],"['art et culture', ""vie de l'établissement""]","['entre élèves', 'professeurs']",['badges'],['pause'],['classe'],['terrain'],[],1
+3e,Fille,2,1,2,2,2,1,1,2,"['liberté', 'compréhension']",['sport'],[],"['libertés', 'punition', 'sévèreté']","['sports', 'récréation']","[""cours d'espagnol"", 'récréations seule']","['terrain', 'bancs', 'cantine']",['médiathèque'],2
+3e,Garçon,0,0,0,0,0,0,0,1,"['compréhension', 'respect', 'calme']",[],[],[],"[""sortie de l'école""]",['cours de khalef'],"['festifal', 'circuit']",[],1
+3e,Fille,2,2,2,2,0,1,2,2,"['écoute', 'maturité', 'critiques']","['sport', 'environnement et solidarité']",[],['horaires'],"['rigolades', 'discussion', 'amis', 'permanence', 'la cour']","['évaluation', 'révisions brevet', 'charge de travail']",['la cour'],[],2
+3e,Fille,2,1,3,0,2,1,2,2,[],[],[],"['comportement', 'profs', 'surveillant']","['camarades', 'cours intéressants']",['profs désagréables'],['terrain'],"['permanence', 'salle de classe']",3
+3e,Garçon,2,1,2,2,1,1,1,3,['respect'],[],[],['toilettes'],['récréation'],['cours de maths'],['terrain'],['salle de classe'],2
+3e,Fille,2,1,3,0,2,1,2,2,['considération'],[],[],"['climatisation', 'comportement']","['pause', 'cours intéressant']","['classe', 'profs désagréables']","['médiathèque', 'terrain']",['permanence'],3
+3e,Garçon,2,2,3,2,1,1,2,2,"['confiance', 'écoute', 'respect']","['art et culture', ""vie de l'établissement""]",['aucun'],"['cantine', 'règles']","['extérieur', 'amis']",['classe'],"['extérieur', 'terrain']",['toilettes'],2
+3e,Fille,3,2,2,2,2,3,3,3,"['écoute', 'soutien']",['MUN'],['salle de classe'],['horaires'],"['cantine', 'cours avec les profs sympas']",[],['cantine'],[],0
+3e,Fille,1,2,2,0,0,0,0,2,"['compréhension', 'écoute']",[],[],['sévère'],[],"['devoirs', 'profs', 'jugements', 'prises de téléphone', 'système de badge', 'heures de colle', 'erreurs']",['bibliothèque'],[],1
+3e,Garçon,0,0,0,0,0,0,0,0,[],[],[],['aucun'],"[""sortie de l'école"", 'absence de khalef', 'absence de duran']",[],['maison'],['salle de classe'],1
+3e,Garçon,2,2,3,0,2,1,1,2,[],[],[],['aucun'],['cours de sports'],['cours de 16h à 17h en musique'],"['salle de classe', 'cdi', 'extérieur']","['perm', 'classe']",3
+3e,Fille,2,1,2,2,1,1,2,2,"['écoute', 'bienveillance', 'indulgence', 'flexibilité']",['sport'],"['la cour', 'vie scolaire']","['voyage', 'sortie']","['la cour', 'amies', 'cours avec des profs bienveillants']","['cours avec des profs malveillants', 'faire des 8h - 17h', '1 heure de pause', 'clim']","['la cour', 'permanence']",[],2
+6e,Fille,1,1,3,2,1,0,0,1,[],['sport'],['aucun'],['horaire'],['fin de la journée'],['début'],['sortie'],['entrée'],1
+6e,Garçon,2,1,3,0,0,1,2,2,['gentillesse'],[],[],['tel'],[],[],['as'],[],3
+6e,Fille,3,2,3,0,0,1,0,2,['aucun'],[],[],['fontaine'],['permanence extérieur'],[],[],[],3
+6e,Garçon,2,2,2,0,2,2,2,2,['aucun'],[],[],['aucun'],['la cour'],['début des cours le matin'],[],[],3
+6e,Garçon,2,1,2,2,1,1,2,2,['respect'],['sport'],['aucun'],[],['pause'],[],[],[],2
+4e,Fille,2,2,3,2,3,2,3,1,['écoute'],"['art et culture', 'MUN', 'sport']","['spectacles', 'mails', 'auditorium', 'cpe', 'surveillants', 'vie scolaire']","['fontaines', 'sortie']","['rigoler', 'amis', 'eps', 'récréation', 'pause']","['évaluation', 'ds communs', 'disputes entre amis']","['la cour', 'médiathèque', 'cantine']",[],0
+6e,Garçon,1,1,1,0,0,0,0,1,['gentillesse'],[],['aucun'],"['gentillesse', 'détente', 'strict', 'méchanceté']",['chez nous'],['école'],['salle de classe'],['salle de classe'],1
+6e,Fille,2,2,2,0,2,1,1,2,['aucun'],[],[],['aucun'],['pause déjeuner'],['cours le matin'],['la cour'],[],3
+6e,Fille,2,1,1,2,1,1,0,2,['aucun'],['art et culture'],[],['aucun'],"['16h', '17h']",['journée'],"['portail', 'la cour']","['cantine', 'couloirs', 'salle de classe']",2
+6e,Fille,2,0,1,3,1,0,0,1,['aucun'],['sport'],['aucun'],['téléphone'],['fin des cours'],"['début de journée', 'svt']",[],[],2
+6e,Garçon,2,3,3,3,3,3,3,3,[],[],[],[],[],[],[],[],0
+6e,Garçon,2,1,2,3,1,1,2,2,['gentillesse'],['sport'],[],['écoute'],['heures creuses'],['classe'],"['la cour', 'ccc']",['salle de classe'],2
+5e,Fille,3,1,3,3,2,1,2,2,"['écoute', 'compréhension', 'respect']","['sport', ""vie de l'établissement""]",[],[],[],[],[],[],0
+6e,Fille,2,3,3,3,3,2,2,3,['aucun'],"[""vie de l'établissement"", 'sport']","['salle de classe', 'récréation', 'cantine', 'couloir']","['climatiseurs', 'imprimeries', 'fontaine']","['récréation', 'cantine']",[],"['cantine', 'salle de classe', 'extérieur']",[],0
+5e,Garçon,1,1,1,0,1,1,1,2,['aucun'],[],[],['surveillant'],['bonnes notes'],['erreurs'],['endroits'],['autre endroits'],1
+6e,Fille,3,2,3,0,2,3,2,3,['aucun'],[],[],['horaire'],['pause'],['écrire immense texte'],['la cour'],['salle de classe'],3
+5e,Garçon,2,1,3,1,1,0,1,2,['ouverture'],"[""vie de l'établissement""]",[],"['heures', 'devoirs']",['activités sportives'],['avant une évaluation'],"['récrée', 'médiathèque']","['salle de classe', 'toillettes']",2
+5e,Fille,2,1,2,0,1,1,0,2,['aucun'],[],[],[],[],[],[],[],1
+6e,Fille,3,2,3,2,2,3,1,3,['aucun'],"['MUN', ""vie de l'établissement""]","['salle de classe', 'cantine', 'couloirs', 'permanence']",['aucun'],"['permanence', 'détente', 'salle de classe']",['cantine'],"['salle de classe', 'terrain']","['cantine', 'toilettes']",0
+6e,Garçon,3,2,3,1,2,3,3,3,['gentillesse'],[],['classe'],['aucun'],"['pause', 'récréation']",['aed'],[],[],0
+6e,Fille,3,2,3,0,2,3,3,3,['attention'],[],[],['fontaines'],['maths'],['permanence'],['ccc'],[],0
+6e,Fille,2,1,2,2,1,1,0,2,"['douceur', 'confiance']",['art et culture'],['aucun'],[],[],[],[],[],2
+6e,Fille,2,1,1,2,1,1,0,0,[],"['sport', 'projet pédagogiques']",[],"['pression', 'horaires', 'santé']","['fin de cours', 'prof absent', 'cours annulé', 'la cour']",['en classe'],"['récrée', 'cantine']","['salle de classe', 'école']",2
+6e,Fille,2,1,1,0,1,2,0,2,[],[],['aucun'],['permanence'],['pause'],['classe'],['salle de classe'],['permanence'],1
+6e,Fille,2,2,1,3,1,0,0,1,['aucun'],"['sport', 'art et culture']",[],['aucun'],['bonne note'],['mauvaise note'],['maison'],['école'],2
+6e,Garçon,3,3,3,1,3,2,2,1,['aucun'],['sport'],"['salle de classe', 'la cour']",[],['bonnes notes'],"['observations', 'heures de colle', 'mauvaises notes']","['salle de classe', 'la cour', 'auditorium']",['salle de classe'],0
+6e,Garçon,2,1,1,2,1,1,2,2,['bienveillance'],['MUN'],[],"['plaisir', 'activités', 'sportive', 'éducative']","['fin des cours', 'moment seuls']",[],['salle de classe'],['permanence'],2
+6e,Fille,3,3,3,0,3,3,2,3,['aucun'],[],[],['punitions'],"['amies', 'pause', 'classe']",[],['ccc'],[],0
+6e,Garçon,1,0,2,1,0,1,1,1,['paix'],['projet pédagogiques'],[],"['animateurs', 'profs', 'gentil']",['rencontre amis'],['mauvaises notes'],['terrain'],['toilettes'],1
+5e,Garçon,2,1,1,1,0,0,2,1,"['justice', 'compréhension']",['sport'],['salle de classe'],"['terrain', 'foot']","[""fin d'année""]","[""milieu d'année""]",['terrains'],[],2
+6e,Garçon,2,2,2,2,2,2,2,2,['respect'],['sport'],['cour de récréation'],['aucun'],['entente'],['mauvaise ambiance'],"['récréation', 'terrain']",['salle de classe'],0
+6e,Garçon,3,3,3,1,2,1,2,2,[],[],[],[],['tournoi de foot'],['heures de colle'],"['recréation', 'réfectoire']",[],0
+6e,Garçon,2,2,2,3,2,2,2,3,"['respect', 'aisance']",['sport'],['la cour'],['aucun'],"[""s'entendre bien""]","[""s'entendre mal""]","['la cour', 'terrain']",['salle de classe'],0
+6e,Fille,2,2,2,3,2,3,2,3,['aucun'],['environnement et solidarité'],"['salle de classe', 'auditorium']","['escaliers', 'horaires', 'foule']",['projets éducatifs'],"[""sortie de l'école"", 'manger', 'prof absent', 'retard']",['places'],[],0
+5e,Garçon,3,1,3,2,2,2,2,3,['souplesse'],"['environnement et solidarité', 'sport']",[],"['qualité', 'menu', 'cantine']","['bonne journée', 'jeu']","['nourriture de la cantine', 'affamée']",['foyer'],['toilettes'],0
+6e,Garçon,2,1,1,1,1,1,1,2,"['effort', 'prise de décision', 'confiance']",['environnement et solidarité'],[],['aucun'],['rigole avec des amis'],['se sentir menacé'],['foyer'],['permanance'],2
+6e,Garçon,2,2,3,0,2,3,2,2,[],[],[],['emploi'],[],[],[],[],3
+6e,Fille,3,1,2,2,1,1,2,1,"['écoute', 'choix']","['atelier E3D', 'éco-ambassadeur', 'projet éco', 'éco kermesse', 'activités des éco-délégués', 'atelier ville du futur', 'projet E3D', 'projet écologique', 'don d’affaires']",['la cour'],['aucun'],"['la cour', 'cantine', 'après-midi']","['contrôle', 'devoirs', 'matin']",[],[],2
+6e,Fille,2,1,2,2,1,1,2,3,"['aider', 'écoute', 'aider', 'confiance']",['projet pédagogiques'],['aucun'],"['administration', 'écoute', 'soutien']",['classe'],['la cour'],['salle de classe'],['la cour'],2
+6e,Fille,3,2,2,3,2,1,3,3,"['douceur', 'tendresse', 'écoute']","['MUN', 'projet pédagogiques']","['vie scolaire', 'cpe', 'profs']","['bien-être', 'matières', 'vie', 'financement', 'philosophie', 'sport', 'récrées']","['salle de classe', 'jeux collectifs']",['incompréhension des professeurs'],[],"['toilettes', 'fontaines', 'permanences', 'kiosque']",0
+6e,Fille,2,1,1,1,1,1,1,2,"['interaction', 'égalité', 'considération', 'humanité']",['art et culture'],['aucun'],[],"[""sortie d'intégration"", 'ccc', ""cours d'arabe""]",[],[],[],2
+6e,Fille,2,1,2,2,1,1,1,2,"['respect', 'gentillesse']",['art et culture'],['aucun'],"['activités', 'gentillesse']","[""sortie d'intégration""]",[],['ccc'],['salle de classe'],2
+6e,Garçon,3,2,3,0,3,2,2,2,[],[],[],"['emplois', 'casiers']",[],[],[],[],0
+6e,Fille,2,2,3,0,3,2,2,3,[],[],[],"['temps', 'manger']",[],[],['classe'],[],3
+6e,Garçon,2,2,2,2,1,1,1,2,[],['sport'],['classe'],['clime'],"['la cour', 'fin des cours']",[],[],['salle de classe'],2
+6e,Fille,2,2,2,2,1,1,1,2,"['écoute', 'bienveillance', 'respect', 'espaces']",['projet pédagogiques'],['infirmerie'],['fontaines'],[],[],"['ccc', 'coin']",['recrée'],2
+6e,Garçon,1,0,3,2,0,0,1,3,"['écoute', 'dialogue', 'respect', 'discussion']","['sport', 'art et culture']","['que', 'perm', 'prison']",['salle de classe'],['kahoot'],['observation'],['recree'],['perm'],1
+6e,Fille,3,2,3,2,2,2,2,3,"['confiance', 'respect']","['MUN', 'art et culture']","['salle de classe', 'la cour']",['respect'],[],[],[],[],0
+6e,Garçon,2,1,2,0,2,1,1,2,['aucun'],[],[],"['sortie', 'devoirs', 'éval', 'heure', 'cantine', 'pc']","['jouer', 'sortie']","['évaluation', 'devoirs']",['cantine'],['classe'],3
+5e,Garçon,3,2,3,2,2,1,0,3,['aucun'],['sport'],['aucun'],['pause'],['vacances'],"[""reprise de l'école""]",[],[],2
+5e,Fille,2,1,2,1,1,2,2,2,[],[],[],"['toilettes', 'vie scolaire', 'cantine']","['fin des cours', 'vacances', 'professeurs absents', 'heures de repas']","['permanence fermée', 'vie scolaire remplie']",[],[],3
+6e,Garçon,1,1,1,1,2,1,2,1,[],"['projet pédagogiques', 'environnement et solidarité']",[],['environnement'],[],[],['salle de classe'],['la cour'],3
+5e,Garçon,2,2,2,2,1,0,1,2,[],['sport'],[],['horaires'],"['la cour', 'cantine']",['évaluation'],"['la cour', 'cantine']",['permanence'],2
+5e,Fille,2,2,2,2,1,1,1,2,"['liberté', 'expression', 'dialogue']","['sport', ""vie de l'établissement""]","['la cour', 'cantine']","['liberté', 'heures']","['repos', 'discussion']",['évaluation'],['médiathèque'],['salles de classe'],2
+5e,Fille,3,3,3,2,3,3,3,3,['aucun'],"[""vie de l'établissement""]",[],['aucun'],['la cour'],[],['la cour'],[],0
+5e,Garçon,2,0,3,0,1,1,0,0,[],[],[],[],['pause'],[],['recre'],['classe'],1
+5e,Garçon,1,0,2,0,0,0,0,0,[],[],[],"['temps', 'pause']",['sortie à 17h00'],"[""cours d'anglais""]",['chez moi'],[],1
+5e,Fille,1,2,2,1,1,1,1,2,"['attente', 'écoute', 'considération']",['art et culture'],['classe'],"['parasols', 'intimité']","['pause', 'récréation']","[""cours d'arabe""]",['cantine'],['salle de classe'],2
+6e,Garçon,1,1,0,0,1,1,1,2,[],[],[],['foot'],['heures de pause'],['heures de cours'],['cantine'],['salle de classe'],1
+5e,Fille,3,3,3,1,2,2,2,3,[],"[""vie de l'établissement""]",[],['aucun'],"['la cour', 'pauses méridienne', 'quelques cours']",['cours avec quelques profs'],"['la cour', 'ccc', 'cantine']","['salle de classe', 'permanence']",0
+5e,Fille,2,0,3,3,1,2,1,3,[],['sport'],['la cour'],['horaire'],['technologie'],[],['la cour'],[],2
+5e,Fille,2,2,3,2,2,2,2,3,[],['sport'],['aucun'],['horaire'],['récréation'],['7h45'],"['ccc', 'classe']",[],0
+3e,Fille,2,1,1,0,2,2,1,2,['aucun'],[],[],[],[],[],[],[],3
+5e,Garçon,3,2,3,1,1,1,2,2,"['écoute', 'respect', 'discussion', 'confiance', 'dialogue']",['MUN'],[],['horaires'],['cantine'],[],['classe'],['piscine'],0
+4e,Garçon,1,0,1,2,0,0,1,0,['aucun'],['sport'],[],"['écoute', 'croire']",['jsp'],['classe'],['classe'],['salle de classe'],1
+5e,Garçon,1,1,1,0,2,1,1,2,"['inspection', 'harcèlement']",[],['la cour'],"['panier', 'caméras', 'écouter', 'harcèlement', 'puni']",['quand on me laisse tranquille'],"['on me dit tais toi', ""on dit n'importe quoi""]",['la cour'],[],3
+5e,Garçon,1,1,2,0,1,0,1,0,"['écoute', 'respect']",[''],['aucun'],"['sanctions', 'enfants']",[],['rejetée'],[],[],1
+6e,Garçon,1,0,1,1,0,0,0,1,"['calme', 'respect', 'écoute']",['art et culture'],[],[],['cantine'],['salle de classe'],['maison'],['dentiste'],1
+6e,Fille,2,2,2,2,2,2,2,2,"['écoute', 'attention', 'avis']",['sport'],[],"['foyer', 'jeux', 'cantine', 'options', 'ateliers', 'lecture', 'crochet', 'fontaines', 'eau']",['heures creuses'],['rencontres parents professeur'],"['ccc', 'détente']",['foyer'],0
+5e,Fille,2,0,0,2,2,1,0,2,[],['MUN'],[],[],['temps libres'],['classe'],['classe'],['salle de classe'],1
+6e,Fille,1,1,1,0,1,1,1,1,['écoute'],[],[],['cantine'],"['amie', 'crochet']",['aucun'],['ccc'],[],1
+5e,Fille,2,2,3,0,1,0,1,2,"['confiance', 'dialogue', 'compréhension']",[],[],"['emploi', 'cartable', 'devoir', 'dress', 'climatisation', 'chauffage', 'récréation', 'cantine', 'vie']","['la cour', 'cantine', 'heures creuses']","['évaluation', 'journée interminable', 'une seule heure pour manger', 'dress code', 'pas de climatisation', 'récréations trop courtes', 'vie scolaire vide', 'longue queue', 'surcharge de devoirs', 'cartable trop lourd']","['médiathèque', 'la cour']",['salle de classe'],3
+5e,Fille,1,1,0,1,2,1,0,1,"['droits', 'demande']",['sport'],[],"['fontaines', 'ascenseur', 'badges', 'capuche', 'toilettes', 'parasols', 'bancs', 'climatiseurs', 'gel']",[],['cours avec mr. erridda'],"['la cour', 'cantine', 'médiathèque', 'bibliothèque']","['salle de classe', 'toilettes']",1
+6e,Garçon,2,1,0,0,1,0,1,1,['compréhension'],[],[],"['surveillant', 'compréhensif']",['pause'],['classe'],"['terrain', 'foyer']","['ccc', 'permanence']",3
+6e,Fille,3,1,2,2,3,1,3,3,"['partage', 'information', 'choix']","['art et culture', ""vie de l'établissement""]","['partout', 'la cour']","['budget', 'pôle', 'artistique', 'permanence']","['chorale', 'midi', 'la cour']",['avant les évaluations'],"['ccc', 'salle de classe']",['perme'],0
+6e,Garçon,2,1,1,1,1,1,1,2,"['autonomie', 'écoute']",['sport'],[],['devoirs'],"['fin du cours', 'fin de la journée']","['début du cours', 'début de la journée']","['permanence', 'salle de classe']","['ccc', 'extérieur']",2
+4e,Fille,2,0,0,0,1,2,1,2,[],[],[],[],[],[],[],[],1
+5e,Fille,2,2,3,3,2,2,3,3,[],"['MUN', 'sport']",[],['vêtements'],"['la cour', 'pause']",[],['ccc'],['permanences'],0
+5e,Garçon,2,1,2,1,1,2,2,3,[],['art et culture'],['aucun'],"['bagarres', 'sanction', 'plats', 'cantine', 'tacos']",['amis'],['évaluation'],"['plateaux', 'la cour']",[],3
+5e,Garçon,2,2,1,2,0,2,1,2,[],['sport'],[],[],['as'],['évaluation'],[],[],2
+5e,Garçon,0,0,0,2,1,1,0,3,['calme'],[],[],[],[],[],[],[],1
+5e,Garçon,2,1,3,2,0,1,1,1,[],[],[],[],[],[],[],[],2
+5e,Garçon,2,2,3,2,3,1,2,2,[],['MUN'],[],[],[],[],[],[],0
+6e,Fille,2,3,3,2,3,2,2,2,[],"['art et culture', 'projet pédagogiques']",['la cour'],"['jeu', 'trampoline', 'activité']",[],[],"['ccc', 'permanence']",[],0
+5e,Fille,2,1,2,0,1,1,1,2,[],[],['psy'],[],['avec mes amies'],[],[],[],3
+5e,Garçon,3,1,3,2,2,1,3,3,[],['sport'],[],[],[],[],[],[],0
+5e,Fille,3,3,3,3,3,3,3,3,[],[],[],[],[],[],[],[],0
+5e,Garçon,2,3,1,2,1,1,1,2,['gentillesse'],['sport'],[],['gentillesse'],[],['harcèlement'],['la cour'],[],2
+5e,Fille,2,2,2,2,2,2,1,2,['écoute'],[],['aucun'],['aucun'],[],[],"['salle de détente', 'ccc']",['la cour'],2
+4e,Garçon,1,2,1,1,1,2,1,2,"['calme', 'compréhension']",['environnement et solidarité'],[],[],[],[],[],[],2
+5e,Garçon,3,1,2,0,0,1,1,2,['aucun'],[],['cpe'],"['aed', 'vie scolaire']",['cantine'],['jeudi après-midi'],['cantine'],[],3
+5e,Garçon,1,0,3,1,1,2,0,2,['gentillesse'],[],['aucun'],['sanctions'],['fin'],['maths'],['la cour'],['salle de classe'],1
+5e,Garçon,0,0,0,3,0,0,0,0,[],['sport'],[],['aucun'],[],"[""cours d'espagnol""]",[],[],1
+5e,Fille,2,2,1,2,3,1,2,3,[],['sport'],['classe'],['aucun'],['classe'],['classe'],[],[],0
+5e,Garçon,2,1,2,3,2,2,0,1,[],['sport'],"['surveillants', 'cpe']","['téléphones', 'cantine']",['jeu balle mousse'],[],['classe'],[],2
+6e,Garçon,2,2,1,3,2,2,1,3,[],['art et culture'],[],['temps'],[],[],"['ccc', 'foyer']",[],2
+5e,Fille,2,1,2,0,2,2,2,2,"['communication', 'expression', 'confiance', 'écoute']",[],[],[],"[""s'exprimer""]",['heure creuse'],"['ccc', 'salle de classe']",['salle de classe'],3
+5e,Fille,3,2,2,1,2,2,2,3,[],"['art et culture', 'sport']",['la cour'],['aucun'],"['la cour', 'cantine']",['cours de 2 heures'],['ccc'],['la cour'],0
+5e,Garçon,1,0,2,0,0,0,0,0,['équité'],[],[],"['écoute', 'sévère', 'favoritisme', 'indulgent', 'punitions', 'bêtises']",['jouer au foot'],"['classe', 'profs', 'svt']",['couloir'],[],1
+5e,Fille,2,1,2,1,0,0,1,1,"['compréhension', 'écoute']",['sport'],['aucun'],"['badges', 'bancs', 'clime']","[""travail en s'amusant"", 'sorties', 'voyages']","['interdiction de bavarder', 'silence']",['permanence'],['salle de classe'],1
+6e,Fille,2,2,2,0,1,1,0,2,[],[],[],"['règles', 'gentillesse']",['famille'],"['établissement', 'stress', 'évaluation']",['maison'],['école'],3
+5e,Garçon,2,0,2,0,1,1,0,2,[],[],[],"['horaires', 'devoirs', 'temps']","['départ', 'discussion avec amis']",['expression difficile'],[],[],1
+5e,Garçon,2,0,2,0,0,1,1,2,[],[],[],['retard'],['jouer au foot'],"['être en retard', 'prof']",[],[],1
+5e,Fille,3,2,3,1,3,3,3,3,[],['sport'],[],"['vêtements', 'saison']","['avec mes amies', 'avec ma cousine']",['évaluation'],['ccc'],[],0
+5e,Fille,2,1,1,0,1,1,1,1,[],[],[],"['climatisation', 'emploi du temps']",['heures creuses'],"['salles de chimie', 'svt', 'art plastique', 'tabourets']",['permanence'],['salle de classe'],3
+6e,Garçon,3,3,2,1,2,2,2,3,[],['sport'],"['recreation', 'cantine', 'salle de classe']",[],[],[],[],[],0
+5e,Garçon,2,1,2,0,2,0,1,2,"['chaleur', 'ouverture']",[],[],['aucun'],"['récréation', 'heures creuses']",[],['foyer'],[],3
+6e,Garçon,2,2,2,3,3,2,1,2,['aucun'],['sport'],['aucun'],['climatisation'],['amis'],[],['c107'],['c207'],0
+5e,Fille,2,1,1,1,1,0,1,2,[],,[],[],[],[],[],[],3
+5e,Garçon,2,2,3,2,1,2,1,2,[],['MUN'],[],"['clim', 'téléphones']",['la cour'],['classe'],['médiathèque'],['salle de classe'],2
+5e,Garçon,3,2,2,0,1,2,1,2,"['surveillant', 'gentillesse']",['sport'],[],['journées'],['la cour'],['finit à 17h'],"['la cour', 'terrain']",['permanence'],3
+6e,Fille,2,2,3,0,1,2,0,2,[],[],['partout'],"['repas', 'cantine']",['la cour'],['salle de classe'],[],[],3
+6e,Fille,2,3,3,2,1,2,1,2,[],[],[],['téléphone'],['rigole'],[],[],[],2
+6e,Garçon,2,1,2,1,0,2,0,3,"['jeux', 'apprendre']",['art et culture'],['aucun'],"['amusements', 'balançoires', 'toboggans', 'accompagnement', 'nourriture', 'tajines', 'place', 'pc', 'extérieur']",[],"['matin', 'petit déjeuner', 'première heure']",['ccc'],['permanence'],1
+5e,Fille,2,2,3,0,2,2,1,2,[],['MUN'],['salle de classe'],[],[],['salle de classe'],['permanence'],[],3
+5e,Garçon,2,1,2,0,2,2,0,1,['confiance'],[],[],"['fontaine', 'eau', 'climatisation']",['sortie scolaire'],"['menu de la cantine', 'fontaine lente']",[],[],3
+5e,Fille,2,2,2,0,2,2,1,2,['aucun'],[],[],"['emploi', 'devoirs']",['récréation'],[],['terrain'],[],3
+5e,Garçon,2,1,3,3,1,0,1,2,['confiance'],[],[],[],"['sorties scolaires', 'voyages', 'kahoot']",['pas de téléphone'],['ccc'],['permanence'],2
+6e,Fille,2,2,3,0,1,2,1,1,['aucun'],"['art et culture', 'projet pédagogiques']",[],['aucun'],['rien faire'],['classe'],['ccc'],['salle de classe'],3
+5e,Garçon,1,1,1,0,1,1,0,2,['compréhension'],[],[],"['toilette', 'devoirs', 'classe']","['la cour', 'permanence', 'pause du midi']","['rentrée', 'travail', 'devoirs']",['recré'],['salle de classe'],1
+5e,Fille,2,2,3,1,2,2,1,3,['respect'],[],[],"['horaires', 'devoirs', 'toilettes', 'propreté', 'temps', 'téléphone']",['finir tôt'],['travailler trop'],['la cour'],['permanence'],3
+5e,Fille,2,1,3,0,2,2,1,2,['aucun'],"[""vie de l'établissement""]",['cpe'],"['climatisation', 'eau', 'fontaines']",['blooket'],['évaluation'],['foyer'],[],3
+5e,Garçon,1,0,1,2,1,0,0,0,[],"[""vie de l'établissement""]",[],['climatisation'],['kahoot'],['évaluation'],['ccc'],['salle de classe'],1
+6e,Fille,2,1,1,2,1,1,2,2,['respect'],['art et culture'],[],['cpe'],[],[],[],[],2
+6e,Fille,2,2,3,2,2,2,1,2,['activités'],"[""vie de l'établissement""]",[],"['activité', 'thème', 'salle de classe']",['classe calme'],['cantine bondée'],"['salle de classe', 'récréation']",[],2
+6e,Garçon,3,2,3,0,1,2,2,3,"['votes', 'décisions']",['projet pédagogiques'],[],"['cuisine', 'cantine']",['famille'],"['école', 'contrôles', 'réveil tôt']","['ccc', 'salle de classe']",[],3
+6e,Fille,3,3,3,3,2,3,3,3,"['dialogue', 'confiance']",[],['aucun'],[],['travail'],[],"['la cour', 'ccc', 'salle de classe']",[],0
+5e,Fille,2,2,3,2,1,0,2,3,[],[],['classe'],['aucun'],"['projets', 'travailler en groupe']",[],"['ccc', 'la cour']",[],2
+3e,Garçon,3,3,3,2,1,2,1,2,"['considération', 'écoute', 'avis', 'sentiments']",[],[],"['sommeil', 'activités']",['amis'],"['profs', 'manque de respect', 'émotions ignorées']",['recree'],[],2
+6e,Garçon,3,2,3,0,3,3,2,2,[],[],[],[],[],[],[],[],0
+6e,Fille,2,2,3,3,1,2,2,3,['aucun'],[],['cour de récréation'],['aucun'],['touts les moments'],[],['aucun'],['aucun'],2
+5e,Fille,1,1,1,3,0,1,0,1,"['confiance', 'amitié']","['environnement et solidarité', 'art et culture']",[],['aucun'],['rire'],"['évaluation', 'cris']",['ccc'],['classe'],1
+5e,Garçon,2,3,2,3,2,2,1,2,[],"['MUN', ""vie de l'établissement"", 'art et culture']",['aucun'],"['obligations', 'téléphone', 'services', 'toilettes', 'fontaine']",['aucun'],['aucun'],['salle de classe'],[],0
+6e,Fille,2,2,2,2,2,2,1,2,['aucun'],['sport'],['as'],['aucun'],"['nationaux', 'compète']",[],"['ccc', 'plateau sportif']",[],2
+6e,Garçon,2,2,2,2,3,2,2,2,[],[],[],['aucun'],[],[],[],[],0
+5e,Garçon,2,2,2,2,3,3,1,2,"['respect', 'politesse']","['sport', 'art et culture', 'MUN']",['la cour'],"['clims', 'cantine', 'bousculons']",['cour avec mes amis'],[],"['la cour', 'salle de classe']",['salle de classe'],0
+6e,Garçon,3,2,3,0,2,2,2,3,[],"[""vie de l'établissement""]","['salle de classe', 'la cour']",['basket'],['dernier cours avant les vacances'],['évaluation'],"['classe', 'terrain', 'cantine']",[],3
+6e,Garçon,0,0,2,1,0,1,0,0,"['égalité', 'respect', 'écoute', 'communication']",[],['aucun'],['écoute'],[],[],"['récréation', 'salle de classe']",[],1
+6e,Garçon,1,1,1,1,1,1,0,0,"['compréhension', 'liberté']","[""vie de l'établissement""]",[],['aucun'],['jouer au football'],[],['ferme'],[],1
+6e,Garçon,2,1,1,1,1,1,1,1,['égalité'],[],[],"['téléphones', 'salle de classe', 'repos']",['cantine'],[],['foyer'],[],3
+6e,Fille,2,2,3,0,2,2,1,2,['aucun'],['sport'],[],[],[],[],[],[],3
+6e,Garçon,2,1,3,1,3,1,1,2,[],[],[],[],['cantine'],[],[],[],3
+4e,Garçon,2,2,2,2,1,0,3,2,[],['sport'],[],['aucun'],[],[],['la cour'],['salle de classe'],0
+4e,Garçon,2,2,3,1,2,2,2,2,[],[],[],[],[],[],[],[],3
+3e,Garçon,3,2,3,1,1,2,0,2,[],"['environnement et solidarité', 'MUN']",['oral'],"['liberté', 'pause', 'heure creuse']",['cours de sport'],['longue journée'],['terrain'],['permanence'],2
+3e,Garçon,2,1,2,3,1,2,0,2,[],['MUN'],[],['emplois-du-temps'],['pause'],['réveil'],['terrain'],['toilettes'],2
+3e,Fille,2,1,2,1,1,1,1,0,['écoute'],"['MUN', 'sport']",['la cour'],['emplois du temps'],['pause'],['réveille'],"['la cour', 'terrain']",['toilettes'],2
+3e,Fille,2,2,3,2,2,1,1,3,"['respect', 'communication']",['art et culture'],['aucun'],['règles'],"['relations profs-élèves', 'amis']","['fatigue', 'mauvaise humeur', 'incompris', 'prof crie', 'désaccord']",['classe'],['salle de classe'],2
+3e,Fille,2,2,2,3,2,2,1,3,['communication'],"['sport', 'MUN']",[],['horaire'],['pause'],[],['la cour'],[],2
+3e,Garçon,1,2,3,2,1,0,2,2,['respect'],"[""vie de l'établissement""]","[""cellule d'écoute""]",['clims'],"['la cour', 'cours intéressants']","['cantine', 'cours peu intéressants']",['préau'],['la cour'],2
+5e,Garçon,1,2,3,1,0,1,1,3,[],"['MUN', 'art et culture']",[],[],[],[],[],[],1
+3e,Garçon,1,2,3,3,2,1,1,2,[],['sport'],[],['salle de classe'],['rentrer chez moi'],['parler avec les gens de ma classe'],['ccc'],[],2
+3e,Garçon,2,1,1,2,1,1,1,2,['respect'],['environnement et solidarité'],[],['aucun'],['rencontrer najate'],"['échecs', 'difficultés', 'conflits', 'tristesse', 'anxiété', 'incertitude', 'solitude']","['vestiaires', 'terrain']",[],2
+3e,Fille,3,2,3,2,1,2,2,2,['respect'],['sport'],[],"['horaires', 'respect']",['activité sportive'],[],['ccc'],[],0
+3e,Fille,2,1,2,0,1,1,1,2,['respect'],"['MUN', 'sport', 'projet pédagogiques', ""vie de l'établissement""]","['salle de classe', 'la cour']",['cantine'],"['projets scolaires', 'muns', 'voyages scolaires']",['deux heures consécutives'],['médiathèque'],['cantine'],2
+3e,Garçon,1,2,1,0,2,1,1,1,['respect'],[],[],['menu'],"['amis', 'cours préférés']",[],"['permanences', 'la cour', 'cantine']",[],3
+3e,Garçon,3,2,3,2,0,2,2,3,"['respect', 'écoute']","['MUN', 'projet pédagogiques']",[],['cantine'],"['récrées', 'projets scolaire']","['profs crient', 'rabaissent']","['médiathèque', 'toilettes']",[],2
+3e,Garçon,2,2,2,2,1,2,2,2,"['confiance', 'communication', 'respect']",['MUN'],[],['climatisation'],"['la cour', ""fin d'année""]",['brevet blanc'],"['la cour', 'terrain']",[],2
+3e,Fille,2,1,1,3,2,1,1,2,"['écoute', 'respect', 'dialogue', 'confiance']",[],['aucun'],['aucun'],"['fou rire', 'la cour']","['matin', 'réveil', 'devoirs']",[],[],2
+3e,Fille,2,1,3,0,1,1,1,1,['respect'],"['sport', 'MUN', ""vie de l'établissement"", 'projet pédagogiques', 'environnement et solidarité', 'art et culture']",[],['circulation'],['muns'],[],['classe'],[],2
+3e,Fille,1,1,3,1,1,1,0,1,"['modernité', 'calme', 'souplesse', 'confiance']",[],[],"['restrictions', 'règles', 'liberté', 'téléphones']","['sonnerie', 'voyage scolaire']","['classe', 'prof désagréable', 'matière ennuyeuse']",['ccc'],['permanences'],1
+4e,Garçon,2,2,3,0,2,2,1,2,['respect'],['MUN'],[],"['horaires', 'strict', 'règles']","['voyage scolaire', 'rencontrée mes professeurs']","['cc', 'en retard', 'aller au toilettes']",['bancs'],['cc'],3
+4e,Fille,3,2,3,3,2,2,2,2,[],[],['salle de classe'],[],[],[],[],[],0
+4e,Garçon,3,2,2,1,2,2,2,2,[],"['MUN', 'projet pédagogiques', ""vie de l'établissement""]",[],"['climatisation', 'permanence', 'choix']",['amis'],"['permanence', 'cours avec mme zeroual']",['la cour'],['permanence'],0
+4e,Fille,2,2,2,0,1,1,0,2,"['moments', 'discussion']",['projet pédagogiques'],['classe'],['climatisation'],['classe'],[],['médiathèque'],['salle de classe'],3
+4e,Fille,2,2,2,2,2,2,2,2,[],[],[],[],[],[],[],[],0
+4e,Garçon,1,1,2,1,1,0,0,2,[],[],[],['climatisation'],[],[],[],[],1
+4e,Fille,2,2,2,0,2,2,2,2,"['communication', 'aise']",['sport'],[],['climatisation'],['récréation'],['cantine'],['recre'],['salle de classe'],3
+4e,Garçon,2,2,3,2,2,2,2,2,['respect'],[],[],['climatisation'],['la cour'],['classe'],"['classe', 'cantine']",['salle de classe'],0
+4e,Garçon,2,2,3,2,1,1,1,2,"['clarté', 'respect', 'bienveillance', 'écoute']","['sport', 'art et culture', 'projet pédagogiques']","['la cour', 'salle de classe']","['clim', 'horaires', 'devoirs']","['pause', 'perm']",['heures de colles'],[],[],2
+4e,Fille,2,2,2,2,2,2,2,2,['aucun'],"[""vie de l'établissement"", 'MUN', 'MUN', ""vie de l'établissement""]",[],[],[],[],"['récrés', 'projet', 'cours de sport']","['classe', 'évaluation']",0
+4e,Fille,2,2,2,0,2,2,1,2,[],,[],[],[],[],[],[],3
+4e,Garçon,2,1,2,0,1,1,0,2,['respect'],"['environnement et solidarité', 'MUN']","['phare', 'vie scolaire']",['aucun'],"['pause', 'cours de maths']","[""cours d'arabe"", 'histoire géo arabe', 'pas autorisé à manger']","['ccc', 'la cour']",['espace'],1
+4e,Garçon,2,1,1,2,1,1,1,2,[],[],"['la cour', 'classe']","['terrain', 'accès']",['avec mes amis'],['évaluation'],['la cour'],['salle de classe'],2
+4e,Garçon,0,0,0,0,0,0,0,2,"['communication', 'écoute', 'respect', 'dialogue', 'confiance', 'discussion', 'salle de classe', 'la cour']",[],['recréation'],['activités'],['prof absent'],['évaluation'],['la cour'],['salle de classe'],1
+4e,Garçon,3,2,3,2,1,1,0,2,['aucun'],['sport'],['aucun'],['aucun'],[],['flem'],[],[],2
+4e,Fille,2,1,1,3,0,1,2,2,"['confort', 'discussion', 'réunion', 'salle de classe', 'paix', 'écoute']",[],[],['climatisation'],['clim'],['pas de clim'],[],[],2
+4e,Garçon,2,1,2,2,1,2,2,2,['compréhension'],['art et culture'],['salle de classe'],['heures'],"['pauses méridienne', ""compétition avec l'as""]",['salle de classe'],"['foyer', 'la cour', 'salle de classe']",['salle de classe'],2
+4e,Fille,3,2,2,3,2,2,2,3,"['dialogue', 'partage', 'avis', 'décision', 'discussion']","['sport', 'MUN', 'art et culture']",['salle de classe'],"['sport', 'cantine', 'nourriture', 'lycée']","['pause', 'cours dynamique']","['examens', 'cours ennuyeux']","['médiathèque', 'gymnase']","['permanence', 'salle de classe']",0
+4e,Fille,2,1,2,2,2,2,1,3,[],['sport'],[],['liberté'],[],[],['classe'],[],2
+4e,Garçon,1,1,2,0,1,1,1,2,['respect'],"['sport', 'MUN']",['heure de vie de classe'],['aucun'],['pause'],"[""matières que je n'apprécie pas""]",['bulle'],['salle de classe'],1
+4e,Garçon,2,2,3,1,2,2,2,2,[],['sport'],['vie scolaire'],[],[],[],[],[],0
+4e,Garçon,2,1,2,0,2,2,2,3,"['tolérance', 'respect']",[],[],"['climatisation', 'eau', 'cantine', 'horaires']",['cours de math'],"['cours de langue', ""cours d'art""]",['c.c.c'],[],3
+4e,Garçon,2,2,3,1,2,2,0,2,['entente'],[],[],['écoute'],[],[],['terrain'],[],3
+4e,Garçon,0,0,0,0,1,0,0,0,"['écoute', 'confiance', 'compréhension', 'justice']",[],[],['aucun'],"['bon prof', 'bonnes notes', 'révisions réussies']",[],"['classe', 'ccc']",['salle de classe'],1
+4e,Garçon,1,2,2,0,1,1,1,2,['écoute'],['sport'],['aucun'],"['activités', 'permanence']",['la cour'],['cours de 2h'],['la cour'],['permanence'],3
+4e,Fille,2,1,1,3,0,1,1,3,[],[],[],[],[],[],[],[],2
+4e,Garçon,2,1,3,2,1,1,1,3,['écoute'],[],['classe'],"['liberté', 'parcours']",['cours libres'],['profs sévères'],['la cour'],['salle de classe'],2
+4e,Garçon,2,1,2,3,1,1,2,2,[],[],[],[],[],[],[],[],2
+4e,Fille,3,2,3,2,2,3,2,2,"['écoute', 'respect', 'dialogue']","['projet pédagogiques', 'sport']",[],"['liberté', 'choix', 'parcours']","['expression', 'liberté']",['sévérité'],['salle de classe'],['toilettes'],0
+4e,Fille,3,2,2,0,2,2,1,3,"['calme', 'humilité']",['sport'],[],"['heures', 'flexible']","['pauses méridiennes', 'aller au ccc']",[],['ccc'],[],3
+4e,Garçon,2,2,2,1,1,2,2,2,['communication'],"['MUN', 'art et culture', ""vie de l'établissement""]","['conseil de classe', 'cvc']","['clubs', 'théâtre', 'débat', 'sport', 'cuisine', 'écologie']",['avec amies'],['finis à 17h'],"['ccc', 'récrée']",['permanence'],2
+4e,Fille,2,2,3,0,3,2,1,2,[],[],"['salle de classe', 'psychologue']",['climatisation'],['la cour'],"['cours compliqués', 'matin']",['classe'],['salle de classe'],3
+4e,Fille,2,2,2,2,2,1,1,2,['écoute'],['projet pédagogiques'],['exposés'],[],[],[],[],[],2
+4e,Fille,2,2,3,2,1,2,1,2,[],[],[],[],['rigole avec amis'],['échoue test'],"['madiatheque', 'permanence']",[],2
+4e,Garçon,2,1,1,1,1,0,1,3,[],['MUN'],[],[],['muns'],[],"['ccc', 'la cour']",[],2
+4e,Fille,3,2,3,2,1,1,2,2,[],['MUN'],[],[],[],[],[],[],0
+4e,Garçon,2,1,0,0,1,0,0,2,[],['sport'],[],[],[],[],[],[],1
+4e,Garçon,3,1,2,0,3,3,1,1,"['écoute', 'mutualité']",['projet pédagogiques'],['classe'],['aucun'],[],['aucun'],[],[],3
+4e,Garçon,0,0,0,3,0,0,0,3,"['surveillants', 'disponibilité', 'encadrement']",[],[],"['aed', 'vie scolaire', 'buvettes', 'toilettes', 'balles']",['heures de permanence en extérieur'],['surveillants occupés'],"['médiatheque', 'extérieur']",['permanence'],1
+3e,Fille,1,0,1,2,0,0,0,1,['compréhension'],[],[],[],[],[],[],[],1
+4e,Fille,2,1,2,2,2,0,2,2,"['permanence', 'jeux', 'temps libre']","['art et culture', 'projet pédagogiques']",['aucun'],"['jeu', 'permanence']",[],"['sport', 'arts plastiques']",['ccc'],[],0
+4e,Garçon,2,1,1,0,1,1,2,1,"['expression', 'écoute', 'respect', 'réponse', 'égalité']",['MUN'],[],['règlement'],"[""quand j'ai pas cours"", 'cours fini', 'vacances', 'récrés']",['cours de maths'],[],[],3
+4e,Garçon,2,1,1,3,1,0,2,3,['aucun'],"['MUN', 'sport']","['salle de classe', 'séance de vie de classe']","['sièges', 'cantine', 'dresscode']","['la cour', 'cantine', 'vie de classe']",[],"['la cour', 'salle de classe', 'cantine']",[],2
+4e,Fille,1,2,1,3,0,0,1,2,[],[],[],['tables'],['joue au foot'],['ne pas jouer au foot'],['dehors'],['permanence'],2
+4e,Fille,3,2,3,2,0,0,2,3,"['réunions', 'confiance']",['MUN'],['ccc'],"['jeu', 'étagère', 'détente']",['cours de sport'],['permanences'],"['ccc', 'la cour']",[],2
+4e,Garçon,2,2,3,1,2,0,1,3,"['communication', 'idées', 'doute', 'comportement', 'choix']",['MUN'],[],['aucun'],['amis'],['salle de classe'],[],[],3
+4e,Fille,2,0,2,3,2,2,2,2,"['écoute', 'temps', 'respect']","['MUN', 'art et culture']",['aucun'],"['classe', 'climatisation']","['amis', 'la cour', 'ccc']","['classe', 'chaleur', 'canicule']",['ccc'],['salle de classe'],2
+4e,Fille,2,1,3,2,1,1,1,2,['aucun'],['sport'],[],"['telephone', 'la cour']",['heure creuse'],['ds communs'],['foyer'],[],2
+4e,Fille,2,1,2,2,2,2,1,2,[],"['MUN', 'environnement et solidarité', ""vie de l'établissement""]",['la cour'],['table'],['cantine'],[],['allée'],[],2
+4e,Garçon,2,3,2,2,2,2,0,2,[],['MUN'],"['la cour', 'intercours', 'professeurs']","['accès', 'couloirs', 'pause', 'récréation']","['récréation', 'pauses méridiennes', 'intercours']",['classe'],"['cantine', 'médiatèque']","['rang', 'permanence']",2
+4e,Garçon,2,2,1,0,1,1,1,1,['respect'],['sport'],"['vie scolaire', 'cpe']","['climatisation', 'chaleur']",['la cour'],['matin'],['recrée'],['salle de classe'],3
+4e,Garçon,2,2,2,1,2,2,0,1,"['écoute', 'discipline']",[],['récréation'],['activités'],['amis'],"['harcèlement', 'pleurer']",['foyer'],['médiathéque'],3
+4e,Garçon,2,1,1,0,1,0,0,2,['aucun'],[],[],['climatisation'],"['extérieur', 'heures de permanence']","['crie dessus', 'pas de place en extérieur']",['ccc'],[],1
+4e,Garçon,2,1,2,1,2,1,3,2,['respect'],['sport'],['récréation'],"['sortir', 'nourriture', 'kiosque']",['amis'],['salle de classe'],['récre'],['classe'],0
+4e,Garçon,2,1,3,2,2,0,0,0,[],[],[],[],"['la cour', 'amis']",[],['porte'],['salle de classe'],2
+3e,Fille,3,2,3,0,1,1,2,2,[],['sport'],[],"['profs', 'compétence']",['amis'],['pas entendre adultes'],['salle de classe'],['cpe'],3
+4e,Garçon,1,1,3,0,0,0,1,0,['écoute'],['projet pédagogiques'],['aucun'],"['aed', 'téléphone']",[],"['injustice', 'aucune confiance']",['cantine'],"['toilettes', 'salle de classe', 'bureau']",1
+4e,Garçon,2,0,0,0,0,0,0,1,['avis'],[],[],"['ajouter', 'finir', 'famille']",['pause'],['heures de cours'],['salle de classe'],['permanence'],1
+3e,Garçon,1,1,1,1,0,0,1,2,['écoute'],[],[],[],['voyages'],"['retenue', 'exclusion']",[],[],1
+3e,Fille,2,1,2,2,2,2,0,1,[],[],[],[],[],[],[],[],2
+3e,Garçon,2,2,2,0,2,2,1,2,[],[],['aucun'],"['climatisation', 'surveillance', 'harcèlement']",[],[],[],[],3
+3e,Garçon,2,0,2,2,0,0,2,2,['présence'],['MUN'],[],['climatisation'],[],[],['ccc'],['salle de classe'],2
+3e,Garçon,2,2,2,2,0,1,1,2,['tutoiement'],[],[],"['clims', 'chaleur']",['la cour'],['prof pas agréable'],['la cour'],['salle de classe'],2
+4e,Fille,2,0,1,3,1,1,1,2,['communication'],"['sport', 'sport', 'environnement et solidarité']",[],"['climatisation', 'fontaines']",[],[],"['préaut', 'la cour']",[],2
+3e,Garçon,2,1,3,0,1,0,1,2,['aucun'],['sport'],['psy'],['climatisation'],"['cantine', 'amis']","['classe', '15 heure', 'chaleur', 'pas de climatisation']",[],[],3
+4e,Garçon,1,1,1,1,1,0,0,2,"['écoute', 'empathie']","['MUN', 'MUN', 'MUN', ""vie de l'établissement"", ""vie de l'établissement"", 'environnement et solidarité']","['ateliers', 'activités']","['méthode', 'évènements', 'galas', 'compétences']","[""cours d'anglais"", 'cours de français', 'moments avec mes amies']","[""cours d'arabe""]",['médiathèque'],['permanence'],1
+3e,Garçon,3,2,1,2,1,2,2,2,['respect'],[],[],"['liberté', 'circulation', 'classe']",['récrée'],['classe'],['récrée'],['classe'],0
+4e,Fille,1,1,3,3,1,1,1,1,['aucun'],"[""vie de l'établissement""]",[],['horaires'],"[""cours d'anglais"", 'sport']",['arabe'],['gymnase'],[],2
+4e,Fille,2,0,3,2,1,0,0,0,"['écoute', 'respect', 'dialogue', 'compréhension', 'médiation', 'discussion']","[""vie de l'établissement""]","['classe', 'cours de récreation']",['clim'],"['récréation', 'pause']",['cours de fin de journée'],"['cantine', 'court']",['salle de classe'],1
+4e,Garçon,2,2,3,1,0,1,0,0,[],"['MUN', ""vie de l'établissement""]",[],"['écouter', 'élèves', 'bien-être', 'famille']","['voyage scolaire', 'pause', 'classe']",['punition'],[],[],2
+4e,Fille,2,2,2,2,2,2,1,2,"['écoute', 'confiance']","['sport', ""vie de l'établissement""]",[],['tout'],[],[],[],[],2
+3e,Garçon,2,2,3,2,2,1,0,2,[],['sport'],[],"['horaire', 'bus']",[],[],[],[],2
+3e,Garçon,3,3,3,2,2,2,3,3,[],['environnement et solidarité'],[],[],[],[],['classe'],[],0
+4e,Fille,2,1,3,2,1,1,2,3,"['écoute', 'attention']","['sport', 'MUN']",['salle de classe'],"['salle de classe', 'aérer']",['prof absent'],['enchaînement des heures'],['extérieur'],['salle de classe'],2
+4e,Garçon,2,2,3,2,1,1,1,1,['aucun'],['environnement et solidarité'],[],[],[],[],[],[],2
+3e,Fille,2,2,2,2,2,1,2,2,[],"['MUN', ""vie de l'établissement""]",[],['horaires'],"['cours de technologie', ""cours d'anglais""]",[],[],[],0
+3e,Garçon,1,1,1,2,1,0,0,2,"['justice', 'respect']","['projet pédagogiques', ""vie de l'établissement""]",[],"['climatisation', 'professeurs', 'respect', 'confiance', 'stricte']",['amis'],['insulter'],['médiathèque'],['permanence'],1
+4e,Garçon,3,1,3,2,1,1,1,2,"['forums', 'conseils', 'projets', 'écoute', 'médiation', 'communication']",['sport'],"['la cour', 'classe']","['climatisation', 'horaires', 'sommeil', 'surveillants']",[],"['notes', 'bavardage', 'comportement', 'parents']","['ccc', 'permanence']",['salle de classe'],2
+4e,Fille,2,2,2,2,1,2,2,1,"['écoute', 'respect', 'confiance', 'dialogue']",['sport'],['collège'],"['classe', 'temps']",['amis'],"['jugé', 'pas écouté', 'pression']","['la cour', 'cantine']",['salle de classe'],2
+3e,Fille,3,0,3,3,0,0,2,2,"['comprehension', 'ecoute']",[],[],[],[],[],[],[],2
+4e,Fille,2,2,3,2,1,1,0,0,[],"['sport', ""vie de l'établissement""]",[],[],[],[],[],[],2
+4e,Garçon,2,2,2,2,1,0,0,2,"['formation', 'communication', 'respect']","['sport', 'environnement et solidarité']",[],"['climatisation', 'casiers']","['pauses de deux heures', 'récréation', 'cours intéressants', 'français', 'hg']",[],"['classe', 'portailles', 'vie scolaire']",[],2
+4e,Fille,3,2,2,1,2,2,2,3,"['gentillesse', 'ouverture']","['art et culture', 'sport']",[],"['système', 'strict', 'environnement', 'relation']","['félicitations', 'efforts aboutis']","['cris de ma mère', 'stress', 'mauvaises notes']",[],[],0
+4e,Garçon,3,2,3,1,2,2,2,2,['discussion'],"['sport', 'art et culture', 'environnement et solidarité']",[],"['projet', 'classe', 'emploi']","['classe', 'projet', 'jeux']","['classe', 'vie scolaire']","['la cour', 'terrains', 'auditorium']",['salle de classe'],0
+4e,Garçon,1,1,2,0,1,1,1,2,[],"['MUN', 'sport']",[],['climatisateurs'],[],[],"['ccc', 'la cour']","['permanence', 'salle de classe']",1
+4e,Fille,2,2,2,2,2,2,2,3,"['écoute', 'bienveillance']",['art et culture'],['bureau'],[],['parler avec mes amis'],[],[],[],0
+4e,Garçon,2,1,2,0,2,2,1,1,"['considération', 'tolérance']",[],[],[],[],[],['ccc'],[],3
+4e,Fille,0,1,1,1,0,0,0,0,['aucun'],['MUN'],['aucun'],['aucun'],['avec mes amis'],[],['salle de classe'],['cantine'],1
+4e,Garçon,2,1,2,0,0,0,1,3,[],[],[],"['gestion', 'heures', 'creuses']",['pause'],['permanence'],['plateau sportif'],['la cour'],1
+3e,Fille,1,1,1,0,0,1,1,2,"['écoute', 'compréhension']",[],[],"['méthode', 'horaires', 'devoirs', 'activités', 'code', 'défense']",['samedi'],['7h45 de lundi à vendredi'],[],"['toilettes', 'vie scolaire', 'cpe', 'cantine']",1
+4e,Fille,3,2,2,2,2,2,2,3,"['écoute', 'problèmes']",[],[],"['écoute', 'promesses']","['pause', 'cours divertissants']","['classe', ""professeurs qui n'écoutent pas""]","['cantine', 'salle de classe']",['classe'],0
+4e,Garçon,2,1,2,0,1,0,0,0,['vérité'],[],[],['écoute'],[],[],['média'],['perm'],1
+6e,Fille,2,1,2,2,0,2,1,2,[],['MUN'],"['vie scolaire', 'école']",['climatisation'],['bon moment avec profs et camarades'],['ambiance tendue en classe'],['la cour'],[],2
+4e,Fille,2,2,3,3,1,2,2,2,"['amabilité', 'agréabilité']",[],[],"['stricte', 'respectueux', 'écoute']",['moments entre amis'],[],"['la cour', 'terrain']",['bureau'],2
+4e,Fille,2,2,2,2,2,2,2,2,[],[],[],[],[],[],[],[],0
+3e,Garçon,3,2,1,2,1,0,2,2,['respect'],"['MUN', 'sport']",['la cour'],"['environnement', 'espaces', 'fontaines', 'climatisation', 'ventilateurs']",['échanges drôles'],"[""professeur s'énerve""]","['salle de classe', 'la cour']",['salle de classe'],0
+4e,Fille,2,3,3,3,2,2,2,2,"['gentillesse', 'amabilité', 'confiance', 'affinités']","['MUN', 'environnement et solidarité', ""vie de l'établissement"", 'art et culture']",[],"['horaire', 'évaluation']","['heures creuses', 'cours préférés', 'récréation', 'pause']",[],"['ccc', 'salle de classe', 'escalier']","['salle de classe', 'salle de classe', 'salle de classe', 'salle de classe', 'salle de classe']",0
+4e,Garçon,2,2,2,3,1,1,0,2,['confiance'],['environnement et solidarité'],['aucun'],['bancs'],['amis'],['instants avant examens'],"['terrain', 'foyer']",['classe'],2
+4e,Garçon,1,1,1,0,0,0,1,0,[],"['MUN', 'projet pédagogiques', 'environnement et solidarité', ""vie de l'établissement""]",['cpe'],"['cantine', 'espace', 'tables', 'nourriture', 'organisation', 'surveillants']","['établissement', 'professeurs', 'personnels']","['injustices', 'punitions', 'cantine']","['la cour', 'ccc', 'salle de classe', 'espaces']",['cantine'],1
+6e,Fille,2,2,2,2,1,1,0,2,[],"['sport', 'interclass']",[],"['banc', 'ombre']",[],[],['bancs'],[],2
+6e,Garçon,2,2,2,0,1,1,2,3,"['compréhension', 'écoute', 'patience', 'crédibilité']",[],[],"['comportement', 'profs', 'aed', 'cpe']",[],[],[],[],3
+6e,Fille,2,1,2,1,1,1,2,2,"['motivation', 'joie', 'animation', 'liens']",['sport'],"['art plastique', 'musique']","['acceptation', 'compréhension', 'écoute', 'bonté']","['détente', 'compétition', 'ambiance', 'soirée', 'rire', 'histoires', 'vacances', 'fin évaluation', 'réussite']","['travail', 'élèves méchants', 'actes cruels', 'cours long', 'devoirs', 'solitude']","['recréation', 'ccc', 'foyer', 'terrain']",[],3
+5e,Fille,1,2,3,3,0,0,1,2,[],[],[],[],[],[],[],[],2
+6e,Garçon,2,1,3,3,3,3,3,3,[],,[],[],[],[],[],[],0
+4e,Garçon,2,2,2,3,2,2,3,2,[],"[""vie de l'établissement""]",[],['climatisation'],"['amis', 'salle de détente']","['matin', 'après-midi']",['salle de classe'],['salle de classe'],0
+5e,Fille,1,1,1,3,0,1,0,0,"['calme', 'respect']",['environnement et solidarité'],[],['harcèlement'],[],['gens qui crient'],['chambre'],['cpe'],1
+3e,Fille,1,0,0,0,1,0,1,1,['aucun'],['sport'],['aucun'],[],['avec mes copains'],[],['foyer'],[],1
+6e,Fille,2,2,2,2,0,1,0,0,[],[],"['récréation', 'salle de classe']",[],[],[],[],[],2
+3e,Garçon,2,1,3,1,2,1,2,2,['aucun'],"['art et culture', ""vie de l'établissement"", 'MUN']",[],"['climatisation', 'obligations', 'vestimentaires', 'accès', 'fontaine', 'téléphones', 'horaires', 'pause', 'aide', 'psychologique', 'engagements', 'organisation', 'sacs', 'toilettes', 'protections', 'relation', 'événements', 'badges']",[],['forte chaleur'],['salle de classe'],[],0
+5e,Garçon,2,2,3,0,3,2,2,2,['écoute'],[],[],"['écoute', 'aide']",['amis'],['autres'],[],[],3
+3e,Fille,2,2,3,0,2,0,1,2,"['avis', 'écoute', 'dialogue']",['sport'],[],[],['récréation'],['salle de classe'],[],[],3
+6e,Garçon,2,3,3,1,1,2,2,3,"['raison', 'pédagogie']",['sport'],"['la cour', 'cantine', 'permanence', 'c.c.c']",[],[],[],[],[],0
+5e,Fille,3,2,3,3,3,3,2,2,['aucun'],[],[],[],[],[],[],[],0
+4e,Garçon,2,0,1,0,0,1,0,2,"['respect', 'compréhension']",[],[],"['classe', 'utiles', 'histoire', 'événements']","['découverte', 'apprentissage', 'amis']",[],['classe'],['salle de classe'],1
+4e,Fille,2,0,0,2,1,1,0,3,[],['sport'],[],['respect'],['évaluation réussie'],['évaluation ratée'],['la cour'],['permanence'],1
+4e,Garçon,2,2,3,2,3,2,2,3,[],['sport'],"['salle de classe', 'cpe']","['horaires', 'fatigue', 'rythme']",[],[],['la cour'],['permanence'],0
+5e,Garçon,2,2,3,1,0,2,1,2,[],[],[],[],[],[],[],[],2
+6e,Garçon,0,0,0,0,0,0,0,0,[],"['MUN', ""vie de l'établissement""]",['auditorium'],"['évènements', 'galas', 'charités']","[""cours d'anglais"", 'cours de français']",['évaluation'],"['allée', 'cantine']",['salle de classe'],1
+6e,Garçon,0,0,1,0,0,0,0,0,"['complicité', 'confiance', 'dialogue']",['projet pédagogiques'],"['la cour', 'classe']","['enseignants', 'respect', 'complicité']","['entre amis', 'classe']","['enseignant strict', 'la cour']","['la cour', 'médiathèque', 'permanence']",[],1

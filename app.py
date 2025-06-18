@@ -46,7 +46,8 @@
 import streamlit as st
 
 # 🌐 Configuration générale
-st.set_page_config(page_icon="🏠",layout="wide")
+st.set_page_config(page_icon=":material/dashboard:",layout="wide")
+st.logo("assets/logo.png", size="large")
 
 
 
@@ -71,12 +72,11 @@ st.set_page_config(page_icon="🏠",layout="wide")
 #     st.success("Pour vous déconnecter, fermez l’onglet ou déconnectez-vous de Streamlit Cloud.")
 
 # 📁 Définir les pages comme objets
-accueil = st.Page("pages/1_accueil.py", title="Accueil", icon="🏠")
-dashboard = st.Page("pages/2_resultats_globaux.py", title="Résultats globaux", icon="📊")
-ecarts = st.Page("pages/3_profils.py", title="Profils", icon="⚖️")
-ouvertes = st.Page("pages/4_ouvertes.py", title="Réponses ouvertes", icon="💬")
-# outils = st.Page("pages/5_🧰_Outils.py", title="Outils", icon="🧰")
-# upload = st.Page("pages/6_⚙️_Upload.py", title="Données", icon="⚙️")
+accueil = st.Page("pages/1_accueil.py", title="Accueil", icon=":material/home:")
+dashboard = st.Page("pages/2_resultats_globaux.py", title="Résultats globaux", icon=":material/analytics:")
+ecarts = st.Page("pages/3_profils.py", title="Profils", icon=":material/group:")
+ouvertes = st.Page("pages/4_ouvertes.py", title="Réponses ouvertes", icon=":material/comment:")
+
 
 # login_page = st.Page(login, title="Connexion", icon="🔐")
 # logout_page = st.Page(logout, title="Déconnexion", icon="🚪")

@@ -38,52 +38,54 @@ repartition_profils = df_scores["cluster_kmeans"].value_counts(normalize=True).s
 taille_profils = {
     f"Profil {k+1}": f"{round(p*100, 1)}%" for k, p in repartition_profils.items()}
 
-if selected_label:
-    cluster_id = int(selected_label.split()[-1]) - 1
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.markdown("**Profil des scores moyens**")
-        st.plotly_chart(plot_cluster_profile(df_scores, cluster_id))
-    with col2:
-        st.markdown("**Nombre d'élèves par genre et niveau**")
-        st.plotly_chart(plot_single_cluster_distribution(df_scores, cluster_id), use_container_width=True)
-    with col3:
-                # Contenu textuel associé
-        commentaires = {
-            "Profil 1": """
-        - Climat très positif : **confiance (3.91)**, **expression (3.67)** et **bien-être (3.57)** à des niveaux élevés.
-        - **Engagement également bon** : **1.94**, bien au-dessus des autres.
-        - **Majorité de filles**, tous niveaux confondus.
+with st.container(border=True):
+    if selected_label:
 
-        ➡️ Ce sont des élèves qui semblent globalement **épanouis et bien intégrés** dans leur environnement scolaire.
-        """,
-            "Profil 2": """
+        cluster_id = int(selected_label.split()[-1]) - 1
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.markdown("**Profil des scores moyens**")
+            st.plotly_chart(plot_cluster_profile(df_scores, cluster_id))
+        with col2:
+            st.markdown("**Nombre d'élèves par genre et niveau**")
+            st.plotly_chart(plot_single_cluster_distribution(df_scores, cluster_id), use_container_width=True)
+        with col3:
+                    # Contenu textuel associé
+            commentaires = {
+                "Profil 1": """
+            - Climat très positif : **confiance (3.91)**, **expression (3.67)** et **bien-être (3.57)** à des niveaux élevés.
+            - **Engagement également bon** : **1.94**, bien au-dessus des autres.
+            - **Majorité de filles**, tous niveaux confondus.
 
-        - Scores très faibles sur tous les axes : **confiance (1.44)**, **bien-être (0.46)**, **expression (0.95)**, **engagement (0.99)**.
-        - Surreprésentation d’élèves de **6e**, garçons majoritaires.
+            ➡️ Ce sont des élèves qui semblent globalement **épanouis et bien intégrés** dans leur environnement scolaire.
+            """,
+                "Profil 2": """
 
-        ➡️ Ces élèves semblent vivre une **expérience scolaire très difficile et préoccupante**.
-        """,
-            "Profil 3": """
+            - Scores très faibles sur tous les axes : **confiance (1.44)**, **bien-être (0.46)**, **expression (0.95)**, **engagement (0.99)**.
+            - Surreprésentation d’élèves de **6e**, garçons majoritaires.
 
-        - Confiance modérée (**2.90**), mais **bien-être faible (1.70)** et **expression limitée (1.82)**.
-        - **Engagement relativement bon (2.17)**, supérieur à celui de certains autres profils.
-        - **Filles très majoritaires**, plutôt de la **6e à la 4e**.
+            ➡️ Ces élèves semblent vivre une **expérience scolaire très difficile et préoccupante**.
+            """,
+                "Profil 3": """
 
-        ➡️ Ces élèves montrent un **ressenti fragile**, mais ils gardent **une certaine motivation**.
-        """,
-            "Profil 4": """
-        - Climat relationnel assez bon : **confiance (3.12)**, **expression (2.74)**.
-        - **Engagement extrêmement faible (0.29)**
-        - **Profil plus masculin**, présence décroissante avec les niveaux.
+            - Confiance modérée (**2.90**), mais **bien-être faible (1.70)** et **expression limitée (1.82)**.
+            - **Engagement relativement bon (2.17)**, supérieur à celui de certains autres profils.
+            - **Filles très majoritaires**, plutôt de la **6e à la 4e**.
 
-        ➡️ Ces élèves sont **désengagés de la vie de l´établissement**, malgré un cadre relationnel perçu comme plutôt favorable.
-        """
-        }
+            ➡️ Ces élèves montrent un **ressenti fragile**, mais ils gardent **une certaine motivation**.
+            """,
+                "Profil 4": """
+            - Climat relationnel assez bon : **confiance (3.12)**, **expression (2.74)**.
+            - **Engagement extrêmement faible (0.29)**
+            - **Profil plus masculin**, présence décroissante avec les niveaux.
 
-        st.markdown("**Analyse**")
-        st.markdown(f"Proportion d’élèves concernés : {taille_profils[selected_label]}")
-        st.markdown(commentaires[selected_label])
+            ➡️ Ces élèves sont **désengagés de la vie de l´établissement**, malgré un cadre relationnel perçu comme plutôt favorable.
+            """
+            }
+
+            st.markdown("**Analyse**")
+            st.markdown(f"Proportion d’élèves concernés : {taille_profils[selected_label]}")
+            st.markdown(commentaires[selected_label])
 
 st.info("""
         **À retenir :**

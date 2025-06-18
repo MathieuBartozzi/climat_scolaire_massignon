@@ -1,6 +1,5 @@
 from utils.utils import plot_heatmap_ecarts_genre,load_data,plot_scores_by_gender, plot_scores_by_level_and_gender,compute_composite_scores,plot_combined_relation,plot_score_distributions_subplots, COLOR_PALETTE, plot_correlation_heatmap
 import streamlit as st
-import pandas as pd
 import json
 
 
@@ -55,20 +54,20 @@ with tab1:
 
     # Initialisation de la valeur par défaut
     if "vue_scores" not in st.session_state:
-        st.session_state.vue_scores = "globale par genre"
+        st.session_state.vue_scores = "vue globale par genre"
 
     # Sélecteur de vue avec st.pills
     vue = st.pills(
         label="",
-        options=["globale par genre", "croisée par niveau et genre"],
+        options=["vue globale par genre", "vue croisée par niveau et genre"],
         key="vue_scores")
 
     # Affichage conditionnel
-
-    if vue == "globale par genre":
-        plot_scores_by_gender(df)
-    else:
-        plot_scores_by_level_and_gender(df)
+    with st.container(border=True):
+        if vue == "vue globale par genre":
+            plot_scores_by_gender(df)
+        else:
+            plot_scores_by_level_and_gender(df)
 
 
 
@@ -126,8 +125,8 @@ with tab1:
     - Un **écart négatif** indique que les garçons ont un **score plus élevé** que les filles.
     """)
 
-
-    plot_heatmap_ecarts_genre(df)
+    with st.container(border=True):
+        plot_heatmap_ecarts_genre(df)
 
     st.info("""**À retenir :**
 
@@ -167,14 +166,14 @@ with tab2:
 
     df_composite = compute_composite_scores(df, score_axes, context_cols=["genre"])
 
-
-    plot_score_distributions_subplots(
-        df_composite,
-        list(score_axes.keys()),
-        rows=2,
-        cols=2,
-        palette=COLOR_PALETTE
-    )
+    with st.container(border=True):
+        plot_score_distributions_subplots(
+            df_composite,
+            list(score_axes.keys()),
+            rows=2,
+            cols=2,
+            palette=COLOR_PALETTE
+        )
 
 
 
@@ -251,7 +250,8 @@ Ce tableau croisé indique le **degré de corrélation linéaire** entre chaque 
 
 
     score_cols = list(score_mapping.keys())
-    plot_correlation_heatmap(df_composite, score_cols)
+    with st.container(border=True):
+        plot_correlation_heatmap(df_composite, score_cols)
 
 
     st.info("""**À retenir** :

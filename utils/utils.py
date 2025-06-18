@@ -125,7 +125,7 @@ def plot_score_distributions_subplots(df, score_columns, rows=2, cols=2, palette
     # Mise en forme finale
     fig.update_layout(
         height=500 if rows == 1 else 800,
-        title_text="Distributions des scores composites par axe (par genre)",
+        # title_text="Distributions des scores composites par axe (par genre)",
         bargap=0.1
     )
 
@@ -216,7 +216,7 @@ def plot_scores_by_gender(df):
         df_grouped, x="question", y="score", color="genre",
         barmode="group", category_orders={"question": ordre_questions},
         color_discrete_sequence=COLOR_PALETTE, height=600,
-        title="Scores moyens par question fermée selon le genre",
+        # title="Scores moyens par question fermée selon le genre",
         hover_data=["intitule"]
     )
     fig.update_layout(xaxis_title=None, yaxis_title="Score moyen (0–3)", yaxis_range=[0, 3])
@@ -268,7 +268,7 @@ def plot_scores_by_level_and_gender(df):
         barmode="group", facet_col="Niveau_label",
         category_orders={"Niveau_label": ordre_niveaux, "Question": ordre_questions},
         color_discrete_sequence=COLOR_PALETTE, height=600,
-        title="Scores moyens par question fermée par niveau et genre",
+        # title="Scores moyens par question fermée par niveau et genre",
         hover_data=["intitule"]
     )
     fig.update_layout(xaxis_title=None, yaxis_title="Score moyen (0–3)", yaxis_range=[0, 3])
@@ -306,7 +306,7 @@ def plot_heatmap_ecarts_genre(df):
         color_continuous_midpoint=0,
         labels=dict(color="Écart Fille - Garçon"),
         aspect="auto",
-        title="Écarts Fille - Garçon par niveau et question"
+        # title="Écarts Fille - Garçon par niveau et question"
     )
     fig.update_layout(xaxis_title="", yaxis_title="", height=500)
     st.plotly_chart(fig)
@@ -322,8 +322,8 @@ def plot_correlation_heatmap(df, score_cols):
         corr_matrix,
         text_auto=True,
         color_continuous_scale="RdBu",
-        zmin=-1, zmax=1,
-        title="📊 Corrélations entre les scores composites"
+        zmin=-1, zmax=1
+        # title="📊 Corrélations entre les scores composites"
     )
     fig.update_layout(height=600, width=600)
     st.plotly_chart(fig, use_container_width=True)
@@ -374,11 +374,12 @@ def plot_question_ouverte_barplot(colonne, freq_dict, min_freq=5, question_title
     if df_plot.empty:
         return None
 
-    title = question_titles.get(colonne, colonne.replace('_', ' ').capitalize())
+    # title = question_titles.get(colonne, colonne.replace('_', ' ').capitalize())
 
     fig = px.bar(
         df_plot.sort_values("frequence", ascending=True),
-        x="frequence", y="mot", orientation="h", title=title,
+        x="frequence", y="mot", orientation="h",
+        # title=title,
         labels={"frequence": "Fréquence", "mot": ""},
         color="mot",
         color_discrete_sequence=color_palette if color_palette else px.colors.qualitative.Pastel

@@ -89,7 +89,5 @@ selected_colonne = st.selectbox(
 # Affichage du barplot
 fig = plot_question_ouverte_barplot(selected_colonne, frequences_par_question, min_freq=15, question_titles=question_titles)
 
-if fig:
+with st.container(border=True):
     st.plotly_chart(fig, use_container_width=True)
-else:
-    st.info("Pas assez de réponses pour cette question.")

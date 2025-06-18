@@ -59,7 +59,7 @@ pourcentage_ouvertes = round(100 * nb_avec_au_moins_une_reponse_ouverte / nb_tot
 
 
 # Onglets principaux
-tabs = st.tabs(["**BILAN DES RÉPONSES**", "**MÉTHODOLGIE**", "**À PROPOS**"])
+tabs = st.tabs(["**BILAN DES RÉPONSES**", "**MÉTHODOLOGIE**", "**À PROPOS**"])
 
 # Onglet 1 — Bilan des réponses
 with tabs[0]:
@@ -93,7 +93,8 @@ with tabs[0]:
     )
 
     # Affichage dans Streamlit
-    st.plotly_chart(fig, use_container_width=True)
+    with st.container(border=True):
+        st.plotly_chart(fig, use_container_width=True)
 
 
 
