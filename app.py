@@ -12,7 +12,9 @@ nom = authenticate()
 # ✅ Affichage unique du message de bienvenue
 if st.session_state.get("show_welcome", False):
     st.success(f"Bienvenue {nom} 👋")
+    st.info("👉 Pense à ouvrir le menu latéral à gauche pour explorer les pages de l'application.")
     st.session_state["show_welcome"] = False  # Ne plus l'afficher ensuite
+
 
 
 

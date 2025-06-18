@@ -7,7 +7,9 @@ nom = authenticate()
 # ✅ Affichage unique du message de bienvenue
 if st.session_state.get("show_welcome", False):
     st.success(f"Bienvenue {nom} 👋")
+    st.info("👉 Pense à ouvrir le menu latéral à gauche pour explorer les pages de l'application.")
     st.session_state["show_welcome"] = False  # Ne plus l'afficher ensuite
+
 
 df=load_data("data/df_processed.csv")
 df_scores=load_data("data/df_scores.csv")
@@ -87,7 +89,7 @@ with tab1:
     plus_haut = labels[moyennes.idxmax()]
     ecart = round(moyennes.max() - moyennes.min(), 2)
 
-   
+
     st.info(f""" **À retenir** :
     - 📉 Score moyen le plus faible : **{plus_bas}**
     - 📈 Score moyen le plus élevé : **{plus_haut}**
