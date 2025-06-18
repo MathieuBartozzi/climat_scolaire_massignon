@@ -1,0 +1,14 @@
+{
+    "climat_de_confiance": [
+        "sentiment_global", "confiance_adultes", "securite"
+    ],
+    "bien_etre": [
+        "envie_venir", "relation_famille_etablissement"
+    ],
+    "expression_et_ecoute": [
+        "liberte_expression", "ecoute_soutien"
+    ],
+    "engagement": [
+        "participation_projets"
+    ]
+}
