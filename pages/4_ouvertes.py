@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
 from utils.utils import (
+    authenticate,
     load_data,
     harmoniser_colonnes_ouvertes,
     compter_mots_uniques_par_colonnes,
     plot_question_ouverte_barplot
 )
 
+nom=authenticate()
 # ----------------------
 # Paramètres de la page
 # ----------------------

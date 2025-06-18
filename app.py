@@ -45,11 +45,16 @@
 
 import streamlit as st
 
+from utils.utils import authenticate
+
 # 🌐 Configuration générale
 st.set_page_config(page_icon=":material/dashboard:",layout="wide")
 st.logo("logo.png", size="large")
 
 
+# Authentification
+nom = authenticate()
+st.success(f"Bienvenue {nom} 👋")
 
 # ✅ Accès autorisé
 # st.title("📚 Climat scolaire – Portail d’analyse")

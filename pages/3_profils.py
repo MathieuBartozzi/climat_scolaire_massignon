@@ -1,6 +1,8 @@
 
-from utils.utils import plot_cluster_profile, load_data, plot_single_cluster_distribution
+from utils.utils import authenticate,plot_cluster_profile, load_data, plot_single_cluster_distribution
 import streamlit as st
+
+nom = authenticate()
 
 
 df_scores = load_data("data/df_scores.csv")

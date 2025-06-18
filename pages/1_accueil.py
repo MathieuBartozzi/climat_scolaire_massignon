@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-from utils.utils import load_data
+from utils.utils import load_data,authenticate
 import ast
 import plotly.express as px
 
 
-
+nom = authenticate()
 
 # Titre principal
 st.title("Climat scolaire – Portail d’analyse")

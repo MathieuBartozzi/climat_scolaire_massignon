@@ -496,3 +496,70 @@ def plot_single_cluster_distribution(df_scores, cluster_id):
     )
 
     return fig
+
+
+# ──────────────────────────────────────────────────────────────
+# 🔓 SECURITÉ
+# ──────────────────────────────────────────────────────────────
+
+
+# def authenticate():
+#     st.info("Veuillez entrer votre e-mail et le mot de passe pour accéder à l'application.")
+
+#     login_info = st.login("Connexion")
+
+#     if not login_info:
+#         st.stop()
+
+#     email = login_info["username"]
+#     password = login_info["password"]
+
+#     # Chargement des credentials
+#     allowed_users = st.secrets["auth"]["users"]
+#     shared_password = st.secrets["auth"]["password"]
+
+#     if email not in allowed_users:
+#         st.error("Adresse e-mail non autorisée.")
+#         st.stop()
+
+#     if password != shared_password:
+#         st.error("Mot de passe incorrect.")
+#         st.stop()
+
+#     # Renvoie le prénom ou nom lié à l'email
+#     return allowed_users[email]
+
+import streamlit as st
+
+def authenticate():
+    # S'il est déjà connecté, on ne redemande rien
+    if st.session_state.get("auth_ok"):
+        return st.session_state["username_friendly"]
+
+    st.header("🔒 Connexion")
+
+    with st.form("login_form"):
+        email = st.text_input("Adresse e-mail")
+        password = st.text_input("Mot de passe", type="password")
+        submitted = st.form_submit_button("Se connecter")
+
+    if not submitted:
+        st.stop()
+
+    allowed_users = st.secrets["auth"]["users"]
+    shared_password = st.secrets["auth"]["password"]
+
+    if email not in allowed_users:
+        st.error("Adresse e-mail non autorisée.")
+        st.stop()
+
+    if password != shared_password:
+        st.error("Mot de passe incorrect.")
+        st.stop()
+
+    # ✅ Stocker dans la session : authentification réussie
+    st.session_state["auth_ok"] = True
+    st.session_state["user_email"] = email
+    st.session_state["username_friendly"] = allowed_users[email]
+
+    return allowed_users[email]

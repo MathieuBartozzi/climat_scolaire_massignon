@@ -1,7 +1,8 @@
-from utils.utils import plot_heatmap_ecarts_genre,load_data,plot_scores_by_gender, plot_scores_by_level_and_gender,compute_composite_scores,plot_combined_relation,plot_score_distributions_subplots, COLOR_PALETTE, plot_correlation_heatmap
+from utils.utils import authenticate,plot_heatmap_ecarts_genre,load_data,plot_scores_by_gender, plot_scores_by_level_and_gender,compute_composite_scores,plot_combined_relation,plot_score_distributions_subplots, COLOR_PALETTE, plot_correlation_heatmap
 import streamlit as st
 import json
 
+nom = authenticate()
 
 
 df=load_data("data/df_processed.csv")
