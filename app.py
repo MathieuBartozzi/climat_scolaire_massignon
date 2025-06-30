@@ -23,12 +23,14 @@ accueil = st.Page("pages/1_accueil.py", title="Accueil", icon=":material/home:")
 dashboard = st.Page("pages/2_resultats_globaux.py", title="Résultats globaux", icon=":material/analytics:")
 ecarts = st.Page("pages/3_profils.py", title="Profils", icon=":material/group:")
 ouvertes = st.Page("pages/4_ouvertes.py", title="Réponses ouvertes", icon=":material/comment:")
+conclusion = st.Page("pages/5_conclusions.py", title="Conclusion", icon=":material/insights:")
+
 
 # 📊 Créer la navigation avec les pages
 pg = st.navigation(
         {
             "Présentation": [accueil],
-            "Navigation": [dashboard, ecarts, ouvertes]
+            "Navigation": [dashboard, ecarts, ouvertes,conclusion]
         },
         expanded=True
     )
